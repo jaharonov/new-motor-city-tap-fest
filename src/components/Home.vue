@@ -1,6 +1,7 @@
 <template>
-  <div class="hello">
-    <div class="m-5">
+  <!-- <div class="hello"> -->
+    <!-- <div class="m-5"> -->
+      <b-container class="p-2">
       <b-row p-5></b-row>
       <b-row>
         <b-col>
@@ -13,42 +14,66 @@
           img-top
           tag="article"
           border-variant="warning"
-          class="my-3"
+          class="mx-auto"
           id="savedate">
-          <h4 class="card-text">August 7-10, 2019</h4>
+          <h4 class="card-text"><strong>August 7-10, 2019</strong></h4>
           <p class="card-text" 
           text-align="justify"
           text-justify="inter-word">
           Wayne State University<br />
-          Detroit, Michigan</p>
-          
+          Detroit, Michigan<br/>
+          </p>
         </b-card>
         </b-col>
         <b-col>
-          <iframe class="my-3 embed-responsive-item" src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe>
-        </b-col>  
         <b-col>
-        <b-card rounded
-          img-src="./static/mctf-2019.jpg"
-          img-alt="Save the Date 2019"
-          img-top
-          tag="article"
-          border-variant="warning"
-          class="my-3"
-          id="savedate">
-          <h4 class="card-text">August 7-10, 2019</h4>
-          <p class="card-text" 
-          text-align="justify"
-          text-justify="inter-word">
-          Wayne State University<br />
-          Detroit, Michigan</p>
+          <b-embed type="iframe"
+           aspect="16by9"
+           class="mx-auto"
+           src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz"
+           allowfullscreen
+  ></b-embed>
+          <!-- <iframe fluid-grow src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe> -->
+        </b-col>
+        <b-col class="hometext my-5">
+          <p><strong>4 DAYS OF MASTER CLASSES</strong><br/>
+          <small>with leading tap artists in the industry</small>
+          </p>
+          <p><strong>motor city soles</strong><br/>
+          <small>featuring the all-star faculty & special guest performers!</small>
+          </p>
+          <p><strong>participants showcase</strong><br/>
+          </p>
+          <p><strong>tap jam</strong><br/>
+          </p>
+          <p><strong>young choreographers competition</strong><br/>
+          </p>
+          <p><strong>meet the faculty</strong><br/>
+          <small>meet the esteemed master teachers</small>
+          </p>
+          <br/>
           
-        </b-card>
-        </b-col>           
+        </b-col>
+        </b-col>  
       </b-row>
-</div>
+      <b-row p-5></b-row>
+        <h2 class="pt-5"><strong>thank you to our 2018 sponsors!</strong></h2>
+      
+<!-- </div> -->
+  <!-- </div>  -->
+  <b-row>
+<b-col lg="3"></b-col>        
+<b-col class="mx-auto pt-5" v-for="image in images">
+<b-img center v-img:name :src="image.src" :alt="image.alt" fluid-grow blank-color="#FFB5DA"/>
+</b-col>     
+<b-col lg="3"></b-col>        
   
-  </div> 
+        </b-row>
+        <b-container class="pt-3">
+        <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
+donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
+        </b-container>
+  </b-container>
 </template>
 
 <script>
@@ -56,7 +81,11 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      images: [
+        { src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
+        { src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
+      ]
     }
   }
 }
@@ -64,11 +93,15 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-  color: lawngreen;
+
+strong {
+  color: peru;
+  text-transform: uppercase;
 }
 
+h2, h4 {
+  text-transform: uppercase;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -79,14 +112,18 @@ li {
   margin: 0 10px;
 }
 
-a {
-  color: #42b983;
-}
 
 #savedate {
   width: 90%;
   height: auto; 
 }
 
+.hometext {
+  text-align: justify;
+  text-transform: uppercase;
+}
+.upperh4 {
+  text-transform: uppercase;
+}
 
 </style>

@@ -5,19 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
   </head>
+  <b-container class="p-5">
   <div id="app" variant="transparent">
     <div class="fixed-top">
     <header>
-        <b-navbar-brand v-bind:to="'/'" class="mt-3 px-auto" id="h1-name">MOTOR CITY TAP FEST</b-navbar-brand>
+        <b-navbar-brand v-bind:to="'/'" class="pt-3 px-auto" id="h1-name">MOTOR CITY TAP FEST</b-navbar-brand>
 
     <b-navbar toggleable="md" type="success" variant="primary" class="nav-text">
   
   <!-- <b-navbar-toggle target="nav_collapse" class="nav-items" id="menu">MENU</b-navbar-toggle> -->
   <!-- <b-navbar-brand href="#" class="mb-5" id="h1-name">Motor City Tap Fest</b-navbar-brand> -->
-  <b-navbar-toggle target="nav_collapse" class="nav-items" id="menu">MENU</b-navbar-toggle>
+  <b-navbar-toggle target="nav_collapse" class="nav-items mx-auto" id="menu">MENU</b-navbar-toggle>
   <b-collapse is-nav id="nav_collapse">
 
     <!-- Right aligned nav items -->
@@ -58,7 +58,7 @@
    
     <footer class="fixed-bottom">
       <br/>
-       <span class="m-5">&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
+       <span>&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
     
@@ -67,6 +67,7 @@
 
   
 </div>
+</b-container>
   </html>
 </template>
 
@@ -104,7 +105,7 @@ footer {
 
 }
 #h1-name {
-  font-size: 3em;
+  font-size: 200%;
   // font-family: 'Audiowide', cursive;
   font-family: 'Viga', sans-serif;
   color: #f26c22;
@@ -125,7 +126,8 @@ font-size: 80%;
 </style>
 
 <style>
-h1 {
-  font-family: 'Viga', sans-serif;
+h1,h2,h3,h4,p {
+  font-family: 'Roboto Condensed', sans-serif;
+
 }
 </style>
