@@ -63,9 +63,9 @@
       <b-navbar toggleable="lg" type="success" variant="primary" class="nav-text">
 
     <b-navbar-nav class="mx-auto">
- 
-      <b-nav-item class="nav-items" v-bind:to="'press'">Press</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'/'">Home</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'visit'">Visiting Detroit</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'press'">Press</b-nav-item>
     </b-navbar-nav>
   
 </b-navbar>
