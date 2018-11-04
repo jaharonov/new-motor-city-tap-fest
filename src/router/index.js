@@ -11,6 +11,8 @@ import McSoles from '@/components/McSoles'
 import SchedReg from '@/components/SchedReg'
 import Scholarships from '@/components/Scholarships'
 import Store from '@/components/Store'
+import Press from '@/components/Press'
+import Visit from '@/components/Visit'
 Vue.use(Router)
 
 export default new Router({
@@ -69,6 +71,16 @@ export default new Router({
       path: '/store',
       name: 'Store',
       component: Store
+    },
+    {
+      path: '/press',
+      name: 'Press',
+      component: Press
+    },
+    {
+      path: '/visit',
+      name: 'Visit',
+      component: Visit
     },
     {
       path: 'jaharonov.com',

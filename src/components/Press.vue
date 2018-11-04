@@ -3,14 +3,17 @@
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
       <b-row class="pt-5">
-          <h1><strong>locations + accomodations</strong></h1>
+          <h1><strong>press</strong></h1>
       </b-row>
-      <b-row class="pt-4 pl-3">
-          <h2>classes</h2>
-      </b-row>
+      
       <b-row class="p-3">
         <b-col lg="6">
-            <b-img left src="./static/Old-Main-WSU.jpg" fluid />
+            <b-embed type="iframe"
+           aspect="16by9"
+           class="mx-auto"
+           src="https://www.youtube.com/embed/gU5T3Vs9zag"
+           allowfullscreen
+  ></b-embed>
         </b-col>  
         <b-col>
             <p class="text-lg-left">Festival classes will be held at the Old Main Building on 
@@ -52,21 +55,6 @@
       </b-row>
       <b-row p-5></b-row>
         
-      
-<!-- </div> -->
-  <!-- </div>  -->
-  <!-- <b-row>
-<b-col lg="3"></b-col>        
-<b-col class="mx-auto pt-5" v-for="image in images">
-<b-img center v-img:name :src="image.src" :alt="image.alt" fluid-grow blank-color="#FFB5DA"/>
-</b-col>     
-<b-col lg="3"></b-col>        
-  
-        </b-row>
-        <b-container class="pt-3 pb-5">
-        <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
-donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
-        </b-container> -->
   </b-container>
 </template>
 

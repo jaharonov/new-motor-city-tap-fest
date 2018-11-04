@@ -69,7 +69,7 @@
 <b-col lg="3"></b-col>        
   
         </b-row>
-        <b-container class="pt-3">
+        <b-container class="pt-3 pb-5">
         <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
 donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
         </b-container>
@@ -99,7 +99,7 @@ strong {
   text-transform: uppercase;
 }
 
-h2, h4 {
+h1,h2, h3, h4 {
   text-transform: uppercase;
 }
 ul {

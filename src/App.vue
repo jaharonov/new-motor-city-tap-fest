@@ -11,16 +11,17 @@
   <div id="app" variant="transparent">
     <div class="fixed-top">
     <header>
-        <b-navbar-brand v-bind:to="'/'" class="pt-3 px-auto" id="h1-name">MOTOR CITY TAP FEST</b-navbar-brand>
-
-    <b-navbar toggleable="md" type="success" variant="primary" class="nav-text">
+    <b-container class="white-b">
+    <b-navbar-brand v-bind:to="'/'" type="success" variant="primary" class="pt-3 px-auto" id="h1-name">MOTOR CITY TAP FEST</b-navbar-brand>  
+    </b-container>
+    <b-navbar toggleable="lg" type="success" variant="primary" class="nav-text">
   
   <!-- <b-navbar-toggle target="nav_collapse" class="nav-items" id="menu">MENU</b-navbar-toggle> -->
   <!-- <b-navbar-brand href="#" class="mb-5" id="h1-name">Motor City Tap Fest</b-navbar-brand> -->
-  <b-navbar-toggle target="nav_collapse" class="nav-items mx-auto" id="menu">MENU</b-navbar-toggle>
+  <b-navbar-toggle target="nav_collapse" class="nav-items mx-auto" variant="primary" id="menu">MENU</b-navbar-toggle>
   <b-collapse is-nav id="nav_collapse">
 
-    <!-- Right aligned nav items -->
+    <!-- Center aligned nav items -->
     <b-navbar-nav class="mx-auto">
  
       <b-nav-item class="nav-items" v-bind:to="'schedreg'">SCHEDULE +<br/> REGISTER</b-nav-item>
@@ -56,9 +57,24 @@
       <!-- <div class="row fixed-bottom"> -->
       
    
-    <footer class="fixed-bottom">
+    <footer class="pb-2">
       <br/>
-       <span>&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
+      <b-container class="pb-2">
+      <b-navbar toggleable="lg" type="success" variant="primary" class="nav-text">
+
+    <b-navbar-nav class="mx-auto">
+ 
+      <b-nav-item class="nav-items" v-bind:to="'press'">Press</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'visit'">Visiting Detroit</b-nav-item>
+    </b-navbar-nav>
+  
+</b-navbar>
+      <a href="https://www.facebook.com/motorcity.tapfest" target="_blank"><b-img :src="'./static/facebook.png'"/></a>
+      <a href="https://www.instagram.com/motorcitytapfest/" target="_blank"><b-img :src="'./static/instagram.png'"/></a>
+      <a href="https://twitter.com/motorcitytap" target="_blank"><b-img :src="'./static/twitter.png'"/></a>
+      <br/>
+      </b-container>
+       <span>&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="https://www.facebook.com/motorcity.tapfest" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
     
@@ -73,11 +89,24 @@
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  images: [
+        { src: './static/twitter.png', alt: 'Twitter logo' },
+        { src: './static/instagram.png', alt: 'Instagram logo' },
+        { src: './static/facebook.png', alt: 'Facebook logo' }
+
+  ]
 }
 </script>
 
 <style lang="scss">
+
+// @media only screen and (max-device-width: 1024px){
+// .navbar-collapse {
+//   background-color: white;
+// }
+// }
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -90,7 +119,7 @@ export default {
 }
 
 #menu {
-  color: #f8f66b;
+  color: #4a4a4a;
 }
 footer {
   position: absolute; 
@@ -109,6 +138,7 @@ footer {
   // font-family: 'Audiowide', cursive;
   font-family: 'Viga', sans-serif;
   color: #f26c22;
+  
 
 
 }
@@ -129,5 +159,41 @@ font-size: 80%;
 h1,h2,h3,h4,p {
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+strong {
+  color: peru;
+  text-transform: uppercase;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+#savedate {
+  width: 90%;
+  height: auto; 
+}
+
+.hometext {
+  text-align: justify;
+  text-transform: uppercase;
+}
+.upperh4 {
+  text-transform: uppercase;
+}
+
+.white-b {
+  background-color: white;
 }
 </style>
