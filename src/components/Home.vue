@@ -3,17 +3,24 @@
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
       <b-row p-5></b-row>
+      
       <b-row>
         <b-col>
+          <!-- <b-col class="p-5">
+          <b-button class="buttons" size="lg" variant="outline-success">
+            VIEW SCHEDULE + REGISTER!
+          </b-button>
+          </b-col> -->
           <!-- <b-card rounded v-bind:src="'./static/mctf-2019.jpg'" left blank-color="#FFB5DA" alt="img" class="my-3" id="savedate">
             <p class="card-text"></p>
           </b-card> -->
+          
           <b-card rounded center
           img-src="./static/mctf-2019.jpg"
           img-alt="Save the Date 2019"
           img-top
           tag="article"
-          border-variant="warning"
+          border-variant="success"
           class="mx-auto"
           id="savedate">
           <h4 class="card-text"><strong>August 7-10, 2019</strong></h4>
@@ -23,9 +30,14 @@
           Wayne State University<br />
           Detroit, Michigan<br/>
           </p>
+          <div>
+          <b-button class="buttons" variant="outline-success">
+            View schedule and register!
+          </b-button>
+          </div>
         </b-card>
         </b-col>
-        <b-col>
+        <b-col class="p-3">
         <b-col>
           <b-embed type="iframe"
            aspect="16by9"
@@ -54,6 +66,11 @@
           <br/>
           
         </b-col>
+        <b-col class="pb-3 mx-auto">
+          <b-button class="buttons" size="lg" variant="outline-success">
+            DONATE NOW!
+          </b-button>
+          </b-col>
         </b-col>  
       </b-row>
       <b-row p-5></b-row>

@@ -24,7 +24,7 @@
     <!-- Center aligned nav items -->
     <b-navbar-nav class="mx-auto">
  
-      <b-nav-item class="nav-items" v-bind:to="'schedreg'">SCHEDULE +<br/> REGISTER</b-nav-item>
+      <b-nav-item class="nav-items" id="give-link" v-bind:to="'schedreg'">SCHEDULE +<br/> REGISTER</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'locaccom'">LOCATION +<br/> ACCOMMODATIONS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'faculty'">FACULTY</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'mcsoles'">MOTOR CITY<br/>SOLES</b-nav-item>
@@ -32,7 +32,7 @@
       <b-nav-item class="nav-items" v-bind:to="'auditions'">PARTICIPANTS<br/>SHOWCASE</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'scholarships'">SCHOLARSHIPS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'store'">STORE</b-nav-item>
-      <b-nav-item class="nav-items" v-bind:to="'give'">GIVE NOW</b-nav-item>
+      <b-nav-item class="nav-items" id="give-link" v-bind:to="'give'">GIVE NOW</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT +<br/>CONTACT</b-nav-item>
       
     </b-navbar-nav>
@@ -119,7 +119,8 @@ export default {
 }
 
 #menu {
-  color: #4a4a4a;
+  color: peru;
+  font-family: 'Viga', sans-serif;
 }
 footer {
   position: absolute; 
@@ -142,6 +143,13 @@ footer {
 
 
 }
+#give-link {
+  background-color: yellow;
+  height: 50%;
+  width: auto;
+  // border-radius: 50%;
+
+}
 
 .nav-link {
 font-family: 'Viga', sans-serif;
@@ -149,6 +157,10 @@ color: #f26c22;
 font-size: 80%;
 }
 
+.buttons {
+  font-family: 'Roboto Condensed', sans-serif;
+  
+}
 
 @import './styles/custom-bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
