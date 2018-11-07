@@ -159,7 +159,7 @@ font-size: 80%;
 
 .buttons {
   font-family: 'Roboto Condensed', sans-serif;
-  
+  align-content: center;
 }
 
 @import './styles/custom-bootstrap.scss';

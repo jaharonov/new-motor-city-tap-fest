@@ -5,7 +5,7 @@
       <b-row p-5></b-row>
       
       <b-row>
-        <b-col>
+        <b-col class="p-3">
           <!-- <b-col class="p-5">
           <b-button class="buttons" size="lg" variant="outline-success">
             VIEW SCHEDULE + REGISTER!
@@ -32,7 +32,7 @@
           </p>
           <div>
           <b-button class="buttons" variant="outline-success">
-            View schedule and register!
+             VIEW SCHEDULE<BR/> & REGISTER!
           </b-button>
           </div>
         </b-card>
