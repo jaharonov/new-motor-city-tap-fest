@@ -23,8 +23,14 @@
 
     <!-- Center aligned nav items -->
     <b-navbar-nav class="mx-auto">
- 
-      <b-nav-item class="nav-items" id="give-link" v-bind:to="'schedreg'">SCHEDULE +<br/> REGISTER</b-nav-item>
+      <div class="skew">
+      <b-nav-item class="nav-items highlight" v-bind:to="'schedreg'">SCHEDULE+<br/> REGISTER</b-nav-item>
+      
+      </div>
+      <div class="skew">
+      
+      <b-nav-item class="nav-items highlight" v-bind:to="'give'">GIVE NOW</b-nav-item>
+      </div>
       <b-nav-item class="nav-items" v-bind:to="'locaccom'">LOCATION +<br/> ACCOMMODATIONS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'faculty'">FACULTY</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'mcsoles'">MOTOR CITY<br/>SOLES</b-nav-item>
@@ -32,7 +38,6 @@
       <b-nav-item class="nav-items" v-bind:to="'auditions'">PARTICIPANTS<br/>SHOWCASE</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'scholarships'">SCHOLARSHIPS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'store'">STORE</b-nav-item>
-      <b-nav-item class="nav-items" id="give-link" v-bind:to="'give'">GIVE NOW</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT +<br/>CONTACT</b-nav-item>
       
     </b-navbar-nav>
@@ -143,14 +148,16 @@ footer {
 
 
 }
-#give-link {
+.skew {
   background-color: yellow;
-  height: 50%;
-  width: auto;
+  // height: 50%;
+  // width: auto;
+  transform: skew(20deg);
   // border-radius: 50%;
-
 }
-
+.highlight {
+ transform: skew(-20deg);
+}
 .nav-link {
 font-family: 'Viga', sans-serif;
 color: #f26c22;
