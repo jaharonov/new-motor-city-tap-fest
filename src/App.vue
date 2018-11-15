@@ -74,7 +74,7 @@
       <a href="https://twitter.com/motorcitytap" target="_blank"><b-img :src="'./static/twitter.png'"/></a>
       <br/>
       </b-container>
-       <span>&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="https://www.facebook.com/motorcity.tapfest" target="_blank">J Aharonov</a>.</span>
+       <span>&copy; 2018 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
     </footer>
     <!-- </div> -->
     
