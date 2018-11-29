@@ -6,6 +6,8 @@ import App from './App'
 import router from './router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+// import Client from 'shopify-buy'
+
 // import VueImg from 'v-img'
 
 Vue.use(BootstrapVue)
@@ -20,14 +22,7 @@ new Vue({
   components: { App }
 })
 
-// const vueImgConfig = {
-//   // Use `alt` attribute as gallery slide title
-//   altAsTitle: true,
-//   // Display 'download' button near 'close' that opens source image in new tab
-//   sourceButton: true,
-//   // Event listener to open gallery will be applied to <img> element
-//   openOn: 'click',
-//   // Show thumbnails for all groups with more than 1 image
-//   thumbnails: false
-// }
-// Vue.use(VueImg, vueImgConfig)
+// const client = Client.buildClient({
+//   domain: 'overtaps.myshopify.com',
+//   storefrontAccessToken: '244fc4d27a412190862e1ff0232cb6d0'
+// })

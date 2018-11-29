@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
   </head>
   <b-container class="p-5">
   <div id="app" variant="transparent">
@@ -91,6 +92,7 @@
 </b-container>
   </html>
 </template>
+
 
 <script>
 export default {

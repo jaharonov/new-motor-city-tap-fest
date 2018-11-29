@@ -8,9 +8,9 @@
       <b-row class="pt-4 pl-3 text-justify">
           <p>The MCTF Choreographer’s Challenge is a chance to share your work with leading tap dancers in the industry and your peers. Each choreographer will get personal insight and feedback from members of the world-class faculty. The winner receives a practice board worth $250 from Omara Sprung Floors and the chance to present his/her piece in Motor City Soles at Music Hall. So what are you waiting for? Here are the guidelines:</p>
           <ul class="small">
-              <li>No professional dancers or choreographers are eligible to compete. All ages are welcome!</li><br/>
-              <li>Each piece must be 3 minutes or less.</li><br/>
-              <li>Each entry must have a minimum of 5 dancers.</li>
+              <li>•	No professional dancers or choreographers are eligible to compete. All ages are welcome!</li><br/>
+              <li>•	Each piece must be 3 minutes or less.</li><br/>
+              <li>•	Each entry must have a minimum of 5 dancers.</li>
           </ul>
       </b-row>
       <b-row class="pt-4">
@@ -22,7 +22,11 @@
 
   </b-container>
 </template>
-
+<style lang="scss">
+  .bullet {
+    list-style-type: disc;
+  }
+</style>
 <script>
 export default {
   name: 'hello',

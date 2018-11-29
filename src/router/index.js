@@ -13,6 +13,7 @@ import Scholarships from '@/components/Scholarships'
 import Store from '@/components/Store'
 import Press from '@/components/Press'
 import Visit from '@/components/Visit'
+
 Vue.use(Router)
 
 export default new Router({

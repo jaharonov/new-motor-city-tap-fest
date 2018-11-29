@@ -11,31 +11,37 @@
           <p>Click on a faculty member to view their bio.</p>
       </b-row>
       <b-row>
-      <b-col lg="3" v-for="image in images" :key="image.id">
-      
-    
+      <b-col lg="3" class="p-3" v-for="image in images" :key="image.id">
+       
   <!-- Using modifiers -->
-  <b-img v-b-modal="image.name" :src="image.src" :alt="image.alt" fluid-grow />
-
+  <b-img class="fac" v-b-modal="image.name" :src="image.src" :alt="image.alt" fluid/>
   <!-- Using value -->
 
   <!-- the modal -->
   <b-modal :id="image.name">
     <b-img :src="image.src" fluid />
-    
-    <p class="text-justify">{{image.bio1}}</p>
+    <span class="text-justify" v-html="image.bio"></span>
+    <span v-html="image.bio2"></span>
+    <span v-html="image.bio3"></span>
+    <span v-html="image.bio4"></span>
+    <!-- <p class="text-justify">{{image.bio1}}</p>
     <p class="text-justify">{{image.bio2}}</p>
     <p class="text-justify">{{image.bio3}}</p>
-    <p class="text-justify">{{image.bio4}}</p>
+    <p class="text-justify">{{image.bio4}}</p> -->
   </b-modal>
-
+    <strong>{{image.name}}</strong>
     </b-col>    
     </b-row>
       <b-row p-5></b-row>
         </div>
   </b-container>
 </template>
-
+<style>
+.fac {
+  height: 275px;
+  width: auto;
+}
+</style>
 <script>
 export default {
   name: '',
@@ -43,23 +49,279 @@ export default {
     return {
       images: [
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
-        { name: 'modal1',
-          id: 'denise_castion',
-          src: './static/faculty_denise-caston.jpg',
-          alt: 'Music Hall',
-          bio1: 'Denise Caston was a Radio City Rockette for 10 years and toured nationally with the Tony Award winning musical, Crazy For You. Denise has also had the honor of performing the choreography of Savion Glover at a showcase in New York City. She performed on tour in Australia, dancing all over the continent in Elvis to the Max. Her choreography has been seen in many productions in which she performed, including shows at Caesars Windsor in Ontario, Canada. Credits also include film, television, commercials, and industrials.',
-          bio2: 'She currently teaches at Broadway Dance Center and Steps on Broadway. Other teaching credits include Beyond The Stars Dance Convention, Phoenix Tap Fest, OKC Tap Fest, Gregg Russell\'s Tap Into the Network, Tradition In Tap, and The Rockette Experience© at Radio City Music Hall.',
-          bio3: 'In 2011, Denise was invited to speak at the TEDx Detroit Conference about her contributions to the cultural landscape in Detroit, including founding and producing Motor City Tap Fest and founding the Detroit Tap Repertory.',
-          bio4: 'In 2014, she was awarded a prestigious MaTilDa Award from her alma mater, Oakland University, for Alumni Achievement in Dance.'
+        { name: 'Gregg Russell',
+          id: 'gregg_russell',
+          src: './static/faculty_gregg-russell.jpg',
+          alt: 'Photo of Gregg Russell',
+          bio: `<p>Gregg is an Emmy nominated choreographer and has worked with such stars as: Bette Midler, Gene Kelly, The Nicholas Brothers, Michael Jackson, 
+          Gregory Hines, and Kenny Ortega. He directed a commercial for Carvel Ice Cream, and has also performed with numerous music artists: Reba McEntire, Sugar 
+          Ray, The B-52‘s, Jason Mraz.</p>
+          <p>Gregg recently danced in a Volkswagon national commercial portraying Donald O’conner, and performed on ABC’s “Dancing with the Stars”. He also performed 
+          and choreographed on the TV shows “Mobbed”, “America’s Got Talent”, and “Live to Dance” hosted by Paula Abdul. He most recently performed at Madison Square 
+          Garden’s home opener for the New York Knicks, choreographed for the Industry Dance Awards in Los Angeles and danced on the 2014 Latin Grammy Awards. He currently 
+          is hosting/producing “Tap Into the Network” intensives, channeling 7 different cities throughout the U.S. 
+          (<a href="http://www.tapintothenetwork.com" target="_blank">www.tapintothenetwork.com</a>), directing his tap company Tap Sounds Underground into their 16th season, 
+          and choreographing for the Industry Dance Awards in Los Angeles.</p>`
         },
-        { name: 'modal2',
-          id: 'claudia',
-          src: './static/faculty_claudia-rahardjanoto.jpg',
-          alt: 'Music Hall',
-          bio1: 'Denise Caston was a Radio City Rockette for 10 years and toured nationally with the Tony Award winning musical, Crazy For You. Denise has also had the honor of performing the choreography of Savion Glover at a showcase in New York City. She performed on tour in Australia, dancing all over the continent in Elvis to the Max. Her choreography has been seen in many productions in which she performed, including shows at Caesars Windsor in Ontario, Canada. Credits also include film, television, commercials, and industrials.',
-          bio2: 'She currently teaches at Broadway Dance Center and Steps on Broadway. Other teaching credits include Beyond The Stars Dance Convention, Phoenix Tap Fest, OKC Tap Fest, Gregg Russell\'s Tap Into the Network, Tradition In Tap, and The Rockette Experience© at Radio City Music Hall.',
-          bio3: 'In 2011, Denise was invited to speak at the TEDx Detroit Conference about her contributions to the cultural landscape in Detroit, including founding and producing Motor City Tap Fest and founding the Detroit Tap Repertory.',
-          bio4: 'In 2014, she was awarded a prestigious MaTilDa Award from her alma mater, Oakland University, for Alumni Achievement in Dance.'
+        { name: 'Caleb Teicher',
+          id: 'caleb_teicher',
+          src: './static/faculty_caleb-teicher.jpg',
+          alt: 'Photo of Caleb Teicher',
+          bio: `
+                <p>Caleb Teicher began his dance career as a founding member of Michelle Dorrance’s celebrated company, DorranceDance, in 2011. 
+                    He was awarded a 2011 Bessie Award for Outstanding Individual Performance for Michelle Dorrance and Dormeshia Sumbry-Edwards’
+                    A Shared Evening at Danspace Project. Other performance credits include The Bang Group, The Chase Brock Experience, Syncopated 
+                    City Dance Company, Sally Silvers & Dancers, iLuminate, West Side Story (Int’l Tour and London), and Irma La Douce (City Center Encores).</p>
+                    <p>As the artistic director of Caleb Teicher & Company, Caleb has presented his new dance works through The Joyce Theater, Works
+                    & Process at Guggenheim Bilbao, The Yard on Martha's Vineyard, Jacob's Pillow Dance Festival Inside/Out Series, Queens College,
+                    LaMaMa E.T.C., Jersey Tap Festival, The 92nd Street Y, Gibney Dance, Paris Jazz Roots Dance Festival, and many others.</p>
+                    <p> Teicher was named one of Dance Magazine’s 2012 “25 to Watch” and, recently, the winner of Dance Magazine’s “Best Emerging
+                    Choreographer” in the 2016 Readers’ Choice Awards. He has been featured in Vogue, Interview Magazine, Dance Magazine, and
+                    Dance Spirit Magazine.</p>
+                    <p> Caleb has been a faculty member at Steps on Broadway and Broadway Dance Center in NYC and continues to teach guest workshops
+                    at various schools and festivals throughout the US and abroad. He is a proud alum of the National YoungArts Foundation and
+                    The School at Jacob's Pillow. <a href="http://www.calebteicher.com" target="_blank">www.CalebTeicher.net</a> / @CalebTeicher</p>
+                    <iframe src="https://www.youtube.com/embed/RnqWGe1jBwQ" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>`
+        },
+        { name: 'Sam Weber',
+          id: 'sam_weber',
+          src: './static/faculty_sam-weber.jpg',
+          alt: 'Photo of Sam Weber',
+          bio: `<p>Sam Weber is an award winning artist who has gained a global reputation in the world of tap dance and is in demand internationally 
+          as a performer, master teacher and choreographer. A protege of tap master Stan Kahn in San Francisco, he was a principal dancer and choreographer 
+          with the Jazz Tap Ensemble from 1986 to 2009 and received acclaim at home and abroad touring with the company. He was the first tap dancer to receive 
+          New York’s “Bessie” award, presented in recognition of outstanding artistic achievement. He has appeared at international tap festivals since the 
+          first Colorado Tap Festival in 1986 and has taught and performed with such legendary tap masters as Charles “Honi” Coles, Jimmy Slyde, Steve Condos, 
+          Buster Brown, Gregory Hines and the Nicholas Brothers. Sam is one of the few tap dancers in the world who performs Morton Gould’s “Tap Dance Concerto.” 
+          He is also the recipient of numerous tap dance awards, including the Legacy Award from the Third Coast Rhythm Project, the Giant Steps Award from the 
+          San Francisco Tap Festival and the Juba Award from the Chicago Human Rhythm Project. He has taught at UCLA, Cal State U. Fullerton, Cal State U., L.A. 
+          and San Francisco State University. He teaches regular classes at ODC School and City Dance School in San Francisco and at Stagebridge in Oakland.</p>`
+        },
+        { name: 'Ray Hesselink',
+          id: 'ray_hesselink',
+          src: './static/faculty_ray-hesselink.jpg',
+          alt: 'Photo of Ray Hesselink',
+          bio: `<p>Ray Hesselink is a Director/Choreographer living and working in New York City. 
+          Ray has presented choreography at various festivals and venues around NYC. 
+          Ray specializes in creating character driven choreography and excels at comedic storytelling through dance. 
+          Ray loves to make people laugh! As a dance instructor, Ray has had the privilege to help train the children who performed in Broadway's Billy Elliot: The Musical. 
+          Ray is on Faculty at Juilliard, Broadway Dance Center and STEPS on Broadway in NYC. He also coaches actors privately. 
+          Ray holds a B.A. from the School of Theater at UCLA.</p>`
+        },
+        { name: 'Dewitt Fleming',
+          id: 'dewitt_fleming',
+          src: './static/faculty_dewitt-fleming.jpg',
+          alt: 'Photo of Dewitt Fleming',
+          bio: `<p>
+          DeWitt Fleming Jr from Emmy Award winning HBO Tv Series BOARDWALK EMPIRE, World Renown Cirque Du Soliel, and Grammy Award
+          winning show Riverdance is excited to be teaching at the Motor City Tap Festival!!! DeWitt Fleming Jr. is an acclaimed tap
+          dancer, and has performed and taught throughout the world. He has danced as a soloist with Grammy award winning artist such
+          as Wynton Marsalis, Bobby Mcferrin, Marvin Hamlisch, and Christian McBride to name a few. New York Times says he is, “a non
+          stop source of rhythmic variety and surprise….sparks seem to fly from those shoes!” DeWitt has taught at NYU, Queens College,
+          Limerick College in Ireland, Duke Ellington School of the Arts, Harlem School of the Arts, and various Festivals and Studios
+          around the world including Broadway Dance Center in NYC where he teaches regularly. Choreography: Boardwalk Empire season
+          4 (HBO), the off Bway Musical An Evening with Phyllis Hyman, Dorothy the Musical, Signature Theater’s Jelly’s Last Jam(Assistant
+          Choreographer), The Aspen Jazz festival, The Alpine Theater Project, Lincoln Center JALC, NYU's Grad School Theater Program,
+          and The New Jersey Tap Dance Ensemble. Tours: Riverdance(Lead Tapper), Cirque Du Soliel’s Banana Shpeel(Ensemble, featured
+          tapper). Off- Bwy stage credits include: Cotton Club Parade(Lead/Nicholas Brother), Dance Bojangles Dance(Bojangles), Pearl
+          (Bill Bailey), Tribute to Tap Legends(himself). Regional: Signature Theater’s Jelly’s Last Jam( Featured ensemble U/S Jelly)
+          and Scottsboro Boys(Ozie/Ruby), Alliance Theater’s Sophisticated Ladies(Lead), Finnegan's Farewell (Tyrone). TV/Film: Boardwalk
+          Empire, Smash, Limitless, How to be Single. DeWitt is proud to be a Capezio athlete. For more
+          info visit:
+          <a href="http://www.dewittflemingjr.com" target="_blank">www.dewittflemingjr.com</a>
+          </p>
+          <iframe src="https://www.youtube.com/embed/gzYR667hQ2Q" frameborder="0" allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>`
+        },
+        { name: 'Randy Skinner',
+          id: 'randy_skinner',
+          src: './static/faculty_randy-skinner.jpg',
+          alt: 'Photo of Randy Skinner',
+          bio: `<p>Broadway shows include: 42nd Street (Tony, Drama Desk, Outer Critics, Astaire nominations), Dames At Sea (Tony, Drama Desk, 
+          Outer Critics, Astaire nominations), Irving Berlin’s White Christmas (Tony, Drama Desk nominations), Ain’t Broadway Grand (Tony, Outer 
+          Critics nominations), State Fair (Outer Critics nomination), After The Night And The Music. NY City Center Encores: Do Re Mi, Of Thee 
+          I Sing, Face The Music, No No Nanette, Gentlemen Prefer Blondes, On Your Toes, Lady Be Good. Off Broadway: Lone Star Love (Lucille Lortel 
+          nomination). West End: Lend Me A Tenor The Musical, Irving Berlin's White Christmas. Los Angeles: Garry Marshall’s Happy Days, Hello, Dolly! 
+          (with Nell Carter), Pal Joey (with Dixie Carter and Elaine Stritch), Strike Up The Band (with Tom Bosley). Lincoln Center/PBS concert of Show 
+          Boat with the NY Philharmonic Orchestra. He has received the LA Drama Critics, LA Drama-logue, Bay Area Theatre Critics, Connecticut Critics 
+          Circle, and Cleveland Times Theatre Awards. 
+          </p>`
+        },
+        { name: 'Jenefer Miller',
+          id: 'jenefer_miller',
+          src: './static/faculty_jenefer-miller.jpg',
+          alt: 'Photo of Jenefer Miller',
+          bio: `<p>Jenefer is a native of Detroit and has been performing, teaching, directing, and choreographing professionally for over 25 years. 
+          She holds a BA in the Performing Arts from Oakland University and a MAEd from the University of Phoenix. She is the co-founder of Tap 24.7, 
+          and appeared on stage with Scuff’d Up, Especially Tap Chicago, Dance Chicago, Detroit Tap Festival, Sesame Street Live, and was featured 
+          on TV by Your Life A to Z and Phoenix 3TV. Jen has worked with legends such as Savion Glover, Ben Vereen, Debbie Allen, Jimmy Slyde, 
+          Dianne Walker, Barbara Duffy, Professor Robert Reed, and Heather Cornell, and the Nicholas Brothers. Directing and choreographic credits 
+          include: American College Dance Festival, Tap 24.7, 13 the Musical, Hairspray, Seven Brides for Seven Brothers, My Fair Lady, Fiddler on the Roof, 
+          How to Succeed, Seussical the Musical, and many more. Faculty credits include the Motor City Tap Fest, The St. Louis Tap Festival, Circle City 
+          Tap Fest, The Las Vegas Tap Festival, Nexus Dance Conventions, Tap Into the Network, and more.</p>
+          <p>Recently, Jenefer was awarded prestigious Oakland University MaTilDa Award for Alumni Lifetime Achievement in Dance, was a finalist for the 
+          Ahwatukee Chamber’s Educational Mentor of the Year and Phoenix Best Teachers, and has won numerous inspirational awards including one from former 
+          Governor John Engler of Michigan. </p>
+          <p>Founder of JMill Productions, Jenefer produces Just West of Broadway and The Phoenix Tap Festival.  For more information visit 
+          <a href="http//:www.justwestofbroadway.com" target="_blank">www.justwestofbroadway.com! Follow Jenefer on Instagram @jenk360, Twitter @JMillP, 
+          and like my Facebook @JMillProductions and @jwobaz.</p>`
+        },
+        { name: 'Kelsey Rose Young',
+          id: 'kelsey_rose_young',
+          src: './static/faculty_kelsey-rose-young.jpg',
+          alt: 'Photo of Kelsey Rose Young',
+          bio: `<p>Kelsey Rose Young is an up-and-coming performer, teacher and choreographer based in Detroit, Michigan. Most recently, she was a contestant on the FOX Network's So You Think You Can Dance, advancing to the Vegas round. Kelsey has had the privilege of studying under and performing alongside many of today’s most respected tap dancers and legends including Arthur Duncan, Ardie Bryant, Bill Irwin, Gregg Russell, Chloe Arnold, Sarah Reich, Chris Broughton, David Mann, Jenefer Miller, and Suzy Guarino-Hall. As a choreographer, she draws from her training and range of experiences as a singer and dancer to create a style that is intricate, gritty, passionate, and entertaining. Her pieces have received many awards and accolades across the country and she is quickly becoming one of the Midwest’s premier tap choreographers. She is currently the director and lead choreographer for the preprofessional tap company – the Detroit Tap Repertory, as well as a member of Shelby Kaufman’s tap company, G.L.Y.D.E., and Detroit’s Jordan Mac hip hop crew. Kelsey is a member of Cecchetti Council of America and is branching out into the ballroom arena having just completed her first season of amateur competition. She is currently working as a competitive tap instructor at two Metro Detroit studios and works independently as a choreographer for students throughout Michigan. Over the years, Kelsey has worked with the Jonas Brothers, Debbie Gibson, and Radio Disney and has performed in the Macy’s and Chicago Thanksgiving Day Parades, at the Detroit Jazz Festival, and at TedX Detroit. </p>
+          <iframe src="https://www.youtube.com/embed/zR-sy4960WQ" frameborder="0" allowfullscreen></iframe>`
+        },
+        { name: 'Brendan Kellam',
+          id: 'brendan_kellam',
+          src: './static/faculty_brendan-kellam.jpg',
+          alt: 'Photo of Brendan Kellam',
+          bio: `<p>Brendan Kellam is an up and coming tap phenom from Tucson, Arizona. He most recently
+          performed at the Lincoln Center in New York City as the featured tap dancer with the Tucson
+          Jazz Institute in a tribute to Bill Robinson. Brendan is a well-rounded dancer having trained
+          extensively in jazz, ballet, modern, hip-hop, and ballroom, but his heart lies with tap. He is an
+          energetic tap dance performer and choreographer with a fresh modern style who has traveled
+          all over the U.S. to study with many masters including Jason Samuels Smith, Gregg Russell,
+          Logan Miller, Lady Di’ Walker, Bril Barrett, and the late Professor Robert L. Reed. Brendan has
+          been seen performing with Danswest Dance Company since 2002 under the direction of Megan
+          Maltos, as well as the Phoenix-based tap company, Tap 24.7. At age 12, Brendan began his
+          journey as a choreographer. His work has been selected to be performed in the Big Apple Tap
+          Festival in New York City and the Motor City Tap Festival in Detroit. He has choreographed for
+          studios in various parts of the country producing top awards and accolades. Brendan is also a
+          member of Artifact Dance Project, a modern based professional dance company in Tucson.</p>`
+        },
+        { name: 'Suzy Guarino',
+          id: 'suzy_guarino',
+          src: './static/faculty_suzy-guarino.jpg',
+          alt: 'Photo of Suzy Guarino',
+          bio: `<p>Suzy Guarino-Hall has been busy in the dance and entertainment business for more than 20 years. 
+          Originally from Chicago, she now resides in Phoenix AZ. She has appeared in print work, industrial films, 
+          and numerous commercials for companies such as Mc Donald’s, Osco Drugs, Six Flags, Cox Communications, 
+          American Express and Westcor Shopping Centers.  Suzy was also a spokesperson for several companies 
+          such as Sedona Patio and Leather, and Trucks Only.</p>
+          <p>Currently, she is doing spots for Home TV and Appliance, Utah Honda, Carson Dodge, and Tonkin Gresham 
+          Honda. She has also done extensive work for television both as talent and as a choreographer. 
+          Her choreography can be seen in commercials for the WB for such TV shows as “Friends” and “The Simpson’s.” 
+          Suzy choreographed the opening “dance-off” for the finale of KTVK’s “Gimme the Mike.”  On camera, she was 
+          part of the WB Six Pak where she was a spokesperson for the television station and has done TV commercials 
+          and live television remotes, which included co-hosting several episodes of “Uncovered.”</p>
+          <p>In the dance field, Suzy is a master tap teacher and choreographer. Suzy started her dance training in 
+          Chicago and studied at Gus Giordano and Lou Conte.  She has trained with some of the best master tap 
+          teachers in the country including Jason Samuels Smith, Mark Goodman, Gregg Russell, Dianne Walker, 
+          Mark Mendonca and many others.  Suzy has taught tap on the convention circuit for Dance Educator’s of 
+          America, Focus Dance Conventions, Star Systems, Mark Goodman’s Totally Tap, Dance RAW and N-House 
+          Productions.</p>
+          <p>This fall, Suzy will be touring with The In10sive workshops with Tap Unplugged. She is also a regional 
+          and national dance competition adjudicator for Spotlight Dance Cup, In10sity Dance and Star Systems. 
+          She has done choreography for several benefit shows for theJuvenile Diabetes, Caitlin Robb Foundation 
+          and Mercedes Benz. She’s the owner of a tap production company calledRhythm Essence Productions.  
+          Her tap group, Tap 24.7, has done numerous guest performances for different events and concerts, 
+          as well as several tap festivals.</p>
+          <p>She enjoys teaching around the country as a master tap teacher to many studios, and inspiring tap 
+          students of all ages. Her choreography is rhythmic, energetic and cutting edge while mixing in modern music. 
+          She excels as a teacher, understanding many levels and breaking down steps and technique that is easy to 
+          understand.  Suzy teaches in Phoenix at Bender Performing Arts and does tap choreography for their company, 
+          Dance Motion. </p>`
+        },
+        { name: 'Nico Rubio',
+          id: 'nico_rubio',
+          src: './static/faculty_nico-rubio.jpg',
+          alt: 'Photo of Nico Rubio',
+          bio: `<p>Nico Rubio, a Chicago Native Tap Dancer, Choreographer and Instructor, is universally recognized as one of the leading Tap Dancers of his generation. Nico has been Professionally Entertaining and 
+          Educating around much of Illinois and throughout the United States for over a decade. His international buzz has expanded his talents to the likes of Europe (Switzerland/Sweden/Italy/Spain) , Asia (China/Hong 
+          Kong/Taiwan/Japan), Central America (Costa Rica/Honduras/Guatemala) and South America (Brazil). In an additional effort to build community and craft his own contribution, Nico has officially started his own 
+          Tap Company, 333 (Three Thirty Three).</p>
+          <iframe src="https://www.youtube.com/embed/HTG1JM29S-w" frameborder="0" allowfullscreen></iframe>`
+        },
+        { name: 'Charles Renato',
+          id: 'charles_renato',
+          src: './static/faculty_charles-renato.jpg',
+          alt: 'Photo of Charles Renato',
+          bio: `<p>Charles Renato was born and raised in Sao Paulo, Brazil. 
+          He began tap dancing at the age of 6 years old at CBS located in
+          Sao Jose dos Campos. At 14 he began teaching tap dance that lead to him win 
+          awards all over Brazil. He has won awards for
+          Best Dancer at the Joinville Dance Festival and the TV Globo challenge show 
+          (2009 & 2010).</p>
+          <p>In 2008 Charles joined the cast of "Sinatra Blue Eyes" the musical in Lisbon, 
+          Portugal. Renato was also a member of the "KS
+          Tap Company" which is responsible for bringing together highly 
+          sought after teachers from all over Brazil to perform. Charles
+          spends his free time giving workshops and choreographing for many 
+          tap companies through out Brazil and America. He was invited
+          to teach at the LA Tap Fest, DC Tap Fest, Tap City in NY, Chicago 
+          Human Rhythm Project, North Carolina Tap Festival, Portland
+          Tap Festival and many others.</p>
+          <p>Charles Renato was invited to produce and create a section in 
+          one of the most prestigious event in Brazil called Carnaval.
+          Since then he has been nominated for best choreographer of Desterro 
+          festival and Festidança in Brazil that has lead up to
+          him teaching in America. Most recently he moved to NYC and has been 
+          working with Apt 33 directed by Chloe Arnold and performed
+          with Michelle Dorrance and Dorrance Dance.</p>
+          <p>Renato has also recently been directing the Metropolitan Youth 
+          Tap Ensemble (MYTE), and teaching at Metropolitan School of
+          Arts in Virginia. He also directed Apt 33’s new video “I’m not afraid” 
+          choreographed by Chloe Arnold. Since he moved to NYC
+          he has been teaching at Broadway Dance Center and Steps On Broadway. 
+          At the moment Charles is Artist Resident at American
+          Tap Dance Foundation and he is creating his first project to be
+          premiere in NY this summer. Check more info on <a href="http://www.charlesrenato.com" target="_blank">www.charlesrenato.com</a></p>`
+        },
+        { name: 'Vikas Arun',
+          id: 'vikas_arun',
+          src: './static/faculty_vikas-arun.jpg',
+          alt: 'Photo of Vikas Arun',
+          bio: `<p>Vikas is a dancer/choreographer from Seattle where he was a founding member of the Alchemy Tap Project under Josh Scribner.
+                After being featured in Dance Magazine at age 16, he decided to move to New York City. His performance credits include TV
+                shows such as So You Think You Can Dance, movies such as Breaking Brooklyn, musicals such as 42nd Street, sold out crowds
+                at Lincoln Center, and private performances for esteemed guests such as John Legend. He currently tours with Mystic India:
+                The World Tour, which has been seen by over half a million people. He dances for Chloe Arnold’s Apartment 33, Cat Cogliandro’s
+                CATastrophe!, and is proud to be the first South Asian ambassador for Capezio. You can catch him teaching this season at
+                Broadway Dance Center, Tap Dance Festival UK, Portland Tap Festival, Motor City Tap Festival, Desi Dance Convention, and
+                many more. For more info visit:
+                <a href="http://www.vikasarun.com"
+                target="_blank">www.vikasarun.com</a></p>`
+        },
+        { name: 'Shelby Kaufman',
+          id: 'shelby_kaufman',
+          src: './static/faculty_shelby-kaufman.jpg',
+          alt: 'Photo of Shelby Kaufman',
+          bio: `<p><i>"Shelby's choreography is fabulous and she's a triple threat in the theatre.
+          She is a thinker and she can write. She can write her own plays, her own musicals, her own 
+          everything... She's a wonderful storyteller and I'm sure she's gonna write a whole bunch of 
+          stuff that's gonna merit as well as her dancing."<br>
+          Dr. Harold 'Stumpy' Cromer</i></p>
+          <p>Shelby Kaufman, originally from Michigan, has been trained in a variety of dance styles since the age of 5. After moving to New York, she began dancing as a member of the legendary Brenda Bufalino's 'New' 
+          American Tap Dance Orchestra, and world-renowned tap teacher Germaine Salsberg's company 'Les Femmes'. She has assisted and frequently guest taught for Salsberg at Broadway Dance Center, The American Tap 
+          Dance Foundation, LIU Brooklyn, and CAP 21, and has been on faculty of Steps on Broadway, Motor City Tap Fest, and Peridance Capezio Center as well. Shelby founded and currently runs two companies of her own; 
+          'Mazel Toes,' comprised of professional Jewish hoofers in New York, and the Great Lakes Youth Dance Ensemble (GLYDE), based in Michigan. She acts as the Artistic Director and Choreographer for both companies.</p>
+          <p>Off Broadway, Shelby assisted Gail Pennington Crutchfield on the choreography of 'Freckleface the Musical', and acted as the SDC observer for three-time Emmy nominated choreographer Mandy Moore on 
+          'Nobody Loves You' at Second Stage Theatre. She also frequently assisted the late tap legend Dr. Harold 'Stumpy' Cromer both in choreography and master classes, has become Chloe Arnold's dance captain for 
+          a number of projects on the East Coast, and was the assistant to NBC SMASH's Emmy Award winning choreographer, Joshua Bergasse, for his musical theatre choreography showcase at City Center Studios. Additionally, 
+          Shelby's choreography has been featured multiple times in 
+          the annual Tap City 'Main Event,' New York City 'Tap Extravaganza,' and Motor City 'Motor City Soles,' as well as 'Tappy Holidays,' 'Band of Gypsies' and the first 'Young Choreographer's Festival.' </p>
+          <p>Shelby has made television appearances tapping on both Sesame Street and The Steve Harvey Show. Other notable venues include the Apollo Theatre, Lincoln Center, Jacob's Pillow, Symphony Space, The George 
+          Street Playhouse, The Duke Ellington Theatre, and Detroit Orchestra Hall.</p>`
+        },
+        { name: 'Denise Caston',
+          id: 'denise_caston',
+          src: './static/faculty_denise-caston.jpg',
+          alt: 'Photo of Denise Caston',
+          bio: `<p>Denise Caston was a Radio City Rockette for 10 years and toured nationally with the Tony Award winning musical, Crazy For
+          You. Denise has also had the honor of performing the choreography of Savion Glover at a showcase in New York City. She performed
+          on tour in Australia, dancing all over the continent in Elvis to the Max. Her choreography has been seen in many productions
+          in which she performed, including shows at Caesars Windsor in Ontario, Canada. Credits also include film, television, commercials,
+          and industrials.</p>
+          <p>She currently teaches at Broadway Dance Center and Steps on Broadway. Other teaching credits include Beyond The Stars Dance
+          Convention, Phoenix Tap Fest, OKC Tap Fest, Gregg Russell's Tap Into the Network, Tradition In Tap, and The Rockette Experience©
+          at Radio City Music Hall.</p>
+          <p>In 2011, Denise was invited to speak at the TEDx Detroit Conference about her contributions to the cultural landscape in
+          Detroit, including founding and producing Motor City Tap Fest and founding the Detroit Tap Repertory.</p>
+          <p>In 2014, she was awarded a prestigious MaTilDa Award from her alma mater, Oakland University, for Alumni Achievement in Dance.</p>`
         }]
     }
   }
