@@ -28,12 +28,14 @@
   </b-container>
 </template>
 
-<script type="javascript">    
+<script type="javascript"> 
+    
       (function () {
         var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js'
         if (window.ShopifyBuy) {
           if (window.ShopifyBuy.UI) {
             ShopifyBuyInit();
+            console.log('loading?');
           } else {
             loadScript();
           }
@@ -65,6 +67,5 @@
         });
       }
     })();
-    
     </script>
     
