@@ -19,10 +19,8 @@ new Vue({
   el: '#app',
   router,
   template: '<App/>',
-  components: { App }
+  components: { App },
+  methods: {
+  }
 })
 
-// const client = Client.buildClient({
-//   domain: 'overtaps.myshopify.com',
-//   storefrontAccessToken: '244fc4d27a412190862e1ff0232cb6d0'
-// })

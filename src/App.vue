@@ -23,20 +23,20 @@
   <b-collapse is-nav id="nav_collapse">
 
     <!-- Center aligned nav items -->
-    <b-navbar-nav class="mx-auto">
+    <b-navbar-nav class="mx-auto m-0">
       <div class="skew">
       <b-nav-item class="nav-items highlight" v-bind:to="'schedreg'">SCHEDULE+<br/> REGISTER</b-nav-item>
       
       </div>
       <div class="skew">
-      
       <b-nav-item class="nav-items highlight" v-bind:to="'give'">GIVE NOW</b-nav-item>
       </div>
       <b-nav-item class="nav-items" v-bind:to="'locaccom'">LOCATION +<br/> ACCOMMODATIONS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'faculty'">FACULTY</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'mcsoles'">MOTOR CITY<br/>SOLES</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'chorchal'">MCTF CHOREOGRAPHER'S<br/>CHALLENGE</b-nav-item>
-      <b-nav-item class="nav-items" v-bind:to="'auditions'">PARTICIPANTS<br/>SHOWCASE</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'partshowcase'">PARTICIPANTS<br/>SHOWCASE</b-nav-item>
+      <b-nav-item class="nav-items" v-bind:to="'auditions'">AUDITIONS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'scholarships'">SCHOLARSHIPS</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'store'">STORE</b-nav-item>
       <b-nav-item class="nav-items" v-bind:to="'about'">ABOUT +<br/>CONTACT</b-nav-item>

@@ -2,10 +2,8 @@
   <div class="hello">
     <div class="m-5">
       <b-row class="mx-auto">
-        <h1><strong>Auditions</strong></h1>
-      </b-row>
-      <b-row class="mx-auto">
-        <p>More info on 2019's auditions coming soon.</p>
+        <h1><strong>PARTICIPANTS SHOWCASE</strong></h1>
+        <p>More info on the 2019 Participants Showcase coming soon!</p>
       </b-row>
 </div>
   

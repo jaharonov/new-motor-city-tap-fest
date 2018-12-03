@@ -31,9 +31,14 @@
           Detroit, Michigan<br/>
           </p>
           <div>
-          <b-button class="buttons" variant="outline-success">
-             VIEW SCHEDULE<BR/> & REGISTER!
-          </b-button>
+          
+  <!-- Using value -->
+  <b-button class="buttons" variant="outline-success" v-b-modal="'myModal'">VIEW SCHEDULE<BR/> & REGISTER!</b-button>
+
+  <!-- the modal -->
+  <b-modal id="myModal">
+    Stay tuned for the 2019 MCTF schedule and registration!
+  </b-modal>
           </div>
         </b-card>
         </b-col>

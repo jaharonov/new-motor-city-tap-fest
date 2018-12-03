@@ -11,6 +11,7 @@ import McSoles from '@/components/McSoles'
 import SchedReg from '@/components/SchedReg'
 import Scholarships from '@/components/Scholarships'
 import Store from '@/components/Store'
+import Partshowcase from '@/components/Partshowcase'
 import Press from '@/components/Press'
 import Visit from '@/components/Visit'
 
@@ -84,8 +85,10 @@ export default new Router({
       component: Visit
     },
     {
-      path: 'jaharonov.com',
-      name: 'Jaharonov'
+      path: '/partshowcase',
+      name: 'Partshowcase',
+      component: Partshowcase
     }
   ]
 })
+
