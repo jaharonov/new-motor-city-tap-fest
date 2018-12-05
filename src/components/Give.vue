@@ -31,7 +31,22 @@
               <li>•	Access to discounts, inclusion in media releases and advertising in event programs is contingent upon the sponsorship level</li>
 
           </ul>
-          
+      
+  <div class="post">
+    <div class="loading" v-if="loading">
+      
+    </div>
+
+    <div v-if="error" class="error">
+      {{ error }}
+    </div>
+
+    <div v-if="post" class="content">
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.body }}</p>
+    </div>
+  </div>
+
       </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
       <b-row class="pt-5">
@@ -42,64 +57,31 @@
   </b-container>
 </template>
 
-<script type="javascript"> 
-    //   (function () {
-    //     var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js'
-    //     if (window.ShopifyBuy) {
-    //       if (window.ShopifyBuy.UI) {
-    //         ShopifyBuyInit();
-    //       } else {
-    //         loadScript();
-    //       }
-    //     } else {
-    //       loadScript();
-    //     }
-
-    //   function loadScript() {
-    //     var script = document.createElement('script');
-    //     script.async = true;
-    //     script.src = scriptURL;
-    //     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    //     script.onload = ShopifyBuyInit;
-    //   }
-
-    //   function ShopifyBuyInit() {
-    //     var client = ShopifyBuy.buildClient({
-    //       domain: 'overtaps.myshopify.com',
-    //       storefrontAccessToken: '244fc4d27a412190862e1ff0232cb6d0',
-    //     })
-
-    //     ShopifyBuy.UI.onReady(client).then(function (ui) {
-    //       ui.createComponent('product', {
-            
-    //         id: [1978502414447],
-    //         node: document.getElementById('product-component-1543170251824'),
-    //         moneyFormat: '${{amount}}',
-    //         options: {"product":{"variantId":"all","width":"240px","contents":{"img":false,"imgWithCarousel":false,"title":false,"variantTitle":false,"price":false,"description":false,"buttonWithQuantity":false,"quantity":false},"styles":{"product":{"text-align":"left","@media (min-width: 601px)":{"max-width":"calc(25% - 20px)","margin-left":"20px","margin-bottom":"50px"}}}},"cart":{"contents":{"button":true},"styles":{"footer":{"background-color":"#ffffff"}}},"modalProduct":{"contents":{"img":false,"imgWithCarousel":true,"variantTitle":false,"buttonWithQuantity":true,"button":false,"quantity":false},"styles":{"product":{"@media (min-width: 601px)":{"max-width":"100%","margin-left":"0px","margin-bottom":"0px"}}}},"productSet":{"styles":{"products":{"@media (min-width: 601px)":{"margin-left":"-20px"}}}}},
-    //       });
-    //     });
-    //   }
-    // })();
-
-    </script>
-
-    <script type="javascript">
-    /*<![CDATA[*/
+<script type="javascript">
+  export default {
+  data () {
+    return {
+      loading: false,
+      post: null,
+      error: null
+    }
+  },
+  created () {
     (function () {
-      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      // var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
       if (window.ShopifyBuy) {
         if (window.ShopifyBuy.UI) {
-          vm.location.reload();
           ShopifyBuyInit();
         } else {
           loadScript();
+
         }
       } else {
         loadScript();
-        // vm.$vue.reload();
       }
 
       function loadScript() {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
         var script = document.createElement('script');
         script.async = true;
         script.src = scriptURL;
@@ -305,7 +287,28 @@
         });
       }
     })();
+    this.fetchData()
+  },
+  watch: {
+    // call again the method if the route changes
+    '$route': 'fetchData'
+  },
+  methods: {
+    fetchData () {
+      this.error = this.post = null
+      this.loading = true
+      // replace `getPost` with your data fetching util / API wrapper
+      getPost(this.$route.params.id, (err, post) => {
+        this.loading = false
+        if (err) {
+          this.error = err.toString()
+        } else {
+          this.post = post
+        }
+      })
+    }
+  }
+}
+</script>
     
-    /*]]>*/
-    </script>
     
