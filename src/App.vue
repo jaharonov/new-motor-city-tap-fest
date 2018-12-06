@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto Condensed+Condensed" rel="stylesheet">
 
   </head>
   <b-container class="p-5">
@@ -171,7 +171,7 @@ font-size: 80%;
 }
 
 .buttons {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed Condensed', sans-serif;
   align-content: center;
 }
 
@@ -182,7 +182,8 @@ font-size: 80%;
 
 <style>
 h1,h2,h3,h4,p {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed Condensed', sans-serif;
+
 
 }
 

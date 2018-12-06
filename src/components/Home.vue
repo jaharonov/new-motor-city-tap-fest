@@ -52,7 +52,7 @@
   ></b-embed>
           <!-- <iframe fluid-grow src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe> -->
         </b-col>
-        <b-col class="hometext my-5">
+        <b-col class="hometext my-2">
           <p><strong>4 DAYS OF MASTER CLASSES</strong><br/>
           <small>with leading tap artists in the industry</small>
           </p>
@@ -69,12 +69,10 @@
           <small>meet the esteemed master teachers</small>
           </p>
           <br/>
-          
+          <div id='collection-component-2f36a03cad5'></div>
         </b-col>
-        <b-col class="pb-3 mx-auto">
-          <b-button class="buttons" size="lg" variant="outline-success">
-            DONATE NOW!
-          </b-button>
+        <b-col class="pb-1 mx-auto">
+          <div id='product-component-50f75dd9f31'></div>
           </b-col>
         </b-col>  
       </b-row>
@@ -112,7 +110,260 @@ export default {
   }
 }
 </script> 
+<script type="javascript">
+  export default {
+  data () {
+    return {
+      loading: false,
+      post: null,
+      error: null
+    }
+  },
+  created () {
+    (function () {
+      var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
+      } else {
+        loadScript();
+      }
 
+      function loadScript() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = scriptURL;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+        script.onload = ShopifyBuyInit;
+      }
+
+      function ShopifyBuyInit() {
+        var client = ShopifyBuy.buildClient({
+          domain: 'overtaps.myshopify.com',
+          storefrontAccessToken: '244fc4d27a412190862e1ff0232cb6d0',
+        });
+
+        ShopifyBuy.UI.onReady(client).then(function (ui) {
+          ui.createComponent('product', {
+            id: [1978502414447],
+            node: document.getElementById('product-component-50f75dd9f31'),
+            moneyFormat: '%24%7B%7Bamount%7D%7D',
+            options: {
+"product": {
+    "variantId": "all",
+    "width": "240px",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#f26c22",
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#da611f"
+        },
+        ":focus": {
+          "background-color": "#da611f"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "styles": {
+      "button": {
+        "background-color": "#f26c22",
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#da611f"
+        },
+        ":focus": {
+          "background-color": "#da611f"
+        },
+        "font-weight": "bold"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#f26c22",
+        "font-family": "Roboto Condensed, sans-serif",
+        ":hover": {
+          "background-color": "#da611f"
+        },
+        ":focus": {
+          "background-color": "#da611f"
+        },
+        "font-weight": "bold"
+      },
+      "variantTitle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "title": {
+        "font-family": "Roboto Condensed, sans-serif"
+      },
+      "description": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "price": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "compareAt": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "background-color": "#f26c22",
+        ":hover": {
+          "background-color": "#da611f"
+        },
+        ":focus": {
+          "background-color": "#da611f"
+        },
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      },
+      "select": {
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
+      }
+    },
+    "googleFonts": [
+      "Roboto Condensed",
+      "Roboto Condensed"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+          });
+        });
+      }
+    })();  
+    this.fetchData()
+  },
+  watch: {
+    // call again the method if the route changes
+    '$route': 'fetchData'
+  },
+  methods: {
+    fetchData () {
+      this.error = this.post = null
+      this.loading = true
+      // replace `getPost` with your data fetching util / API wrapper
+      getPost(this.$route.params.id, (err, post) => {
+        this.loading = false
+        if (err) {
+          this.error = err.toString()
+        } else {
+          this.post = post
+        }
+      })
+    }
+  }
+}
+</script>
+    
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 

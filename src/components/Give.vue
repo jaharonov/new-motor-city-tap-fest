@@ -34,7 +34,6 @@
       
   <div class="post">
     <div class="loading" v-if="loading">
-      
     </div>
 
     <div v-if="error" class="error">
@@ -101,8 +100,9 @@
             node: document.getElementById('collection-component-2f36a03cad5'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
-  "product": {
+"product": {
     "variantId": "all",
+    "width": "240px",
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
@@ -113,14 +113,15 @@
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "calc(33.33333% - 30px)",
-          "margin-left": "30px",
+          "max-width": "100%",
+          "margin-left": "0",
+          "margin-right": "10",
           "margin-bottom": "50px"
         }
       },
       "button": {
         "background-color": "#f26c22",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Roboto Condensed, sans-serif",
         ":hover": {
           "background-color": "#da611f"
         },
@@ -130,33 +131,33 @@
         "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "price": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "compareAt": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-size": "12px",
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       }
     },
     "googleFonts": [
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat"
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed"
     ]
   },
   "cart": {
@@ -166,7 +167,7 @@
     "styles": {
       "button": {
         "background-color": "#f26c22",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Roboto Condensed, sans-serif",
         ":hover": {
           "background-color": "#da611f"
         },
@@ -180,7 +181,7 @@
       }
     },
     "googleFonts": [
-      "Montserrat"
+      "Roboto Condensed"
     ]
   },
   "modalProduct": {
@@ -202,49 +203,43 @@
       },
       "button": {
         "background-color": "#f26c22",
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Roboto Condensed, sans-serif",
         ":hover": {
           "background-color": "#da611f"
         },
         ":focus": {
           "background-color": "#da611f"
         },
-        "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
       },
       "title": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
       },
       "price": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
       },
       "compareAt": {
-        "font-family": "Montserrat, sans-serif",
-        "font-weight": "normal"
+        "font-family": "Roboto Condensed, sans-serif",
       }
     },
     "googleFonts": [
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat",
-      "Montserrat"
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed",
+      "Roboto Condensed"
     ]
   },
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Montserrat, sans-serif",
+        "font-family": "Roboto Condensed, sans-serif",
         "background-color": "#f26c22",
         ":hover": {
           "background-color": "#da611f"
@@ -252,32 +247,31 @@
         ":focus": {
           "background-color": "#da611f"
         },
-        "font-weight": "bold"
       }
     },
     "googleFonts": [
-      "Montserrat"
+      "Roboto Condensed"
     ]
   },
   "option": {
     "styles": {
       "label": {
-        "font-family": "Montserrat, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
       },
       "select": {
-        "font-family": "Montserrat, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
       }
     },
     "googleFonts": [
-      "Montserrat",
-      "Montserrat"
+      "Roboto Condensed",
+      "Roboto Condensed"
     ]
   },
   "productSet": {
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-30px"
+          "margin-left": "-20px"
         }
       }
     }
