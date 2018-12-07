@@ -33,7 +33,7 @@
           <div>
           
   <!-- Using value -->
-  <b-button class="buttons" variant="outline-success" v-b-modal="'myModal'">VIEW SCHEDULE<BR/> & REGISTER!</b-button>
+  <b-btn class="buttons" variant="success" v-b-modal="'myModal'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
 
   <!-- the modal -->
   <b-modal id="myModal">
@@ -52,7 +52,7 @@
   ></b-embed>
           <!-- <iframe fluid-grow src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe> -->
         </b-col>
-        <b-col class="hometext my-2">
+        <b-col class="hometext my-3">
           <p><strong>4 DAYS OF MASTER CLASSES</strong><br/>
           <small>with leading tap artists in the industry</small>
           </p>
@@ -178,28 +178,23 @@ export default {
         },
         ":focus": {
           "background-color": "#da611f"
-        },
-        "font-weight": "bold"
+        }
       },
       "variantTitle": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "title": {
         "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "price": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "compareAt": {
         "font-size": "12px",
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       }
     },
     "googleFonts": [
@@ -224,8 +219,7 @@ export default {
         },
         ":focus": {
           "background-color": "#da611f"
-        },
-        "font-weight": "bold"
+        }
       },
       "footer": {
         "background-color": "#ffffff"
@@ -264,23 +258,19 @@ export default {
         "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "title": {
         "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "price": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "compareAt": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       }
     },
     "googleFonts": [
@@ -302,8 +292,7 @@ export default {
         },
         ":focus": {
           "background-color": "#da611f"
-        },
-        "font-weight": "bold"
+        }
       }
     },
     "googleFonts": [
@@ -313,12 +302,10 @@ export default {
   "option": {
     "styles": {
       "label": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "select": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       }
     },
     "googleFonts": [

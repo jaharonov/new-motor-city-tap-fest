@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css?family=Viga" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto Condensed+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
   </head>
   <b-container class="p-5">
@@ -159,10 +159,15 @@ footer {
   // height: 50%;
   // width: auto;
   transform: skew(20deg);
+  padding-right: 1px;
+  
   // border-radius: 50%;
 }
 .highlight {
  transform: skew(-20deg);
+padding-right: 1px;
+
+ 
 }
 .nav-link {
 font-family: 'Viga', sans-serif;
@@ -171,10 +176,20 @@ font-size: 80%;
 }
 
 .buttons {
-  font-family: 'Roboto Condensed Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   align-content: center;
 }
 
+.close {
+  float: left;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
 @import './styles/custom-bootstrap.scss';
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 
@@ -182,7 +197,7 @@ font-size: 80%;
 
 <style>
 h1,h2,h3,h4,p {
-  font-family: 'Roboto Condensed Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 
 
 }

@@ -6,29 +6,37 @@
       <b-row class="pt-5">
           <h1><strong>Individual Donations and Sponsorship</strong></h1>
       </b-row>
+      
       <b-row class="pt-3 text-justify">
+        <b-col lg="8">
            <p>The Motor City Tap Fest is entering its 12th year of bringing world-class tap dance to the heart of Detroit, and because of your donations, we’ve been able to extend 
             opportunities for young dancers to attend who could not otherwise afford the tuition. This year, we continue to provide an invaluable experience for dancers from across the US and abroad to come together and gain knowledge from world-renowned tap dancers. The faculty goes above and beyond to inspire both aspiring dancers and dance educators. In its inaugural year, there were 50 attendees at Motor City Tap Fest. In 2017, there were over 450 attendees in classes and an additional 650 in the audience at Motor City Soles. Motor City Tap Fest needs your help to keep bringing tap dance to the heart of Detroit each year! All donations are greatly appreciated, and in return we will list you on our website and promotional materials. 
             For all donations of $5 or over per month (or a one-time gift of over $30) you will receive 1 free ticket for Motor City Soles at Music Hall (more tickets for larger donations).</p>
+      </b-col>
+      <b-col lg="4">
+    <h4>Sponsorship Level</h4>
+     <b-table  hover :items="items" :striped="striped" :bordered="bordered"></b-table>
+      </b-col>
       </b-row>
+      
       <b-row class="pt-3 text-justify">
           <h2>Why support Motor City Tap Fest?</h2>
            <ul class="small">
-              <li>•	Provide scholarships to aspiring young dancers in need of financial assistance</li><br/>
-              <li>•	Enrich cultural events in Detroit and throughout Southeastern Michigan</li><br/>
-              <li>•	Foster arts education and exposure to those in underserved communities who would not otherwise have this opportunity</li>
+              <li>•Provide scholarships to aspiring young dancers in need of financial assistance</li><br/>
+              <li>•Enrich cultural events in Detroit and throughout Southeastern Michigan</li><br/>
+              <li>•Foster arts education and exposure to those in underserved communities who would not otherwise have this opportunity</li>
           </ul>
           <p class="large">In return for your support, Motor City Dance Productions, Inc. will dedicate a scholarship in the name of your business, plus:</p>
       </b-row>
-      <b-row class="pt-3 text-justify">
+      <b-row class="pt-1 text-justify">
            <ul class="small">
-              <li>•	Overall naming rights and exclusivity (platinum sponsorship)</li><br/>
-              <li>•	Naming rights to an event(s) within the festival (gold sponsorship)</li><br/>
-              <li>•	Naming rights to an event-based award (silver sponsorship)</li>
-              <li>•	Naming rights to a promotion or contest on the event website and social media (bronze sponsorship)</li><br/>
-              <li>•	Event tickets and apparel (ALL sponsors)</li><br/>
-              <li>•	Blocks of tickets to Motor City Soles (platinum, gold, silver and bronze sponsors)</li>
-              <li>•	Access to discounts, inclusion in media releases and advertising in event programs is contingent upon the sponsorship level</li>
+              <li>•Overall naming rights and exclusivity (platinum sponsorship)</li><br/>
+              <li>•Naming rights to an event(s) within the festival (gold sponsorship)</li><br/>
+              <li>•Naming rights to an event-based award (silver sponsorship)</li><br/>
+              <li>•Naming rights to a promotion or contest on the event website and social media (bronze sponsorship)</li><br/>
+              <li>•Event tickets and apparel (ALL sponsors)</li><br/>
+              <li>•Blocks of tickets to Motor City Soles (platinum, gold, silver and bronze sponsors)</li><br/>
+              <li>•Access to discounts, inclusion in media releases and advertising in event programs is contingent upon the sponsorship level</li>
 
           </ul>
       
@@ -55,11 +63,18 @@
       <b-row p-5></b-row>     
   </b-container>
 </template>
-
 <script type="javascript">
+const items = [
+  { level: 'Bronze', amount: '$1000' },
+  { level: 'Silver', amount: '$3000' },
+  { level: 'Gold', amount: '$5000' },
+  { level: 'Platinum', amount: '$10000' }
+]
   export default {
   data () {
     return {
+      items: items,
+      striped: true,
       loading: false,
       post: null,
       error: null
@@ -128,27 +143,22 @@
         ":focus": {
           "background-color": "#da611f"
         },
-        "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "title": {
         "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "price": {
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       },
       "compareAt": {
         "font-size": "12px",
-        "font-family": "Roboto Condensed, sans-serif",
-        "font-weight": "bold"
+        "font-family": "Roboto Condensed, sans-serif"
       }
     },
     "googleFonts": [
@@ -174,7 +184,6 @@
         ":focus": {
           "background-color": "#da611f"
         },
-        "font-weight": "bold"
       },
       "footer": {
         "background-color": "#ffffff"
