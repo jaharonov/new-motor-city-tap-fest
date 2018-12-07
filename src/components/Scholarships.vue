@@ -12,7 +12,7 @@
             <b-img class="p-2" center src="./static/scholarships3.jpg" fluid/> 
             </b-row>
             <b-row class="p-3 pt-5">
-            <p class="text-lg-left">Motor City Tap Fest is proud to continue offering scholarships to aspiring dancers and dance educators that need financial help to continue growing and working toward new goals. Questions? <a v-bind:href="`mailto:${emailinfo}`">{{nameinfo}}</a> us or call 917-687-4811<br/>
+            <p class="text-lg-left">Motor City Tap Fest is proud to continue offering scholarships to aspiring dancers and dance educators that need financial help to continue growing and working toward new goals. Questions? <a v-bind:href="`mailto:${emailinfo}`">{{nameinfo}}</a> us or call 917-687-4811.<br/>
             </p>
         </b-row>
       <b-row class="p-3 pt-3">
