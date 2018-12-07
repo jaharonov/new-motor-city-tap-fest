@@ -20,10 +20,10 @@
   <!-- the modal -->
   <b-modal :id="image.name">
     <b-img :src="image.src" fluid />
-    <span class="text-justify" v-html="image.bio"></span>
-    <span v-html="image.bio2"></span>
+    <span class="text-justify m-5" v-html="image.bio"></span>
+    <!-- <span v-html="image.bio2"></span>
     <span v-html="image.bio3"></span>
-    <span v-html="image.bio4"></span>
+    <span v-html="image.bio4"></span> -->
     <!-- <p class="text-justify">{{image.bio1}}</p>
     <p class="text-justify">{{image.bio2}}</p>
     <p class="text-justify">{{image.bio3}}</p>
