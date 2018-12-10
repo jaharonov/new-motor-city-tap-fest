@@ -41,12 +41,13 @@
           <h2>lodging</h2>
       </b-row>
       <b-row class="p-3">
-        <b-col lg="6">
+        <!-- <b-col lg="6">
             <b-img left src="./static/greektown-hotel.jpg" fluid />
-        </b-col>  
+        </b-col>   -->
         <b-col>
-            <p class="text-lg-left">Stay at <a href="https://book.passkey.com/event/13839965/owner/437/landing/closed">Greektown Hotel</a>! Book with this discount code and save 30-40%. Rooms are limited so book soon! Each individual guest must make their own reservations by calling 877-424-5554.
-            </p>
+            <!-- <p class="text-lg-left">Stay at <a href="https://book.passkey.com/event/13839965/owner/437/landing/closed">Greektown Hotel</a>! Book with this discount code and save 30-40%. Rooms are limited so book soon! Each individual guest must make their own reservations by calling 877-424-5554.
+            </p> -->
+            <p class="text-lg-left">Lodging options TBA!</p>
             
         </b-col>
       </b-row>

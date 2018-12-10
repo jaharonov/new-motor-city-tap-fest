@@ -6,7 +6,8 @@
           <h1><strong>motor city soles</strong></h1>
       </b-row>
       <b-row class="pt-4 pl-3 text-justify">
-          <h4>Motor City Soles is a high energy evening of fun for the whole family, featuring leading tap dance arts and tap companies in the industry! More info on 2019's Motor City Soles coming soon!</h4>
+          <p>Motor City Soles will be at the historic <a href="https://www.royaloakmusictheatre.com/" target="_blank">Royal Oak Music Theatre</a> on August 10!</p>
+         <p> Motor City Soles is a high energy evening of fun for the whole family, featuring leading tap dance arts and tap companies in the industry! More info on 2019's Motor City Soles coming soon!</p>
       </b-row>
       
       <b-row p-5></b-row>
