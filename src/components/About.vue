@@ -35,7 +35,7 @@ export default {
   data () {
     return {
       name: 'Email',
-      email: 'info@motorcitytapfest.com'
+      email: 'denisecaston@gmail.com'
     }
   }
 }
