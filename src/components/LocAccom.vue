@@ -32,8 +32,7 @@
 <b-img center v-img:name :src="image.src" :alt="image.alt" fluid-grow blank-color="#FFB5DA"/>
         </b-col>  
         <b-col>
-            <p class="text-lg-left">Motor City Soles will be at Music Hall, 350 Madison Detroit, MI 48226.
-            </p>
+            <p class="text-lg-left">Motor City Soles will be at the historic <a href="https://www.royaloakmusictheatre.com/" target="_blank">Royal Oak Music Theatre</a> on August 10!</p>
             
         </b-col>
       </b-row>
@@ -79,7 +78,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       images: [
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
-        { src: './static/musichall.jpg', alt: 'Music Hall' }
+        { src: './static/royaloaktheater.jpg', alt: 'Royal Oak Theater' }
       ]
     }
   }
