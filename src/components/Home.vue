@@ -69,10 +69,11 @@
           <small>meet the esteemed master teachers</small>
           </p>
           <br/>
-          <div id='collection-component-2f36a03cad5'></div>
+          <!-- <div id='collection-component-2f36a03cad5'></div> -->
         </b-col>
-        <b-col class="pb-1 mx-auto">
-          <div id='product-component-50f75dd9f31'></div>
+        <b-col class="pb-1 pl-5 mx-auto">
+          <div id='product-component-b49577ad243'></div>
+          <!-- <div id='product-component-50f75dd9f31'></div> -->
           </b-col>
         </b-col>  
       </b-row>
@@ -80,6 +81,7 @@
         <h2 class="pt-5"><strong>thank you to our 2018 sponsors!</strong></h2>
       
 <!-- </div> -->
+<!-- <div id='product-component-1546634990047'></div> -->
   <!-- </div>  -->
   <b-row>
 <b-col lg="3"></b-col>        
@@ -148,11 +150,11 @@ export default {
 
         ShopifyBuy.UI.onReady(client).then(function (ui) {
           ui.createComponent('product', {
-            id: [1978502414447],
-            node: document.getElementById('product-component-50f75dd9f31'),
+            id: [2056816001135],
+            node: document.getElementById('product-component-b49577ad243'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
-"product": {
+  "product": {
     "variantId": "all",
     "width": "240px",
     "contents": {
@@ -178,23 +180,28 @@ export default {
         },
         ":focus": {
           "background-color": "#da611f"
-        }
+        },
+        "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "title": {
         "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "price": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "compareAt": {
         "font-size": "12px",
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       }
     },
     "googleFonts": [
@@ -219,14 +226,15 @@ export default {
         },
         ":focus": {
           "background-color": "#da611f"
-        }
+        },
+        "font-weight": "bold"
       },
       "footer": {
         "background-color": "#ffffff"
       }
     },
     "googleFonts": [
-      "Roboto Condensed"
+      "Roboto"
     ]
   },
   "modalProduct": {
@@ -258,19 +266,23 @@ export default {
         "font-weight": "bold"
       },
       "variantTitle": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "title": {
         "font-family": "Roboto Condensed, sans-serif"
       },
       "description": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "price": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "compareAt": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       }
     },
     "googleFonts": [
@@ -285,14 +297,15 @@ export default {
   "toggle": {
     "styles": {
       "toggle": {
-        "font-family": "Roboto Condensed, sans-serif",
+        "font-family": "Roboto, sans-serif",
         "background-color": "#f26c22",
         ":hover": {
           "background-color": "#da611f"
         },
         ":focus": {
           "background-color": "#da611f"
-        }
+        },
+        "font-weight": "bold"
       }
     },
     "googleFonts": [
@@ -302,10 +315,12 @@ export default {
   "option": {
     "styles": {
       "label": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       },
       "select": {
-        "font-family": "Roboto Condensed, sans-serif"
+        "font-family": "Roboto Condensed, sans-serif",
+        "font-weight": "bold"
       }
     },
     "googleFonts": [

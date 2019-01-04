@@ -56,7 +56,7 @@
 
       </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
-      <b-row class="pt-5">
+      <b-row class="p-1 pt-5">
         <div id='collection-component-2f36a03cad5'></div>
         <!-- <div id="product"></div> -->
       </b-row>
