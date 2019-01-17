@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
   </head>
-  <b-container class="p-5">
+  <b-container class="pt-5">
   <div id="app" variant="transparent">
     <div class="fixed-top">
     <header>

@@ -1,10 +1,10 @@
 <template>
   <div class="app">
-    <div class="m-5">
+    <div>
       <b-row class="mx-auto">
         <h1><strong>Auditions will be held on 3/10/2019</strong></h1>
       </b-row>
-      <b-row class="mx-auto p-3">
+      <b-row class="mx-auto pt-3">
         <h4>The auditions schedule is:</h4>
         <p class="text-justify">
 
@@ -23,15 +23,15 @@ for this class by clicking the "Add to Cart" button located below!<br/>
           Plymouth, MI 48170</strong>
         </p>
       </b-row>
-      <b-row class="mx-auto p-3">
-        <p class="text-left">
+      <b-row class="mx-auto pt-3 pb-3">
+        <p class="text-justify">
           Fill out the registration form below for all auditions! Indicate if you are <strong>only</strong> 
-          auditioning for a scholarship. If you are applying for a conservatory <strong>and/or</strong> a scholarship, be sure to 
-          indicate which conservatory you are applying for.  
+          auditioning for a scholarship. If you are applying for a scholarship <strong>and</strong> a conservatory, be sure to 
+          indicate which conservatory you are applying for. If you are applying for a conservatory AND/OR a scholarship, be sure to indicate which conservatory you are applying for.
         </p>
       </b-row>
       <b-row class="mx-auto">
-        <b-col cols="lg-8" class="pt-5">
+        <b-col cols="lg-8">
         <div class="embed-responsive embed-responsive-16by9">
                     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_uPZe0N-Gz5axRNgbatwubZLp1EWA4IyQ0ELBzFXGHQ1gBg/viewform?embedded=true" class="embed-responsive-item" height="auto">Loading...</iframe>
                     </div>
