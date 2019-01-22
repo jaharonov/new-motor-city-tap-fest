@@ -2,10 +2,10 @@
   <!-- <div class="hello"> -->
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
-      <b-row p-5></b-row>
+      <b-row></b-row>
       
       <b-row>
-        <b-col class="p-3">
+        <b-col col lg="6" class="p-3">
           <!-- <b-col class="p-5">
           <b-button class="buttons" size="lg" variant="outline-success">
             VIEW SCHEDULE + REGISTER!
@@ -42,7 +42,7 @@
           </div>
         </b-card>
         </b-col>
-        <b-col class="p-3">
+        <b-col col lg="6" class="p-3">
         <b-col>
           <b-embed type="iframe"
            aspect="16by9"

@@ -30,6 +30,9 @@ for this class by clicking the "Add to Cart" button located below!<br/>
           indicate which conservatory you are applying for. If you are applying for a conservatory AND/OR a scholarship, be sure to indicate which conservatory you are applying for.
         </p>
       </b-row>
+      <b-row class="mx-auto pb-2">
+        <p class="text-center">If you can't see the registration form below, please click &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uPZe0N-Gz5axRNgbatwubZLp1EWA4IyQ0ELBzFXGHQ1gBg/viewform?usp=sf_link">here</a>!</p>
+      </b-row>
       <b-row class="mx-auto">
         <b-col cols="lg-8">
         <div class="embed-responsive embed-responsive-16by9">
