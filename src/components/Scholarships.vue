@@ -37,6 +37,9 @@ for this class by clicking the "Add to Cart" button located below!<br/>
           Plymouth, MI 48170</strong>
         </p>
       </b-row>
+      <b-row class="mx-auto pb-2 justify-content-lg-center">
+        <p class="text-center">If you can't see the registration form below, please click &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uPZe0N-Gz5axRNgbatwubZLp1EWA4IyQ0ELBzFXGHQ1gBg/viewform?usp=sf_link" target="_blank">here</a>!</p>
+      </b-row>
       <b-row class="mx-auto pt-3 pb-3">
         <p class="text-justify">
           Fill out the registration form below for all auditions! Indicate if you are <strong>only</strong> 
