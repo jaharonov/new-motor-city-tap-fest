@@ -9,7 +9,7 @@
           <h2>classes</h2>
       </b-row>
       <b-row class="p-3">
-          <h4>CLASS LOCATIONS TBA</h4>
+          <p><strong>CLASS LOCATIONS TBA</strong></p>
         <!-- <b-col lg="6">
             <b-img left src="./static/Old-Main-WSU.jpg" fluid />
         </b-col>  
@@ -40,16 +40,18 @@
       <b-row class="pt-4 pl-3">
           <h2>lodging</h2>
       </b-row>
-      <b-row class="p-3">
+      <b-row class="p-3" v-for="lodging in lodgings" :key="lodging.id">
+          <b-col md="12" lg="6">
+<b-img center v-img:name :src="lodging.src" :alt="lodging.alt" fluid-grow blank-color="#FFB5DA"/>
+        </b-col>  
+        <b-col md="12" lg="6">
+            <p class="text-lg-left">The brand new <a href="https://www.hyatt.com/en-US/hotel/michigan/hyatt-place-detroit-royal-oak/dtwzr?corp_id=G-MCDA" target="_blank">Hyatt Place Detroit/Royal Oak</a> welcomes Motor City Tap Fest! We are excited to offer Motor City Tap Fest attendees a great group discount. The hotel is located at 422 N. Main St., Royal Oak, MI 48067.</p>
+            <p class="text-lg-left">Limited rooms available so book today!</p>
+            
+        </b-col>
         <!-- <b-col lg="6">
             <b-img left src="./static/greektown-hotel.jpg" fluid />
         </b-col>   -->
-        <b-col>
-            <!-- <p class="text-lg-left">Stay at <a href="https://book.passkey.com/event/13839965/owner/437/landing/closed">Greektown Hotel</a>! Book with this discount code and save 30-40%. Rooms are limited so book soon! Each individual guest must make their own reservations by calling 877-424-5554.
-            </p> -->
-            <p class="text-lg-left">Lodging options TBA!</p>
-            
-        </b-col>
       </b-row>
       <b-row p-5></b-row>
         
@@ -80,8 +82,13 @@ export default {
       images: [
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
         { src: './static/royaloaktheater.jpg', alt: 'Royal Oak Theater' }
+      ],
+      lodgings: [
+        { src: './static/hyattplace.png', alt: 'Hyatt Place Hotel' }
+        // { url: 'https://www.hyatt.com/en-US/hotel/michigan/hyatt-place-detroit-royal-oak/dtwzr?corp_id=G-MCDA' }
       ]
     }
   }
 }
+
 </script> 
