@@ -9,7 +9,7 @@
           <h2>classes</h2>
       </b-row>
       <b-row class="p-3">
-          <p><strong>CLASS LOCATIONS TBA</strong></p>
+          <p><strong>Downtown Royal Oak - precise location TBA</strong></p>
         <!-- <b-col lg="6">
             <b-img left src="./static/Old-Main-WSU.jpg" fluid />
         </b-col>  
@@ -46,7 +46,7 @@
         </b-col>  
         <b-col md="12" lg="6">
             <p class="text-lg-left">The brand new <a href="https://www.hyatt.com/en-US/hotel/michigan/hyatt-place-detroit-royal-oak/dtwzr?corp_id=G-MCDA" target="_blank">Hyatt Place Detroit/Royal Oak</a> welcomes Motor City Tap Fest! We are excited to offer Motor City Tap Fest attendees a great group discount. The hotel is located at 422 N. Main St., Royal Oak, MI 48067.</p>
-            <p class="text-lg-left">Limited rooms available so book today!</p>
+            <p class="text-lg-left">Limited rooms available so book today! Follow the hotel link above to automatically add the discount code (G-MCDA).</p>
             
         </b-col>
         <!-- <b-col lg="6">
