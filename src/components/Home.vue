@@ -5,7 +5,7 @@
       <b-row></b-row>
       
       <b-row>
-        <b-col md="12" class="p-3">
+        <b-col md="12" lg="6" class="p-3">
           <!-- <b-col class="p-5">
           <b-button class="buttons" size="lg" variant="outline-success">
             VIEW SCHEDULE + REGISTER!
@@ -42,7 +42,7 @@
           </div>
         </b-card>
         </b-col>
-        <b-col md="12" class="p-3">
+        <b-col md="12" lg="6" class="p-3">
         <b-col>
           <b-embed type="iframe"
            aspect="16by9"

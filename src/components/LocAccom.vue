@@ -9,7 +9,8 @@
           <h2>classes</h2>
       </b-row>
       <b-row class="p-3">
-        <b-col lg="6">
+          <h4>CLASS LOCATIONS TBA</h4>
+        <!-- <b-col lg="6">
             <b-img left src="./static/Old-Main-WSU.jpg" fluid />
         </b-col>  
         <b-col>
@@ -22,7 +23,7 @@
                 <li class="mt-3"><a href="http://maps.wayne.edu/view/?q=old+main" target="_blank"><b-img left src="./static/icons8-link-64.png" height="25%"/>Searchable online map</a></li>
                 <li class="mt-3"><a href="http://theatreanddance.wayne.edu/" target="_blank"><b-img left src="./static/icons8-link-64.png" height="25%"/>Theatre and Dance at Wayne State</a></li>
             </ul>
-        </b-col>
+        </b-col> -->
       </b-row>
       <b-row class="pt-4 pl-3">
           <h2>concert</h2>
