@@ -85,6 +85,30 @@ export default {
                     allowfullscreen></iframe>
             </div>`
         },
+        { name: 'Maud Arnold',
+          id: 'maud_arnold',
+          src: './static/faculty_maud-arnold.jpg',
+          alt: 'Photo of Maud Arnold',
+          bio: `
+                <p>Known as one of “Tap’s Leading Ladies” and cover girl for Dance Spirit magazine’s Tap issue, Maud Arnold is a member of Syncopated Ladies and performed in their sold-out full-length concerts in NYC, Los Angeles, DC, Vancouver, and Dubai. 
+                Maud most recently was seen performing with Pharrell Williams and N.E.R.D on The Ellen Show and appeared on ABC's Good Morning America and at Essence Fest in New Orleans after Syncopated Ladies' video covering Beyoncé’s Formation, went viral. 
+                Beyoncé shared the video on all of her social media and then hired the Syncopated Ladies to perform at her Ivy Park active wear clothing line launch at TopShop, London.</p>
+                <p>Maud has quickly become a sought after teacher, judge and performer worldwide. Mentored and trained by Debbie Allen, Maud has taught at Debbie Allen Dance Academy 
+                in Los Angeles and Allen’s Dance Institute in Texas. 
+                Further to teaching in the USA, Maud has taught tap dancing and Afro-Funk in Dubai, Brazil, Japan, Spain, United Kingdom, Croatia, Ukraine and Russia.</p>
+                <p>Maud’s other Television Credits Include: <i>BET Experience: 106 and Park</i>, <i>The Late Late Show With James Corden</i>, HBO’s <i>Boardwalk Empire</i>, <i>Switched at Birth</i>, 
+                <i>Secret Talents of the Stars</i> as a featured dancer with Mya, <i>The Today Show</i> and Syncopated Ladies winning Season 11 of FOX’s <i>So You Think You Can Dance: Dance 
+                Crew Battle</i>. Maud can be seen in national commercials and print ads for Toyota, GAP and CANTU and has worked with Beyoncé on several commercials and music videos.</p>
+                <p>Maud is the co-director and producer of the critically acclaimed DC Tap Festival, pioneering new experiences for dancers and artists worldwide and with her sister Chloé 
+                Arnold they were recognized by the US House of Representatives as arts preservers and ambassadors.</p>
+                <p>Maud is also a female entrepreneur that holds a degree from Columbia University. Further to teaching, she oversees Chloe and Maud Productions and their many entities including their clothing lines: 
+                I LOVE TAP and UniLove as well as their tap dance workshops and after school programs.</p>
+                <p>Maud exudes her passion for tap dancing with her high energy, fun and action-packed dancing.</p>
+                <p>For more information: <a href="https://www.maudarnold.com/" target="_blank">www.maudarnold.net</a>.</p>
+                    <iframe src="https://www.youtube.com/embed/defiAaVw8Jw" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+            </div>`
+        },
         { name: 'Sam Weber',
           id: 'sam_weber',
           src: './static/faculty_sam-weber.jpg',
