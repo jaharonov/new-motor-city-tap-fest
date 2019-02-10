@@ -4,7 +4,7 @@
       <b-container class="p-2">
           <div id="faculty">
       <b-row class="pt-5">
-          <h1><strong>2018 Faculty</strong></h1>
+          <h1><strong>2019 Faculty</strong></h1>
           
       </b-row>
       <b-row>
@@ -199,24 +199,6 @@ export default {
           bio: `<p>Kelsey Rose Young is an up-and-coming performer, teacher and choreographer based in Detroit, Michigan. Most recently, she was a contestant on the FOX Network's So You Think You Can Dance, advancing to the Vegas round. Kelsey has had the privilege of studying under and performing alongside many of today’s most respected tap dancers and legends including Arthur Duncan, Ardie Bryant, Bill Irwin, Gregg Russell, Chloe Arnold, Sarah Reich, Chris Broughton, David Mann, Jenefer Miller, and Suzy Guarino-Hall. As a choreographer, she draws from her training and range of experiences as a singer and dancer to create a style that is intricate, gritty, passionate, and entertaining. Her pieces have received many awards and accolades across the country and she is quickly becoming one of the Midwest’s premier tap choreographers. She is currently the director and lead choreographer for the preprofessional tap company – the Detroit Tap Repertory, as well as a member of Shelby Kaufman’s tap company, G.L.Y.D.E., and Detroit’s Jordan Mac hip hop crew. Kelsey is a member of Cecchetti Council of America and is branching out into the ballroom arena having just completed her first season of amateur competition. She is currently working as a competitive tap instructor at two Metro Detroit studios and works independently as a choreographer for students throughout Michigan. Over the years, Kelsey has worked with the Jonas Brothers, Debbie Gibson, and Radio Disney and has performed in the Macy’s and Chicago Thanksgiving Day Parades, at the Detroit Jazz Festival, and at TedX Detroit. </p>
           <iframe src="https://www.youtube.com/embed/zR-sy4960WQ" frameborder="0" allowfullscreen></iframe>`
         },
-        { name: 'Brendan Kellam',
-          id: 'brendan_kellam',
-          src: './static/faculty_brendan-kellam.jpg',
-          alt: 'Photo of Brendan Kellam',
-          bio: `<p>Brendan Kellam is an up and coming tap phenom from Tucson, Arizona. He most recently
-          performed at the Lincoln Center in New York City as the featured tap dancer with the Tucson
-          Jazz Institute in a tribute to Bill Robinson. Brendan is a well-rounded dancer having trained
-          extensively in jazz, ballet, modern, hip-hop, and ballroom, but his heart lies with tap. He is an
-          energetic tap dance performer and choreographer with a fresh modern style who has traveled
-          all over the U.S. to study with many masters including Jason Samuels Smith, Gregg Russell,
-          Logan Miller, Lady Di’ Walker, Bril Barrett, and the late Professor Robert L. Reed. Brendan has
-          been seen performing with Danswest Dance Company since 2002 under the direction of Megan
-          Maltos, as well as the Phoenix-based tap company, Tap 24.7. At age 12, Brendan began his
-          journey as a choreographer. His work has been selected to be performed in the Big Apple Tap
-          Festival in New York City and the Motor City Tap Festival in Detroit. He has choreographed for
-          studios in various parts of the country producing top awards and accolades. Brendan is also a
-          member of Artifact Dance Project, a modern based professional dance company in Tucson.</p>`
-        },
         { name: 'Suzy Guarino',
           id: 'suzy_guarino',
           src: './static/faculty_suzy-guarino.jpg',
@@ -249,16 +231,6 @@ export default {
           She excels as a teacher, understanding many levels and breaking down steps and technique that is easy to 
           understand.  Suzy teaches in Phoenix at Bender Performing Arts and does tap choreography for their company, 
           Dance Motion. </p>`
-        },
-        { name: 'Nico Rubio',
-          id: 'nico_rubio',
-          src: './static/faculty_nico-rubio.jpg',
-          alt: 'Photo of Nico Rubio',
-          bio: `<p>Nico Rubio, a Chicago Native Tap Dancer, Choreographer and Instructor, is universally recognized as one of the leading Tap Dancers of his generation. Nico has been Professionally Entertaining and 
-          Educating around much of Illinois and throughout the United States for over a decade. His international buzz has expanded his talents to the likes of Europe (Switzerland/Sweden/Italy/Spain) , Asia (China/Hong 
-          Kong/Taiwan/Japan), Central America (Costa Rica/Honduras/Guatemala) and South America (Brazil). In an additional effort to build community and craft his own contribution, Nico has officially started his own 
-          Tap Company, 333 (Three Thirty Three).</p>
-          <iframe src="https://www.youtube.com/embed/HTG1JM29S-w" frameborder="0" allowfullscreen></iframe>`
         },
         { name: 'Charles Renato',
           id: 'charles_renato',

@@ -78,7 +78,7 @@
         </b-col>  
       </b-row>
       <b-row p-5></b-row>
-        <h2 class="pt-5"><strong>thank you to our 2018 sponsors!</strong></h2>
+        <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
       
 <!-- </div> -->
 <!-- <div id='product-component-1546634990047'></div> -->
