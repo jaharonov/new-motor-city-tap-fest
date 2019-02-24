@@ -196,10 +196,26 @@ export default {
           id: 'kelsey_rose_young',
           src: './static/faculty_kelsey-rose-young.jpg',
           alt: 'Photo of Kelsey Rose Young',
-          bio: `<p>Kelsey Rose Young is an up-and-coming performer, teacher and choreographer based in Detroit, Michigan. Most recently, she was a contestant on the FOX Network's So You Think You Can Dance, advancing to the Vegas round. Kelsey has had the privilege of studying under and performing alongside many of today’s most respected tap dancers and legends including Arthur Duncan, Ardie Bryant, Bill Irwin, Gregg Russell, Chloe Arnold, Sarah Reich, Chris Broughton, David Mann, Jenefer Miller, and Suzy Guarino-Hall. As a choreographer, she draws from her training and range of experiences as a singer and dancer to create a style that is intricate, gritty, passionate, and entertaining. Her pieces have received many awards and accolades across the country and she is quickly becoming one of the Midwest’s premier tap choreographers. She is currently the director and lead choreographer for the preprofessional tap company – the Detroit Tap Repertory, as well as a member of Shelby Kaufman’s tap company, G.L.Y.D.E., and Detroit’s Jordan Mac hip hop crew. Kelsey is a member of Cecchetti Council of America and is branching out into the ballroom arena having just completed her first season of amateur competition. She is currently working as a competitive tap instructor at two Metro Detroit studios and works independently as a choreographer for students throughout Michigan. Over the years, Kelsey has worked with the Jonas Brothers, Debbie Gibson, and Radio Disney and has performed in the Macy’s and Chicago Thanksgiving Day Parades, at the Detroit Jazz Festival, and at TedX Detroit. </p>
+          bio: `<p>Kelsey Rose Young is a performer, teacher, and choreographer based in Detroit, Michigan. Kelsey is on faculty with Showstopper Dance Convention, 
+          Fuzion Dance Camp, and Motor City Tap Fest. She has recently taught at the Big Apple Tap Festival and the Phoenix Tap Festival.</p>
+          <p>In 2017 she started the Wing It Tap Intensive which travels throughout the country with numerous top instructors. She is the current 
+          director and lead choreographer for the pre-professional tap company – Detroit Tap Repertory, as well as a member of Shelby Kaufman’s tap company, 
+          G.L.Y.D.E. and Suzy Guarino- Hall’s company, TAP 24.7.</p>
+          <p>Kelsey has performed with the Detroit Symphony Orchestra as part of the DSO Educational Series and was a guest speaker at the Moving With Detroit seminar for dance educators.
+          In 2015, she was a contestant on the FOX Network's So You Think You Can Dance - Season 12, and season 14.
+          In 2018, Kelsey traveled to Germany to compete in the IDO World Tap Championships. It’s there that her 3 pieces placed 4th and 5th places in the World. She also came in 2nd for the World’s Battle 
+          of the Feet.</p>
+          <p>She has had the privilege of studying under and performing alongside many of today’s most respected tap dancers and legends including Arthur Duncan, 
+          Ardie Bryant, Denise Caston, Gregg Russell, Chloe Arnold, Sarah Reich, Chris Broughton, Jenefer Miller, Suzy Guarino-Hall, and Dianne Walker.</p>
+          <p>As a choreographer, Kelsey draws from her training and range of experiences as a singer and dancer to create a style that is intricate, gritty, passionate, and entertaining. 
+          Her pieces have received many awards and accolades across the country and she is quickly becoming one of the Midwest’s premier tap choreographers.</p>
+          <p>Kelsey is a member of Cecchetti Council of America and has also studied and competed in ballroom dancing. She works independently as a choreographer for students throughout the Nation. 
+          Over the years, Kelsey has worked with Jay Sean, the Jonas Brothers, Debbie Gibson, and Radio Disney. She has performed in the Detroit, Macy’s and Chicago Thanksgiving Day Parades, at the Detroit Jazz Festival, and at TedX Detroit. 
+          She most recently has performed and choreographed a half time show for the NBA’s Detroit Pistons.</p>
+          <a href="http://www.kelseyroserocks.com" target="_blank">www.kelseyroserocks.com</a>
           <iframe src="https://www.youtube.com/embed/zR-sy4960WQ" frameborder="0" allowfullscreen></iframe>`
         },
-        { name: 'Suzy Guarino',
+        { name: 'Suzy Guarino-Hall',
           id: 'suzy_guarino',
           src: './static/faculty_suzy-guarino.jpg',
           alt: 'Photo of Suzy Guarino',
