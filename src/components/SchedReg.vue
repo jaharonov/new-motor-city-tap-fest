@@ -1,9 +1,11 @@
 <template>
+<b-container>
   <div class="hello">
-    <div class="m-5">
-      <div class="row p-5"></div>  
+    <div class="m-5"> 
 </div>
-  <table class="table table-bordered">
+<b-row class="justify-content-md-center">
+  <h2 class="pt-5"><strong>Wednesday, August 8th</strong></h2></b-row>
+  <table class="table table-bordered table-striped">
   <thead>
     <tr>
       <th scope="col">Time</th>
@@ -13,26 +15,283 @@
     </tr>
   </thead>
   <tbody>
-    <tr class="table-warning">
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+    <tr>
+      <th scope="row">12:30pm - 1:45pm</th>
+      <td rowspan="3" class="table-success"><br/><br/>MCTF Conservatory 1 <br/>12:00pm-4:30pm</td>
+      <td>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td>Maud Arnold<br/> <strong>Advanced</strong></td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="row">2:00pm - 3:15pm</th>
+      <td>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td>Ray Hesselink<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
+      <th scope="row">3:30pm - 4:45pm</th>
+      <td rowspan="3" class="table-success"><br/><br/>MCTF Conservatory 2 <br/>3:15pm-7:45p</td>
+      <td>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">5:00pm-6:15pm</th>
+      <td>Caleb Teicher<br/> Lindy Hop<br/> <strong>Open Level</strong></td>
+      <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">6:30pm-7:45pm</th>
+      <td>Gregg Russell<br/> <strong>Intermediate</strong> </td>
+      <td>Charles Renato<br/> <strong>Int/Adv</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">6:30pm-7:45pm</th>
+      <td colspan="3"><strong>MCTF Choreographer's Challenge</strong></td>
     </tr>
   </tbody>
 </table>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Thursday, August 9th</strong></h2></b-row>
+  <table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Studio 1</th>
+      <th scope="col">Studio 2</th>
+      <th scope="col">Studio 3</th>
+      <th scope="col">Studio 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8:30am - 9:45am</th>
+      <td>DeWitt Fleming <br/><strong>Intermediate</strong></td>
+      <td>Caleb Teicher <br/> <strong>Advanced</strong></td>
+      <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm</td>
+      <td rowspan="4" class="table-warning"><br/><br/>MCTF Future Tap Stars!<br/><br/>8:30am-11:30am Ages 11-12<br/><br/> 10:30am-1:30pm Ages 8-10</td>
+    </tr>
+    <tr>
+      <th scope="row">10:00am - 11:15am</th>
+      <td>Maud Arnold<br/> <strong>Intermediate</strong></td>
+      <td>Suzy Guarino-Hall<br/> <strong>Advanced</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">11:30am - 12:45pm</th>
+      <td>Gregg Russell<br/> <strong>Intermediate</strong></td>
+      <td>Sam Weber<br/> <strong>Advanced</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">12:45pm - 1:30pm</th>
+      <td><strong>Lunch</strong></td>
+      <td>MCTF Conservatory 2 <strong>REHEARSAL</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">1:30pm - 2:45pm</th>
+      <td>Vikas Arun<br/> <strong>Intermediate</strong> </td>
+      <td>Kelsey Rose Young<br/><strong>Advanced</strong> </td>
+      <td rowspan="3" class="table-warning"><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm</td>
+      <td>MCTF Conservatory 1 <br/><strong><br/>REHEARSAL</strong><br/> 1:45pm-2:45pm</td>
+    </tr>
+    <tr>
+      <th scope="row">3:00pm - 4:15pm</th>
+      <td>Ray Hesselink<br/><strong>Intermediate</strong> </td>
+      <td>Jenefer Miller<br/><strong>Advanced</strong> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">4:30pm - 5:45pm</th>
+      <td>Charles Renato<br/><strong>Intermediate</strong> </td>
+      <td>Shelby Kaufman<br/><strong>Advanced</strong> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">6:00pm - 7:15pm</th>
+      <td>Charles Renato<br/><strong>Improv 101</strong> </td>
+      <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
+      <td>Vikas Arun<br/><strong>Open Level</strong><br/>Bollywood<br/> </td>
+      <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td>
+    </tr>
+    <tr>
+      <th scope="row">7:30pm</th>
+      <td colspan="4"><strong>Live Music Tap Jam and Cutting Contest! $250 in prizes awarded.</strong></td>
+    </tr>
+  </tbody>
+</table>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Friday, August 10th</strong></h2></b-row>
+  <table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Studio 1</th>
+      <th scope="col">Studio 2</th>
+      <th scope="col">Studio 3</th>
+      <th scope="col">Studio 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8:30am - 9:45am</th>
+      <td>Sam Weber<br/><strong>Intermediate</strong></td>
+      <td>Gregg Russell<br/> <strong>Advanced</strong></td>
+      <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm</td>
+      <td rowspan="4" class="table-warning"><br/><br/>MCTF Future Tap Stars!<br/><br/>8:30am-11:30am Ages 11-12<br/><br/> 10:30am-1:30pm Ages 8-10</td>
+    </tr>
+    <tr>
+      <th scope="row">10:00am - 11:15am</th>
+      <td>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td>Charles Renato<br/> <strong>Advanced</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">11:30am - 12:45pm</th>
+      <td>Randy Skinner<br/> <strong>Intermediate</strong></td>
+      <td>Maud Arnold<br/> <strong>Advanced</strong> </td>
+    </tr>
+    <tr>
+      <th scope="row">12:45pm - 1:30pm</th>
+      <td><strong>Lunch</strong></td>
+      <td>MCTF Conservatory 2 <strong><br/>REHEARSAL</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">1:30pm - 2:45pm</th>
+      <td>Jenefer Miller<br/> <strong>Intermediate</strong> </td>
+      <td>DeWitt Fleming Jr.<br/><strong>Int/Adv</strong> </td>
+      <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm</td>
+      <td>MCTF Conservatory 1 <br/><strong>REHEARSAL</strong><br/> 1:45pm-2:45pm</td>
+    </tr>
+    <tr>
+      <th scope="row">3:00pm - 4:15pm</th>
+      <td>Suzy Guarino-Hall<br/><strong>Intermediate</strong> </td>
+      <td>Maud Arnold<br/><strong>Advanced</strong> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">4:30pm - 5:45pm</th>
+      <td>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
+      <td>Randy Skinner<br/><strong>Advanced</strong> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">6:00pm - 7:15pm</th>
+      <td></td>
+      <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">8:00pm</th>
+      <td colspan="4"><strong>MCTF FACULTY JEOPARDY + PARTICIPANTS SHOWCASE!</strong></td>
+    </tr>
+  </tbody>
+</table>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Saturday, August 11th</strong></h2></b-row>
+  <table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Time</th>
+      <th scope="col">Studio 1</th>
+      <th scope="col">Studio 2</th>
+      <th scope="col">Studio 3</th>
+      <th scope="col">Studio 4</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">8:30am - 9:45am</th>
+      <td>Jenefer Miller<br/><strong>Intermediate</strong></td>
+      <td>Charles Renato<br/> <strong>Int/Adv</strong></td>
+      <td rowspan="2" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-12:00pm</td>
+      <td>MCTF Future Tap Stars!<br/><strong>Rehearsal</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">10:00am - 11:15am</th>
+      <td>Maud Arnold<br/> <strong>Intermediate</strong></td>
+      <td>Randy Skinner<br/> <strong>Advanced</strong> </td>
+      <td>MCTF Conservatory 2 <strong>Rehearsal</strong></td>
+    </tr>
+    <tr>
+      <th scope="row">11:30am - 12:45pm</th>
+      <td>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
+      <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2<br/>12:00pm-3:00pm</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">12:45pm - 1:45pm</th>
+      <td><strong>Lunch</strong></td>
+      <td>MCTF Conservatory 1 <strong><br/>REHEARSAL</strong><br/>12:45pm-1:45pm</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">1:45pm - 3:00pm</th>
+      <td>DeWitt Fleming Jr.<br/> <strong>Intermediate</strong> </td>
+      <td>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3:15pm - 4:30pm</th>
+      <td>Randy Skinner<br/><strong>Intermediate</strong> </td>
+      <td>Vikas Arun<br/><strong>Int/Adv</strong> </td>
+      <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">7:30pm</th>
+      <td colspan="4"><strong>Motor City Soles at Royal Oak Music Theatre - An evening of high-energy dance for the whole family!</strong></td>
+    </tr>
+  </tbody>
+</table>
+<b-row class="justify-content-md-center">
+  <h2 class="pt-5"><strong>Package Deals!</strong></h2>
+</b-row>
+<b-row class="justify-content-md-center">
+  <p>Early bird discounts: 15% before June 1st, 10% before July 1st. Class sizes
+    are limited!
+  </p>
+</b-row>
+<b-row>
+  <b-card>
+    <h3>Tap 'Til Ya Drop!</h3>
+    <h4>$390 (save over $200!)</h4>
+    <ul><strong>
+      <li>UNLIMITED CLASSES</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li><br/>
+      <li>1 Motor City Soles Ticket</li><br/>
+      </strong>
+    </ul>
+  </b-card>
+  <b-card>
+    <h3>Tap Non-Stop!</h3>
+    <h4>$295 (save over $130!)</h4>
+    <ul><strong>
+      <li>12 Master Classes</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li><br/>
+      <li>1 Motor City Soles Ticket</li><br/>
+      </strong>
+    </ul>
+  </b-card>
+  <b-card>
+    <h3>Hone Your Skills!</h3>
+    <h4>$22 (save over $60!)</h4>
+    <ul><strong>
+      <li>8 Master Classes</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li>
+      </strong>
+    </ul>
+  </b-card>
+</b-row>
+<b-row class="justify-content-md-center">
+  <b-card>
+    <h3>Group Discounts</h3>
+    <ul><strong>
+      <li>Bring 6-10 students, 1 teacher gets 15% off</li><br/>
+      <li>Bring 11-15 students, 1 teacher gets 25% off</li><br/>
+      <li>More than 15 students, 1 teacher FREE!</li><br/>
+      <li>Ask about group discounts for more than 20 students.</li>
+      </strong>
+    </ul>
+  </b-card>
+</b-row>
   </div> 
+  </b-container>
 </template>
 
 <script>
