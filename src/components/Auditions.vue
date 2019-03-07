@@ -23,6 +23,24 @@ for this class by clicking the "Add to Cart" button located below!<br/>
           Plymouth, MI 48170</strong>
         </p>
       </b-row>
+      <b-row class="mx-auto">
+      <b-col cols="lg-4"></b-col>
+      <b-col cols="lg-4">
+  <b-btn class="buttons" variant="success" v-b-modal="'myModal'">HOW TO<br/> PREPARE!</b-btn>
+</b-col>
+      <b-col cols="lg-4"></b-col>
+
+  <!-- the modal -->
+  <b-modal id="myModal">
+<h2> PREPARE FOR YOUR AUDITION</h2> 
+<p class="text-justify"><strong>Written Statement</strong> - In 500 words or less, tell us where you are studying, your career/dance goals, and how MCTF Conservatory or Future Tap Stars will benefit you.<br/>
+<strong>Resumé</strong> (Conservatory applicants only) - If you need guidance on this, let me know.<br/>
+<strong>Headshot and dance shot</strong> - The dance shot is optional.<br/>
+<strong>Letter of recommendation for applicants 17 and under</strong> - This should be a letter from one current teacher, describing technique and performance artistry, work ethic, stamina for demanding schedules, and class etiquette.<br/>
+<strong>Prepare a one-minute solo</strong> - This can be your own choreography, someone else's choreography, or a classic piece of choreography, anything that shows your style, technique, and performance quality.<br/>
+<strong>You will be asked to improvise</strong> - Be prepared to demonstrate your improv skills.</p>
+  </b-modal>
+</b-row>
       <b-row class="mx-auto pt-3 pb-3">
         <p class="text-justify">
           Fill out the registration form below for all auditions! Indicate if you are <strong>only</strong> 
