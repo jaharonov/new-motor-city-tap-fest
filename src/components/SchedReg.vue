@@ -269,7 +269,7 @@
   </b-card>
   <b-card>
     <h3>Hone Your Skills!</h3>
-    <h4>$22 (save over $60!)</h4>
+    <h4>$220 (save over $60!)</h4>
     <ul><strong>
       <li>8 Master Classes</li><br/>
       <li>1 Tap Jam Ticket</li><br/>
