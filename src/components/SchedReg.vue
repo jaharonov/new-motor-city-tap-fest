@@ -4,7 +4,7 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
-  <h2 class="pt-5"><strong>Wednesday, August 8th</strong></h2></b-row>
+  <h2 class="pt-5"><strong>Wednesday, August 7th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
     <tr>
@@ -47,7 +47,7 @@
     </tr>
   </tbody>
 </table>
-<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Thursday, August 9th</strong></h2></b-row>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Thursday, August 8th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
     <tr>
@@ -113,7 +113,7 @@
     </tr>
   </tbody>
 </table>
-<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Friday, August 10th</strong></h2></b-row>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Friday, August 9th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
     <tr>
@@ -179,7 +179,7 @@
     </tr>
   </tbody>
 </table>
-<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Saturday, August 11th</strong></h2></b-row>
+<b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Saturday, August 10th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
     <tr>
