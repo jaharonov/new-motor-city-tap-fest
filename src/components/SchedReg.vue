@@ -4,6 +4,12 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
+  <ul>
+  <li><strong>Intermediate:</strong> 5-8 years of focused tap training</li>
+  <li><strong>Advanced:</strong> More than 8 years of focused tap training</li>
+  </ul>
+</b-row>
+<b-row class="justify-content-md-center">
   <h2 class="pt-5"><strong>Wednesday, August 7th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
