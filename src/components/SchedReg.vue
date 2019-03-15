@@ -4,6 +4,84 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
+  <h2 class="pt-5"><strong>Package Deals!</strong></h2>
+</b-row>
+<b-row class="justify-content-md-center">
+  <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register! Please note that
+  you must purchase a package in order to choose to register for the MCTF Pre-Pro and Elite crews.</p>
+  <p>Early bird discounts: 15% before June 1st, 10% before July 1st. Class sizes
+    are limited!
+  </p>
+</b-row>
+<b-row>
+  <b-card>
+    <h3>Tap 'Til Ya Drop!</h3>
+    <h4>$390 (save over $200!)</h4>
+    <ul><strong>
+      <li>UNLIMITED CLASSES</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li><br/>
+      <li>1 Motor City Soles Ticket</li><br/>
+      </strong>
+    </ul>
+    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/tap-til-ya-drop" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
+  </b-card>
+  <b-card>
+    <h3>Tap Non-Stop!</h3>
+    <h4>$295 (save over $130!)</h4>
+    <ul><strong>
+      <li>12 Master Classes</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li><br/>
+      <li>1 Motor City Soles Ticket</li><br/>
+      </strong>
+    </ul>
+    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/tap-non-stop" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
+  </b-card>
+  <b-card>
+    <h3>Hone Your Skills!</h3>
+    <h4>$220 (save over $60!)</h4>
+    <ul><strong>
+      <li>8 Master Classes</li><br/>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li>
+      </strong>
+    </ul>
+    <br/>
+    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/hone-your-skills" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
+  </b-card>
+</b-row>
+<b-row>
+  <b-card>
+    <h3>Individual<br/> Master Classes</h3>
+    <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
+    
+    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/individual-master-class" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
+  </b-card>
+  <b-card>
+    <h3>EVENT TICKETS</h3>
+    <p>Purchase tickets for<br/> Tap Jam, Cutting Contest,<br/> and Participants Showcase</p>
+    <p>Please click on an event below to purchase.</p>
+    <ul><strong>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-tap-jam" class="buttons" variant="success" target="_blank">TAP JAM</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-cutting-contest" class="buttons" variant="success" target="_blank">CUTTING CONTEST</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-participants-showcase" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>
+      </strong>
+    </ul>
+    
+  </b-card>
+  <b-card>
+    <p>Purchase Teacher's Corner, register <br/> for Young Choreographers Competition,<br/> and buy Observation passes below</p>
+    <p>Please click on an event below to purchase.</p>
+    <ul><strong>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/teachers-corner" class="buttons" variant="success" target="_blank">TEACHER'S CORNER</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/young-choreographers-competition" class="buttons" variant="success" target="_blank">YOUNG CHOREOGRAPHERS COMPETITION</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/observation-passes" class="buttons" variant="success" target="_blank">OBSERVATION PASS</a></li><br/>
+      </strong>
+    </ul>
+  </b-card>
+</b-row>
+<b-row class="justify-content-md-center pt-3">
   <ul>
   <li><strong>Intermediate:</strong> 5-8 years of focused tap training</li>
   <li><strong>Advanced:</strong> More than 8 years of focused tap training</li>
@@ -513,48 +591,7 @@ More fun stuff TBA! </p>
     </tr>
   </tbody>
 </table>
-<b-row class="justify-content-md-center">
-  <h2 class="pt-5"><strong>Package Deals!</strong></h2>
-</b-row>
-<b-row class="justify-content-md-center">
-  <p>Early bird discounts: 15% before June 1st, 10% before July 1st. Class sizes
-    are limited!
-  </p>
-</b-row>
-<b-row>
-  <b-card>
-    <h3>Tap 'Til Ya Drop!</h3>
-    <h4>$390 (save over $200!)</h4>
-    <ul><strong>
-      <li>UNLIMITED CLASSES</li><br/>
-      <li>1 Tap Jam Ticket</li><br/>
-      <li>1 Motor City Tap Fest Shirt</li><br/>
-      <li>1 Motor City Soles Ticket</li><br/>
-      </strong>
-    </ul>
-  </b-card>
-  <b-card>
-    <h3>Tap Non-Stop!</h3>
-    <h4>$295 (save over $130!)</h4>
-    <ul><strong>
-      <li>12 Master Classes</li><br/>
-      <li>1 Tap Jam Ticket</li><br/>
-      <li>1 Motor City Tap Fest Shirt</li><br/>
-      <li>1 Motor City Soles Ticket</li><br/>
-      </strong>
-    </ul>
-  </b-card>
-  <b-card>
-    <h3>Hone Your Skills!</h3>
-    <h4>$220 (save over $60!)</h4>
-    <ul><strong>
-      <li>8 Master Classes</li><br/>
-      <li>1 Tap Jam Ticket</li><br/>
-      <li>1 Motor City Tap Fest Shirt</li>
-      </strong>
-    </ul>
-  </b-card>
-</b-row>
+
 <b-row class="justify-content-md-center">
   <b-card>
     <h3>Group Discounts</h3>
