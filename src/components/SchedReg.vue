@@ -51,7 +51,7 @@
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/hone-your-skills" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
 </b-row>
-<b-row>
+<b-row class="justify-content-md-center pl-3">
   <b-card class="justify-content-md-center">
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
