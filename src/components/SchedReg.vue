@@ -13,7 +13,7 @@
     are limited!
   </p>
 </b-row>
-<b-row>
+<b-row class="justify-content-md-center">
   <b-card>
     <h3>Tap 'Til Ya Drop!</h3>
     <h4>$390 (save over $200!)</h4>
@@ -52,7 +52,7 @@
   </b-card>
 </b-row>
 <b-row>
-  <b-card>
+  <b-card class="justify-content-md-center">
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
     
