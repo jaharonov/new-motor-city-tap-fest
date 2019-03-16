@@ -9,7 +9,7 @@
           <h2>classes</h2>
       </b-row>
       <b-row class="p-3">
-          <p><strong>Downtown Royal Oak - precise location TBA</strong></p>
+          <p><strong>Classes to be held at Tap Dance Detroit in Ferndale! Big announcement coming soon!</strong></p>
         <!-- <b-col lg="6">
             <b-img left src="./static/Old-Main-WSU.jpg" fluid />
         </b-col>  
