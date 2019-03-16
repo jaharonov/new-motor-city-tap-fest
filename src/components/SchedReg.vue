@@ -9,7 +9,7 @@
 <b-row class="justify-content-md-center pl-3">
   <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register! Please note that
   you must purchase a package in order to choose to register for the MCTF Pre-Pro and Elite crews.</p>
-  <p>Early bird discounts: 15% before June 1st, 10% before July 1st. Class sizes
+  <p>Early bird discounts: 15% before June 1st (use code EARLY15 at checkout!), 10% before July 1st. Class sizes
     are limited!
   </p>
 </b-row>
