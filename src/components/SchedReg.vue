@@ -52,7 +52,7 @@
   </b-card>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
-  <b-card class="justify-content-md-center">
+  <b-card>
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
     
