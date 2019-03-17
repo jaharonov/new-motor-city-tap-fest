@@ -4,7 +4,7 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
-  <h2 class="pt-5"><strong>Package Deals!</strong></h2>
+  <h2 class="pt-5"><strong>Package Deals! use code EARLY15 at checkout!</strong></h2>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
   <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register!
