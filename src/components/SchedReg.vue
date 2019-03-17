@@ -7,13 +7,13 @@
   <h2 class="pt-5"><strong>Package Deals!</strong></h2>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
-  <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register! Please note that
-  you must purchase a package in order to choose to register for the MCTF Pre-Pro and Elite crews.</p>
-  <p>Early bird discounts: 15% before June 1st (use code EARLY15 at checkout!), 10% before July 1st. Class sizes
-    are limited!
+  <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register!
+  Early bird discounts: 15% before June 1st (use code EARLY15 at checkout!), 10% before July 1st. Class sizes
+  are limited!
   </p>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
+  <b-col cols="lg-4">
   <b-card>
     <h3>Tap 'Til Ya Drop!</h3>
     <h4>$390 (save over $200!)</h4>
@@ -26,6 +26,8 @@
     </ul>
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/tap-til-ya-drop" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
+  </b-col>
+  <b-col cols="lg-4">
   <b-card>
     <h3>Tap Non-Stop!</h3>
     <h4>$295 (save over $130!)</h4>
@@ -38,9 +40,12 @@
     </ul>
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/tap-non-stop" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
+  </b-col>
+  <b-col cols="lg-4">
   <b-card>
     <h3>Hone Your Skills!</h3>
     <h4>$220 (save over $60!)</h4>
+    <br/>
     <ul><strong>
       <li>8 Master Classes</li><br/>
       <li>1 Tap Jam Ticket</li><br/>
@@ -48,16 +53,21 @@
       </strong>
     </ul>
     <br/>
+    <br/>
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/hone-your-skills" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
+  </b-col>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
+  <b-col cols="lg-4">
   <b-card>
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
     
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/individual-master-class" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
+  </b-col>
+  <b-col cols="lg-4">
   <b-card>
     <h3>EVENT TICKETS</h3>
     <p>Purchase tickets for<br/> Tap Jam, Cutting Contest,<br/> and Participants Showcase</p>
@@ -70,16 +80,19 @@
     </ul>
     
   </b-card>
+  </b-col>
+    <b-col cols="lg-4">
   <b-card>
-    <p>Purchase Teacher's Corner, register <br/> for Young Choreographers Competition,<br/> and buy Observation passes below</p>
+    <p>Register for Participants Showcase and/or the MCTF CHoreographers Challenge,<br/> and buy Observation passes.</p>
     <p>Please click on an event below to purchase.</p>
     <ul><strong>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/teachers-corner" class="buttons" variant="success" target="_blank">TEACHER'S CORNER</a></li><br/>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/young-choreographers-competition" class="buttons" variant="success" target="_blank">YOUNG CHOREOGRAPHERS COMPETITION</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/participants-showcase-registration" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-choreographers-challenge" class="buttons" variant="success" target="_blank">MCTF CHOREOGRAPHERS CHALLENGE</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/observation-passes" class="buttons" variant="success" target="_blank">OBSERVATION PASS</a></li><br/>
       </strong>
     </ul>
   </b-card>
+  </b-col>
 </b-row>
 <b-row class="justify-content-md-center pt-3">
   <ul>
@@ -87,7 +100,7 @@
   <li><strong>Advanced:</strong> More than 8 years of focused tap training</li>
   </ul>
 </b-row>
-<b-row class="justify-content-md-center">
+<div class="justify-content-md-center">
   <h2 class="pt-5"><strong>Wednesday, August 7th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
@@ -591,7 +604,7 @@ More fun stuff TBA! </p>
     </tr>
   </tbody>
 </table>
-
+</div>
 <b-row class="justify-content-md-center">
   <b-card>
     <h3>Group Discounts</h3>

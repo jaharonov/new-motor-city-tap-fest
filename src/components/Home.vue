@@ -27,13 +27,12 @@
           <p class="card-text" 
           text-align="justify"
           text-justify="inter-word">
-          Wayne State University<br />
           Detroit, Michigan<br/>
           </p>
           <div>
           
   <!-- Using value -->
-  <b-btn class="buttons" variant="success" v-b-modal="'myModal'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
+  <b-btn class="buttons" variant="success" v-bind:to="'schedreg'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
 
   <!-- the modal -->
   <b-modal id="myModal">

@@ -2,7 +2,7 @@
   <div class="app">
     <div>
       <b-row class="mx-auto">
-        <h1><strong>Auditions will be held on 3/10/2019</strong></h1>
+        <h1><strong>Auditions will be held on 3/24/2019</strong></h1>
       </b-row>
       <b-row class="mx-auto pt-3">
         <h4>The auditions schedule is:</h4>
