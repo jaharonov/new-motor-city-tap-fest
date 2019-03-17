@@ -73,6 +73,7 @@
     <p>Purchase tickets for<br/> Tap Jam, Cutting Contest,<br/> and Participants Showcase</p>
     <p>Please click on an event below to purchase.</p>
     <ul><strong>
+      <li><a href="https://www.axs.com/events/371283/motor-city-soles-tickets" class="buttons" variant="success" target="_blank">MOTOR CITY SOLES</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-tap-jam" class="buttons" variant="success" target="_blank">TAP JAM</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-cutting-contest" class="buttons" variant="success" target="_blank">CUTTING CONTEST</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/admission-for-participants-showcase" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>
