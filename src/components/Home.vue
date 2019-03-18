@@ -16,14 +16,14 @@
           </b-card> -->
           
           <b-card rounded center
-          img-src="./static/mctf-2019.jpg"
+          img-src="./static/home-postcard.jpg"
           img-alt="Save the Date 2019"
           img-top
           tag="article"
           border-variant="success"
           class="mx-auto"
           id="savedate">
-          <h4 class="card-text"><strong>August 7-10, 2019</strong></h4>
+          <!-- <h4 class="card-text"><strong>August 7-10, 2019</strong></h4> -->
           <p class="card-text" 
           text-align="justify"
           text-justify="inter-word">
@@ -71,10 +71,15 @@
           <!-- <div id='collection-component-2f36a03cad5'></div> -->
         </b-col>
         <b-col class="pb-1 pl-5 mx-auto justify-content-lg-center">
-          <div id='product-component-b49577ad243'></div>
+          <!-- <div id='product-component-b49577ad243'></div> -->
           <!-- <div id='product-component-50f75dd9f31'></div> -->
           </b-col>
         </b-col>  
+      </b-row>
+      <b-row class="pb-1 pl-5 mx-auto justify-content-lg-center">
+        <b-col></b-col>
+        <b-col><div id='product-component-b49577ad243'></div></b-col>
+        <b-col></b-col>
       </b-row>
       <b-row p-5></b-row>
         <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
