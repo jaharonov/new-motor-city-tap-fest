@@ -52,14 +52,13 @@
       <li>1 Motor City Tap Fest Shirt</li>
       </strong>
     </ul>
-    <br/>
-    <br/>
+    
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/hone-your-skills" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
   </b-col>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
-  <b-col cols="lg-4">
+  <b-col cols="lg-4" class="pt-3">
   <b-card>
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
@@ -67,7 +66,7 @@
     <b-btn href="https://motor-city-tap-fest.myshopify.com/products/individual-master-class" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
   </b-col>
-  <b-col cols="lg-4">
+  <b-col cols="lg-4" class="pt-3">
   <b-card>
     <h3>EVENT TICKETS</h3>
     <p>Purchase tickets for<br/> Tap Jam, Cutting Contest,<br/> and Participants Showcase</p>
@@ -82,7 +81,7 @@
     
   </b-card>
   </b-col>
-    <b-col cols="lg-4">
+    <b-col cols="lg-4" class="pt-3">
   <b-card>
     <p>Register for Participants Showcase and/or the MCTF CHoreographers Challenge,<br/> and buy Observation passes.</p>
     <p>Please click on an event below to purchase.</p>
@@ -90,6 +89,20 @@
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/participants-showcase-registration" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-choreographers-challenge" class="buttons" variant="success" target="_blank">MCTF CHOREOGRAPHERS CHALLENGE</a></li><br/>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/observation-passes" class="buttons" variant="success" target="_blank">OBSERVATION PASS</a></li><br/>
+      </strong>
+    </ul>
+  </b-card>
+  </b-col>
+  <b-col cols="lg-4" class="pt-3">
+  <b-card>
+    <p>Register for Conservatories and Future Tap Stars</p>
+    <p>Please click on an event below to purchase.</p>
+    <ul><strong>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-conservatory-1-age-13-and-up" class="buttons" variant="success" target="_blank">MCTF CONSERVATORY 1 (age 13 and up)
+</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-conservatory-2-high-school-grads-and-older" class="buttons" variant="success" target="_blank">MCTF CONSERVATORY 2 (high school grads and older)
+</a></li><br/>
+      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-future-tap-stars" class="buttons" variant="success" target="_blank">MCTF FUTURE TAP STARS</a></li><br/>
       </strong>
     </ul>
   </b-card>
