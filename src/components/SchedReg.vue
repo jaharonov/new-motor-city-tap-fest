@@ -11,7 +11,9 @@
   Early bird discounts: 15% before June 1st (use code EARLY15 at checkout!), 10% before July 1st. Class sizes
   are limited!
   </p>
+  <p>Download a pdf of the schedule and registration form here: <a href ="./static/2019 MCTF Schedule and Registration.pdf">Schedule and Registration</a></p>
 </b-row>
+
 <b-row class="justify-content-md-center pl-3">
   <b-col cols="lg-4">
   <b-card>
