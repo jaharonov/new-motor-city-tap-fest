@@ -9,27 +9,19 @@
           <h2>classes</h2>
       </b-row>
       <b-row class="p-3">
-          <p><strong>Classes to be held at Tap Dance Detroit in Ferndale! Big announcement coming soon!</strong></p>
-        <!-- <b-col lg="6">
-            <b-img left src="./static/Old-Main-WSU.jpg" fluid />
+        <b-col lg="6" v-for="tap in taps" :key="tap.id">
+<b-img center v-img:name :src="tap.src" :alt="tap.alt" fluid-grow blank-color="#FFB5DA"/>
         </b-col>  
         <b-col>
-            <p class="text-lg-left">Festival classes will be held at the Old Main Building on 
-                the campus of <a href="https://www.facebook.com/motorcity.tapfest" target="_blank">Wayne State University</a>, located
-                at 4841 Cass Avenue, Detroit MI 48201.
-            </p>
-            <ul class="text-lg-left">
-                <li class="mt-3"><a href="http://maps.wayne.edu/" target="_blank"><b-img left src="./static/icons8-link-64.png" height="25%"/>Download a campus map</a></li>
-                <li class="mt-3"><a href="http://maps.wayne.edu/view/?q=old+main" target="_blank"><b-img left src="./static/icons8-link-64.png" height="25%"/>Searchable online map</a></li>
-                <li class="mt-3"><a href="http://theatreanddance.wayne.edu/" target="_blank"><b-img left src="./static/icons8-link-64.png" height="25%"/>Theatre and Dance at Wayne State</a></li>
-            </ul>
-        </b-col> -->
+            <p class="text-lg-left">Festival classes will be at the brand new Tap Dance Detroit, located at 310 Livernois Street in Ferndale, MI. Future Tap Stars classes and rehearsals, plus other specialty classes, will be at the hosting Hyatt Royal Oak.</p>
+            
+        </b-col>
       </b-row>
       <b-row class="pt-4 pl-3">
           <h2>concert</h2>
       </b-row>
       <b-row class="p-3">
-        <b-col lg="6" v-for="image in images">
+        <b-col lg="6" v-for="image in images" :key="image.id">
 <b-img center v-img:name :src="image.src" :alt="image.alt" fluid-grow blank-color="#FFB5DA"/>
         </b-col>  
         <b-col>
@@ -49,9 +41,7 @@
             <p class="text-lg-left">Limited rooms available so book today! Follow the hotel link above to automatically add the discount code (G-MCDA).</p>
             
         </b-col>
-        <!-- <b-col lg="6">
-            <b-img left src="./static/greektown-hotel.jpg" fluid />
-        </b-col>   -->
+        
       </b-row>
       <b-row p-5></b-row>
         
@@ -78,7 +68,9 @@ export default {
   name: 'hello',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      taps: [
+        { src: './static/tap-dance-detroit.png', alt: 'Tap Dance Detroit Logo' }
+      ],
       images: [
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
         { src: './static/royaloaktheater.jpg', alt: 'Royal Oak Theater' }
