@@ -98,6 +98,12 @@
   <b-col cols="lg-4" class="pt-3">
   <b-card>
     <p>Register for Conservatories and Future Tap Stars</p>
+    <p>Conservatory registration price includes:</p>
+    <ul>
+      <li>1 Tap Jam Ticket</li><br/>
+      <li>1 Motor City Tap Fest Shirt</li><br/>
+      <li>1 Motor City Soles Ticket</li><br/>
+    </ul>
     <p>Please click on an event below to purchase.</p>
     <ul><strong>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-conservatory-1-age-13-and-up" class="buttons" variant="success" target="_blank">MCTF CONSERVATORY 1 (age 13 and up)
@@ -192,7 +198,7 @@
       <td>Charles Renato<br/> <strong>Int/Adv</strong> </td>
     </tr>
     <tr>
-      <th scope="row">6:30pm-7:45pm</th>
+      <th scope="row">8:30pm</th>
       <td colspan="3"><strong>MCTF Choreographer's Challenge</strong></td>
     </tr>
   </tbody>
