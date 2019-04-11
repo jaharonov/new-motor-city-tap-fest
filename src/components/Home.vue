@@ -86,10 +86,10 @@
       </b-col> 
         
       </b-row>
-      <b-row class="pb-1 pl-5 mx-auto justify-content-lg-center">
-        <b-col></b-col>
-        <b-col><div id='product-component-b49577ad243'></div></b-col>
-        <b-col></b-col>
+      <b-row class="pb-1 pl-5 mx-auto justify-content-center">
+        <b-col sm="4"></b-col>
+        <b-col sm="4"><div id='product-component-b49577ad243'></div></b-col>
+        <b-col sm="4"></b-col>
       </b-row>
       <b-row p-5></b-row>
         <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
