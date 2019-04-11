@@ -3,8 +3,12 @@
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
       <b-row></b-row>
-      
-      <b-row>
+      <b-row class="justify-content-md-center">
+        <b-col lg="12">
+        <b-img src="./static/mctf-postcard-2019.png" fluid-grow/>
+        </b-col>
+      </b-row>
+      <b-row class="justify-content-md-center">
         <b-col md="12" lg="6" class="p-3">
           <!-- <b-col class="p-5">
           <b-button class="buttons" size="lg" variant="outline-success">
@@ -16,33 +20,33 @@
           </b-card> -->
           
           <b-card rounded center
-          img-src="./static/home-postcard.jpg"
-          img-alt="Save the Date 2019"
+          img-src="./static/motor-city-soles.png"
+          img-alt="Motor City Soles 2019"
           img-top
           tag="article"
           border-variant="success"
           class="mx-auto"
           id="savedate">
           <!-- <h4 class="card-text"><strong>August 7-10, 2019</strong></h4> -->
-          <p class="card-text" 
+          <!-- <p class="card-text" 
           text-align="justify"
           text-justify="inter-word">
           Detroit, Michigan<br/>
-          </p>
+          </p> -->
           <div>
           
   <!-- Using value -->
   <b-btn class="buttons" variant="success" v-bind:to="'schedreg'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
 
   <!-- the modal -->
-  <b-modal id="myModal">
+  <!-- <b-modal id="myModal">
     Stay tuned for the 2019 MCTF schedule and registration!
-  </b-modal>
+  </b-modal> -->
           </div>
         </b-card>
         </b-col>
-        <b-col md="12" lg="6" class="p-3">
-        <b-col>
+        <b-col md="12" lg="6" class="p-3 pr-5">
+        <!-- <b-col> -->
           <b-embed type="iframe"
            aspect="16by9"
            class="mx-auto"
@@ -50,8 +54,9 @@
            allowfullscreen
   ></b-embed>
           <!-- <iframe fluid-grow src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe> -->
-        </b-col>
-        <b-col class="hometext my-3">
+        <!-- </b-col> -->
+        <!-- <b-col class="hometext my-3"> -->
+          <div class="pt-5">
           <p><strong>4 DAYS OF MASTER CLASSES</strong><br/>
           <small>with leading tap artists in the industry</small>
           </p>
@@ -68,13 +73,16 @@
           <small>meet the esteemed master teachers</small>
           </p>
           <br/>
+          <b-btn class="buttons" variant="success" v-bind:to="'schedreg'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
           <!-- <div id='collection-component-2f36a03cad5'></div> -->
-        </b-col>
-        <b-col class="pb-1 pl-5 mx-auto justify-content-lg-center">
+        <!-- </b-col> -->
+        <!-- <b-col class="pb-1 pl-5 mx-auto justify-content-lg-center"> -->
           <!-- <div id='product-component-b49577ad243'></div> -->
           <!-- <div id='product-component-50f75dd9f31'></div> -->
-          </b-col>
-        </b-col>  
+          <!-- </b-col> -->
+      </div> 
+      </b-col> 
+        
       </b-row>
       <b-row class="pb-1 pl-5 mx-auto justify-content-lg-center">
         <b-col></b-col>
