@@ -5,7 +5,9 @@
       <b-row></b-row>
       <b-row class="justify-content-md-center">
         <b-col lg="12">
+  
         <b-img src="./static/mctf-postcard-2019.png" fluid-grow/>
+        
         </b-col>
       </b-row>
       <b-row class="justify-content-md-center">
@@ -36,7 +38,7 @@
           <div>
           
   <!-- Using value -->
-  <b-btn class="buttons" variant="success" v-bind:to="'schedreg'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
+  <b-btn class="buttons" variant="success" href="https://www.axs.com/events/371283/motor-city-soles-tickets">BUY TICKETS!</b-btn>
 
   <!-- the modal -->
   <!-- <b-modal id="myModal">
