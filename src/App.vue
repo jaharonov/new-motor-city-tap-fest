@@ -80,7 +80,7 @@
       <a href="https://twitter.com/motorcitytap" target="_blank"><b-img :src="'./static/twitter.png'"/></a>
       <br/>
       </b-container>
-       <span>&copy; 2019 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>.</span>
+       <span>&copy; 2019 Motor City Dance Productions, All Rights Reserved. Website by <a href="http://www.jaharonov.com" target="_blank">J Aharonov</a>. MCTF is a 501c3 non-profit organization and that all donations are tax deductible</span>
     </footer>
     <!-- </div> -->
     
