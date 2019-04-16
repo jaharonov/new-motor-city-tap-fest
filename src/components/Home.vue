@@ -99,7 +99,7 @@
   <!-- </div>  -->
   <b-row>
 <b-col lg="3"></b-col>        
-<b-col class="mx-auto pt-5" v-for="image in images">
+<b-col class="mx-auto pt-5" v-for="image in images" :key="image.id">
 <b-img center v-img:name :src="image.src" :alt="image.alt" fluid-grow blank-color="#FFB5DA"/>
 </b-col>     
 <b-col lg="3"></b-col>        

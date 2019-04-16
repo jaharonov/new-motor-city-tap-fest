@@ -140,18 +140,26 @@
       <br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons2'">CONSERVATORY</b-btn>
       <b-modal id="cons2">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal>
       </div>
@@ -169,18 +177,26 @@
       <td rowspan="3" class="table-success"><br/><br/>MCTF Conservatory 2 <br/>3:15pm-7:45p<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons3'">CONSERVATORY</b-btn>
       <b-modal id="cons3">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal>
       </td>
@@ -222,18 +238,26 @@
       <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons5'">CONSERVATORY</b-btn>
       <b-modal id="cons5">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal>
       </td>
@@ -268,18 +292,26 @@ More fun stuff TBA! </p>
       <td>MCTF Conservatory 2 <strong>REHEARSAL</strong><br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons7'">CONSERVATORY</b-btn>
       <b-modal id="cons7">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
     </tr>
@@ -290,35 +322,51 @@ More fun stuff TBA! </p>
       <td rowspan="3" class="table-warning"><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons8'">CONSERVATORY</b-btn>
       <b-modal id="cons8">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td class="table-success">MCTF Conservatory 1 <br/><strong><br/>REHEARSAL</strong><br/> 1:45pm-2:45pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons9'">CONSERVATORY</b-btn>
       <b-modal id="cons9">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal>
       </td>
@@ -367,18 +415,26 @@ More fun stuff TBA! </p>
       <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons10'">CONSERVATORY</b-btn>
       <b-modal id="cons10">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td rowspan="4" class="table-warning"><br/><br/>MCTF Future Tap Stars!<br/><br/>8:30am-11:30am Ages 11-12<br/><br/> 10:30am-1:30pm Ages 8-10
@@ -412,18 +468,26 @@ More fun stuff TBA! </p>
       <td>MCTF Conservatory 2 <strong><br/>REHEARSAL</strong><br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons12'">CONSERVATORY</b-btn>
       <b-modal id="cons12">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
     </tr>
@@ -435,35 +499,51 @@ More fun stuff TBA! </p>
       <br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons13'">CONSERVATORY</b-btn>
       <b-modal id="cons13">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td>MCTF Conservatory 1 <br/><strong>REHEARSAL</strong><br/> 1:45pm-2:45pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons14'">CONSERVATORY</b-btn>
       <b-modal id="cons14">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
     </tr>
@@ -509,25 +589,33 @@ More fun stuff TBA! </p>
       <td>Jenefer Miller<br/><strong>Intermediate</strong></td>
       <td>Charles Renato<br/> <strong>Int/Adv</strong></td>
       <td rowspan="2" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-12:00pm<br/><br/>
-      <b-btn class="buttons" variant="success" v-b-modal="'cons14'">CONSERVATORY</b-btn>
-      <b-modal id="cons14">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+      <b-btn class="buttons" variant="success" v-b-modal="'cons15'">CONSERVATORY</b-btn>
+      <b-modal id="cons15">
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td>MCTF Future Tap Stars!<br/><strong>Rehearsal</strong><br/><br/>
-      <b-btn class="buttons" variant="success" v-b-modal="'cons15'">FUTURE TAP STARS</b-btn>
-      <b-modal id="cons15">
+      <b-btn class="buttons" variant="success" v-b-modal="'cons16'">FUTURE TAP STARS</b-btn>
+      <b-modal id="cons16">
 <h2>FUTURE TAP STARS</h2> 
 <p class="text-justify"><strong>MCTF Future Tap Stars</strong> 
 is for dancers 12 and under. It's a tailored program for dancers who are 8-12 years old. They will be subdivided into a younger and older group. They will have 4 different classes with 4 different faculty members, plus they will learn choreography to perform in Motor City Soles.
@@ -569,18 +657,26 @@ More fun stuff TBA! </p>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2<br/>12:00pm-3:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons17'">CONSERVATORY</b-btn>
       <b-modal id="cons17">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td></td>
@@ -591,18 +687,26 @@ More fun stuff TBA! </p>
       <td>MCTF Conservatory 1 <strong><br/>REHEARSAL</strong><br/>12:45pm-1:45pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons18'">CONSERVATORY</b-btn>
       <b-modal id="cons18">
-<h2>MCTF CONSERVATORY</h2> 
-<p class="text-justify"><strong>MCTF Conservatory</strong> is a chance for advanced dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<h2><strong>MCTF CONSERVATORY</strong></h2> 
+<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
 <ul class="text-justify">
-    <li>Technical proficiency with Sam Weber</li>
+<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
+<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
+<li>•One ticket to Motor City Soles</li>
+<li>•One MCTF Conservatory t-shirt</li>
+<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
+</ul>
+<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
+<ul class="text-justify">
+    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>Finding your unique artistic and choreographic voice with Caleb Teicher</li>
+    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
 
-    <li>Tap in the commercial world with Maud Arnold</li>
+    <li>•Tap in the commercial world with Maud Arnold</li>
 
-    <li>Acing auditions with Ray Hesselink</li>
+    <li>•Acing auditions with Ray Hesselink</li>
 
-    <li>They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
+    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
 </ul>
   </b-modal></td>
       <td></td>
