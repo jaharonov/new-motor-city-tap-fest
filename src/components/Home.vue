@@ -1,7 +1,7 @@
 <template>
   <!-- <div class="hello"> -->
     <!-- <div class="m-5"> -->
-      <b-container class="p-2">
+      <b-container class="p-2 hello">
       <b-row></b-row>
       <b-row class="justify-content-md-center">
         <b-col lg="12">
@@ -69,7 +69,7 @@
           </p>
           <p><strong>tap jam</strong><br/>
           </p>
-          <p><strong>young choreographers competition</strong><br/>
+          <p><strong>young choreographer's competition</strong><br/>
           </p>
           <p><strong>meet the faculty</strong><br/>
           <small>meet the esteemed master teachers</small>
@@ -120,8 +120,8 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       images: [
-        { src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
-        { src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
+        { id: '', src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
+        { id: 'omara', src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
       ]
     }
   }

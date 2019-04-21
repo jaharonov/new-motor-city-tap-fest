@@ -5,7 +5,7 @@
         <h1><strong>PARTICIPANTS SHOWCASE</strong></h1>
       </b-row>
       <b-row class="mx-auto">
-        <p>More info on the 2019 Participants Showcase coming soon!</p>
+        <p>Entries are limited and on a first come first serve basis, so be sure to <a href="https://motor-city-tap-fest.myshopify.com/products/participants-showcase-registration" class="buttons" variant="success" target="_blank">sign up</a> as soon as possible!</p>
       </b-row>
 </div>
   

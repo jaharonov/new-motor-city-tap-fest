@@ -65,7 +65,7 @@
     <h3>Individual<br/> Master Classes</h3>
     <p><strong>$35 for first class and $30 for<br/> additional classes!</strong></p>
     
-    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/individual-master-class" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
+    <b-btn href="https://motor-city-tap-fest.myshopify.com/products/individual-master-classes" class="buttons" variant="success" target="_blank">BUY NOW!</b-btn>
   </b-card>
   </b-col>
   <b-col cols="lg-4" class="pt-3">
@@ -85,7 +85,7 @@
   </b-col>
     <b-col cols="lg-4" class="pt-3">
   <b-card>
-    <p>Register for Participants Showcase and/or the MCTF CHoreographers Challenge,<br/> and buy Observation passes.</p>
+    <p>Register for Participants Showcase and/or the MCTF CHoreographer's Challenge,<br/> and buy Observation passes.</p>
     <p>Please click on an event below to purchase.</p>
     <ul><strong>
       <li><a href="https://motor-city-tap-fest.myshopify.com/products/participants-showcase-registration" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>

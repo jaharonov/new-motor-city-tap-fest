@@ -5,7 +5,6 @@
       <b-row class="pt-5">
           <h1><strong>About + Contact</strong></h1>
       </b-row>
-      
       <b-row class="p-3 pt-5">
         <b-col lg="6">
             <b-img left src="./static/denise-caston.jpg" fluid-grow/>
