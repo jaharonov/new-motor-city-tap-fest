@@ -17,7 +17,7 @@
           <h2>Registration</h2><br/>
           <p>The preliminary qualifying round deadline for the MCTF Choreographer's Challenge is May 31st. Please wait until you are notified that you are accepted before paying the registration fee.</p>
       </b-row>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdryIlJGSO7A2zUGp8owV4941ctmQv_D7lQoUL5zWVBr60r8w/viewform?embedded=true" width="640" height="1302" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiR_BBlcLf5a4eEBaN0eG9KgHey9eQ1wSYpKKyR2xdF9uz4g/viewform?embedded=true" width="640" height="1232" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       
       <b-row p-5></b-row>
 
