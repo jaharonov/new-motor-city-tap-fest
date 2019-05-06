@@ -375,7 +375,7 @@ More fun stuff TBA! </p>
       <th scope="row">3:00pm - 4:15pm</th>
       <td>Ray Hesselink<br/><strong>Intermediate</strong> </td>
       <td>Jenefer Miller<br/><strong>Advanced</strong> </td>
-      <td></td>
+      <td>Denise Caston<br/><strong>Fast Beginner</strong></td>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
@@ -388,7 +388,7 @@ More fun stuff TBA! </p>
       <td>Charles Renato<br/><strong>Improv 101</strong> </td>
       <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td>Vikas Arun<br/><strong>Open Level</strong><br/>Bollywood<br/> </td>
-      <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td>
+      <!-- <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td> -->
     </tr>
     <tr>
       <th scope="row">7:30pm</th>
@@ -550,7 +550,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">3:00pm - 4:15pm</th>
       <td>Suzy Guarino-Hall<br/><strong>Intermediate</strong> </td>
-      <td>Maud Arnold<br/><strong>Advanced</strong> </td>
+      <td>Randy Skinner<br/><strong>Broadway/Hollywood Jazz (NO TAP)</strong> </td>
       <td></td>
     </tr>
     <tr>
@@ -561,7 +561,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">6:00pm - 7:15pm</th>
-      <td></td>
+      <td>Vikas Arun<strong>Intermediate</strong></td>
       <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td></td>
       <td></td>
