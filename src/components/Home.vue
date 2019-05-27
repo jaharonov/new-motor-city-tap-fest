@@ -109,6 +109,11 @@
         <p><strong>MCTF is a 501c3 non-profit organization and all donations are tax deductible.</strong></p>
         <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
 donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
+        <b-row>
+          <b-col lg="4"></b-col>
+          <b-col lg="4"><a href="https://millerandbentapshoes.com" target="_blank"><b-img src='./static/miller_ben.png' fluid-grow/></a></b-col>
+          <b-col lg="4"></b-col>
+        </b-row>
         </b-container>
   </b-container>
 </template>
