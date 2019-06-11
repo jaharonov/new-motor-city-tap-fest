@@ -714,7 +714,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">1:45pm - 3:00pm</th>
       <td>DeWitt Fleming Jr.<br/> <strong>Intermediate</strong> </td>
-      <td>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
       <td></td>
     </tr>
     <tr>
