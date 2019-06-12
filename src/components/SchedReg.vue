@@ -630,7 +630,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
-      <td>Maud Arnold<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Maud Arnold<br/> <strong>Intermediate</strong></td>
       <td>Randy Skinner<br/> <strong>Advanced</strong> </td>
       <td>MCTF Conservatory 2 <strong>Rehearsal</strong><br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons16'">CONSERVATORY</b-btn>
@@ -653,7 +653,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
       <td>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
-      <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2<br/>12:00pm-3:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons17'">CONSERVATORY</b-btn>
       <b-modal id="cons17">
@@ -714,7 +714,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">1:45pm - 3:00pm</th>
       <td>DeWitt Fleming Jr.<br/> <strong>Intermediate</strong> </td>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
       <td></td>
     </tr>
     <tr>
