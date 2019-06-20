@@ -13,7 +13,11 @@
               <li>•	Each entry must have a minimum of 5 dancers.</li>
           </ul>
       </b-row>
-      <b-row class="pt-4">
+       <b-row class="pt-4 text-justify">
+        
+          <p>Participants Showcase will be located at Ferndale High School, 881 Pinecrest Dr., a 2 min drive from Tap Dance Detroit.</p>
+       </b-row>
+      <b-row class="pt-4 text-justify">
           <h2>Registration</h2><br/>
           <p>The preliminary qualifying round deadline for the MCTF Choreographer's Challenge is May 31st. Please wait until you are notified that you are accepted before paying the registration fee.</p>
       </b-row>
