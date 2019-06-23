@@ -201,7 +201,7 @@
   </b-modal>
       </td>
       
-      <td>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT*<br/>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
     </tr>
     <tr>
       <th scope="row">5:00pm-6:15pm</th>
