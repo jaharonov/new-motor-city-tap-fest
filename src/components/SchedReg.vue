@@ -459,8 +459,8 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td>*FEW SPOTS LEFT*<br/>Randy Skinner<br/> <strong>Intermediate</strong></td>
-      <td>*FEW SPOTS LEFT*<BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT*</strong><br/>Randy Skinner<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT*</strong><BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:30pm</th>
@@ -494,7 +494,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">1:30pm - 2:45pm</th>
       <td>Jenefer Miller<br/> <strong>Intermediate</strong> </td>
-      <td>*SOLD OUT*DeWitt Fleming Jr.<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*SOLD OUT*</strong><br/> DeWitt Fleming Jr.<br/><strong>Int/Adv</strong> </td>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm
       <br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons13'">CONSERVATORY</b-btn>
@@ -555,7 +555,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
-      <td>*FEW SPOTS LEFT*Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT*</strong><br/>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
       <td>Randy Skinner<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
