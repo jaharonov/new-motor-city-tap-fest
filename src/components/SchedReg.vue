@@ -201,11 +201,11 @@
   </b-modal>
       </td>
       
-      <td><strong>*FEW SPOTS LEFT*<br/>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT*</strong><br/>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
     </tr>
     <tr>
       <th scope="row">5:00pm-6:15pm</th>
-      <td>Caleb Teicher<br/> Lindy Hop<br/> <strong>Open Level</strong></td>
+      <td>Caleb Teicher<br/> Lindy Hop<br/><strong>Open Level</strong></td>
       <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -283,7 +283,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td>Gregg Russell<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong></td>
       <td>Sam Weber<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
