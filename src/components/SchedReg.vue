@@ -164,12 +164,12 @@
   </b-modal>
       </div>
       </td>
-      <td>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
       <td>Maud Arnold<br/> <strong>Advanced</strong></td>
     </tr>
     <tr>
       <th scope="row">2:00pm - 3:15pm</th>
-      <td>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
       <td>Ray Hesselink<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -720,7 +720,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">3:15pm - 4:30pm</th>
       <td>Randy Skinner<br/><strong>Intermediate</strong> </td>
-      <td>Vikas Arun<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Vikas Arun<br/><strong>Int/Adv</strong> </td>
       <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td></td>
     </tr>
