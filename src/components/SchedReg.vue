@@ -411,7 +411,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">8:30am - 9:45am</th>
       <td>Sam Weber<br/><strong>Intermediate</strong></td>
-      <td>Gregg Russell<br/> <strong>Advanced</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong></td>
       <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons10'">CONSERVATORY</b-btn>
       <b-modal id="cons10">
@@ -460,7 +460,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
       <td><strong>*FEW SPOTS LEFT*</strong><br/>Randy Skinner<br/> <strong>Intermediate</strong></td>
-      <td><strong>*FEW SPOTS LEFT*</strong><BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT*</strong><BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:30pm</th>
