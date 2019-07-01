@@ -283,7 +283,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong></td>
       <td>Sam Weber<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -317,7 +317,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">1:30pm - 2:45pm</th>
-      <td>Vikas Arun<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Vikas Arun<br/> <strong>Intermediate</strong> </td>
       <td>Kelsey Rose Young<br/><strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons8'">CONSERVATORY</b-btn>
@@ -373,8 +373,8 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">3:00pm - 4:15pm</th>
-      <td>Ray Hesselink<br/><strong>Intermediate</strong> </td>
-      <td>Jenefer Miller<br/><strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Ray Hesselink<br/><strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Jenefer Miller<br/><strong>Advanced</strong> </td>
       <td>Denise Caston<br/><strong>Fast Beginner</strong></td>
     </tr>
     <tr>
@@ -455,7 +455,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
       <td>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
-      <td>Charles Renato<br/> <strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
@@ -587,7 +587,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">8:30am - 9:45am</th>
       <td>Jenefer Miller<br/><strong>Intermediate</strong></td>
-      <td>Charles Renato<br/> <strong>Int/Adv</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Charles Renato<br/> <strong>Int/Adv</strong></td>
       <td rowspan="2" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-12:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons15'">CONSERVATORY</b-btn>
       <b-modal id="cons15">
@@ -652,7 +652,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
       <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2<br/>12:00pm-3:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons17'">CONSERVATORY</b-btn>
