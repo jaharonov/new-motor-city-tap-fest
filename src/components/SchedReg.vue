@@ -4,11 +4,11 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
-  <h2 class="pt-5"><strong>Package Deals! use code EARLY10 at checkout!</strong></h2>
+  <h2 class="pt-5"><strong>Package Deals!</strong></h2>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
   <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/all" target="_blank">here</a> or on a package/ticket/etc. below to register!
-  Early bird discounts: 10% before July 1st. Class sizes
+  Class sizes
   are limited!
   </p>
   <p>Download a pdf of the schedule and registration form here: <a href ="./static/2019 MCTF Schedule and Registration.pdf">Schedule and Registration</a></p>
