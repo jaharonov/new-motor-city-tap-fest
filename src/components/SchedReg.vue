@@ -164,12 +164,12 @@
   </b-modal>
       </div>
       </td>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
       <td>Maud Arnold<br/> <strong>Advanced</strong></td>
     </tr>
     <tr>
       <th scope="row">2:00pm - 3:15pm</th>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
       <td>Ray Hesselink<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -201,7 +201,7 @@
   </b-modal>
       </td>
       
-      <td><strong>*FEW SPOTS LEFT*</strong><br/>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Caleb Teicher<br/> <strong>Intermediate</strong> </td>
     </tr>
     <tr>
       <th scope="row">5:00pm-6:15pm</th>
@@ -317,7 +317,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">1:30pm - 2:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Vikas Arun<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Vikas Arun<br/> <strong>Intermediate</strong> </td>
       <td>Kelsey Rose Young<br/><strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons8'">CONSERVATORY</b-btn>
@@ -379,7 +379,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
-      <td>Charles Renato<br/><strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/><strong>Intermediate</strong> </td>
       <td>Shelby Kaufman<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
@@ -459,8 +459,8 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td><strong>*FEW SPOTS LEFT*</strong><br/>Randy Skinner<br/> <strong>Intermediate</strong></td>
-      <td><strong>*SOLD OUT*</strong><BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Randy Skinner<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!*</strong><BR/>Maud Arnold<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:30pm</th>
@@ -652,7 +652,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!*</strong> <br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
       <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2<br/>12:00pm-3:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons17'">CONSERVATORY</b-btn>
@@ -720,7 +720,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">3:15pm - 4:30pm</th>
       <td>Randy Skinner<br/><strong>Intermediate</strong> </td>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Vikas Arun<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Vikas Arun<br/><strong>Int/Adv</strong> </td>
       <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td></td>
     </tr>
