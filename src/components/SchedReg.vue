@@ -211,7 +211,7 @@
     <tr>
       <th scope="row">6:30pm-7:45pm</th>
       <td>Gregg Russell<br/> <strong>Intermediate</strong> </td>
-      <td>Charles Renato<br/> <strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
     </tr>
     <tr>
       <th scope="row">8:30pm</th>
@@ -278,7 +278,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
-      <td>Maud Arnold<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Maud Arnold<br/> <strong>Intermediate</strong></td>
       <td>Suzy Guarino-Hall<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -713,7 +713,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">1:45pm - 3:00pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong>DeWitt Fleming Jr.<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!*</strong>DeWitt Fleming Jr.<br/> <strong>Intermediate</strong> </td>
       <td><strong>*SOLD OUT!*</strong><br/>Suzy Guarino-Hall<br/><strong>Int/Adv</strong> </td>
       <td></td>
     </tr>
