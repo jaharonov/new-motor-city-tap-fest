@@ -386,7 +386,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">6:00pm - 7:15pm</th>
       <td>Charles Renato<br/><strong>Improv 101</strong> </td>
-      <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
+      <td><strong>*SOLD OUT*</strong><br/>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td>Vikas Arun<br/><strong>Open Level</strong><br/>Bollywood<br/> </td>
       <!-- <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td> -->
     </tr>
@@ -549,13 +549,13 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">3:00pm - 4:15pm</th>
-      <td>Suzy Guarino-Hall<br/><strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Suzy Guarino-Hall<br/><strong>Intermediate</strong> </td>
       <td>Randy Skinner<br/><strong>Broadway/Hollywood Jazz (NO TAP)</strong> </td>
       <td></td>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
-      <td><strong>*FEW SPOTS LEFT*</strong><br/>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
       <td>Randy Skinner<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
