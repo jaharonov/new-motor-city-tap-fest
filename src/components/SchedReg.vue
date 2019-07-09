@@ -374,7 +374,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">3:00pm - 4:15pm</th>
       <td><strong>*SOLD OUT*</strong><br/>Ray Hesselink<br/><strong>Intermediate</strong> </td>
-      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Jenefer Miller<br/><strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Jenefer Miller<br/><strong>Advanced</strong> </td>
       <td>Denise Caston<br/><strong>Fast Beginner</strong></td>
     </tr>
     <tr>
