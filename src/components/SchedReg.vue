@@ -373,7 +373,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">3:00pm - 4:15pm</th>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Ray Hesselink<br/><strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT*</strong><br/>Ray Hesselink<br/><strong>Intermediate</strong> </td>
       <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Jenefer Miller<br/><strong>Advanced</strong> </td>
       <td>Denise Caston<br/><strong>Fast Beginner</strong></td>
     </tr>
@@ -386,7 +386,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">6:00pm - 7:15pm</th>
       <td>Charles Renato<br/><strong>Improv 101</strong> </td>
-      <td><strong>*SOLD OUT*</strong><br/>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
+      <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td>Vikas Arun<br/><strong>Open Level</strong><br/>Bollywood<br/> </td>
       <!-- <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td> -->
     </tr>
