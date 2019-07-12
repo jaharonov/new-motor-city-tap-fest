@@ -123,7 +123,7 @@
   </ul>
 </b-row>
 <div class="justify-content-md-center">
-  <h2 class="pt-5"><strong>Wednesday, August 7th</strong></h2></b-row>
+  <b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Wednesday, August 7th</strong></h2></b-row>
   <table class="table table-bordered table-striped">
   <thead>
     <tr>
@@ -205,13 +205,13 @@
     </tr>
     <tr>
       <th scope="row">5:00pm-6:15pm</th>
-      <td>Caleb Teicher<br/> Lindy Hop<br/><strong>Open Level</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Caleb Teicher<br/> Lindy Hop<br/><strong>Open Level</strong></td>
       <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">6:30pm-7:45pm</th>
-      <td>Gregg Russell<br/> <strong>Intermediate</strong> </td>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
     </tr>
     <tr>
       <th scope="row">8:30pm</th>
