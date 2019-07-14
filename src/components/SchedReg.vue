@@ -454,8 +454,8 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
-      <td>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/> <strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Charles Renato<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
