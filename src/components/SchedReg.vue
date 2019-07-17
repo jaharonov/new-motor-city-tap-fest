@@ -379,7 +379,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Charles Renato<br/><strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Charles Renato<br/><strong>Intermediate</strong> </td>
       <td>Shelby Kaufman<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
@@ -454,7 +454,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
-      <td><strong>*FEW SPOTS LEFT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
       <td><strong>*SOLD OUT!* </strong><br/>Charles Renato<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
@@ -493,7 +493,7 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">1:30pm - 2:45pm</th>
-      <td>Jenefer Miller<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT*</strong><br/>Jenefer Miller<br/> <strong>Intermediate</strong> </td>
       <td><strong>*SOLD OUT*</strong><br/> DeWitt Fleming Jr.<br/><strong>Int/Adv</strong> </td>
       <td rowspan="3" class="table-warning"><br/><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm
       <br/><br/>
