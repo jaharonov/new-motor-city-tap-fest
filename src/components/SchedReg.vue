@@ -210,7 +210,7 @@
     </tr>
     <tr>
       <th scope="row">6:30pm-7:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong> </td>
       <td><strong>*FEW SPOTS LEFT!*</strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
     </tr>
     <tr>
