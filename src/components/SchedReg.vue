@@ -587,7 +587,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">8:30am - 9:45am</th>
       <td>Jenefer Miller<br/><strong>Intermediate</strong></td>
-      <td><strong>*FEW SPOTS LEFT!*</strong> <br/>Charles Renato<br/> <strong>Int/Adv</strong></td>
+      <td><strong>*SOLD OUT!*</strong> <br/>Charles Renato<br/> <strong>Int/Adv</strong></td>
       <td rowspan="2" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-12:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons15'">CONSERVATORY</b-btn>
       <b-modal id="cons15">
