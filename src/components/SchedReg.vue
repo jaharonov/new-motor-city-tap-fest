@@ -165,7 +165,7 @@
       </div>
       </td>
       <td><strong>*SOLD OUT!* </strong><br/>Shelby Kaufman<br/> <strong>Intermediate</strong></td>
-      <td>Maud Arnold<br/> <strong>Advanced</strong></td>
+      <td><strong>*SOLD OUT!* </strong><br/>Maud Arnold<br/> <strong>Advanced</strong></td>
     </tr>
     <tr>
       <th scope="row">2:00pm - 3:15pm</th>
