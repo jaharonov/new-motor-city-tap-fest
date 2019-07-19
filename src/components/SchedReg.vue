@@ -205,7 +205,7 @@
     </tr>
     <tr>
       <th scope="row">5:00pm-6:15pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Caleb Teicher<br/> Lindy Hop<br/><strong>Open Level</strong></td>
+      <td><strong>*SOLD OUT!*</strong><br/>Caleb Teicher<br/> Lindy Hop<br/><strong>Open Level</strong></td>
       <td>Gregg Russell<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
