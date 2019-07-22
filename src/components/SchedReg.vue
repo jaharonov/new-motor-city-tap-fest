@@ -170,7 +170,7 @@
     <tr>
       <th scope="row">2:00pm - 3:15pm</th>
       <td><strong>*SOLD OUT!* </strong><br/>Kelsey Rose Young<br/> <strong>Intermediate</strong></td>
-      <td>Ray Hesselink<br/> <strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Ray Hesselink<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">3:30pm - 4:45pm</th>
@@ -211,7 +211,7 @@
     <tr>
       <th scope="row">6:30pm-7:45pm</th>
       <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong> </td>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Charles Renato<br/> <strong>Int/Adv</strong> </td>
     </tr>
     <tr>
       <th scope="row">8:30pm</th>
@@ -284,7 +284,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
       <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Intermediate</strong></td>
-      <td>Sam Weber<br/> <strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Sam Weber<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:30pm</th>
@@ -555,8 +555,8 @@ More fun stuff TBA! </p>
     </tr>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
-      <td>Randy Skinner<br/><strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Kelsey Rose Young<br/><strong>Int/Adv</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Randy Skinner<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
     <tr>
