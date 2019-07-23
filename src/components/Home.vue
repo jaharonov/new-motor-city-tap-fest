@@ -22,7 +22,7 @@
           </b-card> -->
           
           <b-card rounded center
-          img-src="./static/motor-city-soles.png"
+          img-src="./static/motor-city-soles-new-romt.png"
           img-alt="Motor City Soles 2019"
           img-top
           tag="article"
