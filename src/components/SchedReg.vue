@@ -279,7 +279,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
       <td><strong>*SOLD OUT!* </strong><br/>Maud Arnold<br/> <strong>Intermediate</strong></td>
-      <td>Suzy Guarino-Hall<br/> <strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!* </strong><br/>Suzy Guarino-Hall<br/> <strong>Advanced</strong> </td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
