@@ -3,13 +3,13 @@
   <!-- <div class="hello"> -->
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
-      <b-row class="pt-5">
+      <b-row class="pt-3">
           <h1><strong>Store</strong></h1>
       </b-row>
-      <b-row class="pt-3 text-justify">
+      <b-row class="text-justify">
           <h2>T-Shirt Preorder</h2><br/>
       </b-row>
-      <b-row class="pt-3 text-justify">
+      <b-row class="text-justify">
            <p>Online exclusive pre-order! Purchase before August 3rd.</p>
       </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
