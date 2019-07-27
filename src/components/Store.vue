@@ -20,7 +20,7 @@
            <b-img src="./static/mctf-2019-preorder.jpg" fluid-grow/>
         </b-col>
         <b-col lg="4">
-           <b-img src="./static/mctf2019_kids_t-shirt.png" fluid-grow/>
+           <b-img src="./static/mctf2019-kids-t-shirt.png" fluid-grow/>
         </b-col>
       </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
