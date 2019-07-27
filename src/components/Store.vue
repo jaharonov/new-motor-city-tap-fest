@@ -12,6 +12,17 @@
       <b-row class="text-justify">
            <p>Online exclusive pre-order! Purchase before August 3rd.</p>
       </b-row>
+      <b-row class="p-3 pt-5">
+        <b-col lg="4">
+            <b-img src="./static/mctf2019_t-shirt-design.png" fluid-grow/>
+        </b-col>  
+        <b-col lg="4">
+           <b-img src="./static/mctf-2019-preorder.jpg" fluid-grow/>
+        </b-col>
+        <b-col lg="4">
+           <b-img src="./static/mctf2019_kids_t-shirt.png" fluid-grow/>
+        </b-col>
+      </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
       <b-row class="pt-5">
         <div id='collection-component-54848e827a9'></div>
@@ -75,7 +86,8 @@
       "variantTitle": false,
       "description": false,
       "buttonWithQuantity": false,
-      "quantity": false
+      "quantity": false,
+      "img": false,
     },
     "styles": {
       "product": {

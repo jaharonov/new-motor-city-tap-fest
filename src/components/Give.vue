@@ -125,7 +125,8 @@ const items = [
       "variantTitle": false,
       "description": false,
       "buttonWithQuantity": false,
-      "quantity": false
+      "quantity": false,
+      
     },
     "styles": {
       "product": {
