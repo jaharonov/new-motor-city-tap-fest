@@ -82,6 +82,7 @@
           <!-- <div id='product-component-b49577ad243'></div> -->
           <!-- <div id='product-component-50f75dd9f31'></div> -->
           <!-- </b-col> -->
+          <a href="https://millerandbentapshoes.com" target="_blank"><b-img class="pt-5" src='./static/miller_ben.png' fluid-grow/></a>
       </div> 
       </b-col> 
         
@@ -91,6 +92,7 @@
         <b-col sm="4"><div id='product-component-b49577ad243'></div></b-col>
         <b-col sm="4"></b-col>
       </b-row>
+      
       <b-row p-5></b-row>
         <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
       
@@ -109,11 +111,6 @@
         <p><strong>MCTF is a 501c3 non-profit organization and all donations are tax deductible.</strong></p>
         <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
 donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
-        <b-row>
-          <b-col lg="4"></b-col>
-          <b-col lg="4"><a href="https://millerandbentapshoes.com" target="_blank"><b-img src='./static/miller_ben.png' fluid-grow/></a></b-col>
-          <b-col lg="4"></b-col>
-        </b-row>
         </b-container>
   </b-container>
 </template>
