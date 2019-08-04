@@ -10,7 +10,7 @@
           <h2>T-Shirt Preorder</h2><br/>
       </b-row>
       <b-row class="text-justify">
-           <p>Online exclusive pre-order! Purchase before August 3rd.</p>
+           <p>Preorders have ended for t-shirts. Please purchase at Motor City Tap Fest!</p>
       </b-row>
       <b-row class="p-3 pt-5">
         <b-col lg="4">
@@ -25,7 +25,7 @@
       </b-row>
         <!-- <div id='product-component-1543170251824'></div> -->
       <b-row class="pt-1">
-        <div id='collection-component-54848e827a9'></div>
+        <!-- <div id='collection-component-54848e827a9'></div> -->
         <!-- <div id="product"></div> -->
       </b-row>
       <b-row p-5></b-row>     
