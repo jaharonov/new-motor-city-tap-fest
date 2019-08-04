@@ -234,7 +234,7 @@
     <tr>
       <th scope="row">8:30am - 9:45am</th>
       <td>DeWitt Fleming <br/><strong>Intermediate</strong></td>
-      <td>Caleb Teicher <br/> <strong>Advanced</strong></td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Caleb Teicher <br/> <strong>Advanced</strong></td>
       <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons5'">CONSERVATORY</b-btn>
       <b-modal id="cons5">
@@ -318,7 +318,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">1:30pm - 2:45pm</th>
       <td><strong>*SOLD OUT!*</strong><br/>Vikas Arun<br/> <strong>Intermediate</strong> </td>
-      <td>Kelsey Rose Young<br/><strong>Advanced</strong> </td>
+      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Kelsey Rose Young<br/><strong>Advanced</strong> </td>
       <td rowspan="3" class="table-warning"><br/>MCTF Conservatory 2 <br/>1:30pm-6:00pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons8'">CONSERVATORY</b-btn>
       <b-modal id="cons8">
@@ -380,7 +380,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">4:30pm - 5:45pm</th>
       <td><strong>*SOLD OUT!* </strong><br/>Charles Renato<br/><strong>Intermediate</strong> </td>
-      <td>Shelby Kaufman<br/><strong>Advanced</strong> </td>
+      <td><strong>*SOLD OUT!*</strong><br/>Shelby Kaufman<br/><strong>Advanced</strong> </td>
       <td></td>
     </tr>
     <tr>
@@ -411,7 +411,7 @@ More fun stuff TBA! </p>
     <tr>
       <th scope="row">8:30am - 9:45am</th>
       <td>Sam Weber<br/><strong>Intermediate</strong></td>
-      <td><strong>*FEW SPOTS LEFT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong></td>
+      <td><strong>*SOLD OUT!*</strong><br/>Gregg Russell<br/> <strong>Advanced</strong></td>
       <td rowspan="4" class="table-success"><br/><br/>MCTF Conservatory 1 9:00am-1:30pm<br/><br/>
       <b-btn class="buttons" variant="success" v-b-modal="'cons10'">CONSERVATORY</b-btn>
       <b-modal id="cons10">
