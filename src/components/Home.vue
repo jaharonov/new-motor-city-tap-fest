@@ -10,92 +10,42 @@
         
         </b-col> -->
       </b-row>
-      <b-row class="justify-content-md-center">
-        <b-col md="12" lg="6" class="p-3">
-          <!-- <b-col class="p-5">
-          <b-button class="buttons" size="lg" variant="outline-success">
-            VIEW SCHEDULE + REGISTER!
-          </b-button>
-          </b-col> -->
-          <!-- <b-card rounded v-bind:src="'./static/mctf-2019.jpg'" left blank-color="#FFB5DA" alt="img" class="my-3" id="savedate">
-            <p class="card-text"></p>
-          </b-card> -->
-          
-          <b-card rounded center
-          img-src="./static/women-in-tap.png"
-          img-alt="Motor City Soles 2020"
-          img-top
-          tag="article"
-          border-variant="success"
-          class="mx-auto"
-          id="savedate">
-          <!-- <h4 class="card-text"><strong>August 7-10, 2019</strong></h4> -->
-          <!-- <p class="card-text" 
-          text-align="justify"
-          text-justify="inter-word">
-          Detroit, Michigan<br/>
-          </p> -->
-          <div>
-          
-  <!-- Using value -->
-  <b-btn class="buttons" variant="success" href="https://www.tapdancedetroit.org/#/tddpresents" target="_blank">REGISTER AND VIEW SCHEDULE!</b-btn>
-
-  <!-- the modal -->
-  <!-- <b-modal id="myModal">
-    Stay tuned for the 2019 MCTF schedule and registration!
-  </b-modal> -->
-          </div>
-        </b-card>
-        </b-col>
+      <b-row class="justify-content-center">
+        
         <b-col md="12" lg="6" class="p-3 pr-5">
           <b-img src="./static/mctf2020-save-the-date.png" fluid-grow/>
-        <!-- <b-col> -->
-
-          <!-- <iframe fluid-grow src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz" frameborder="0" allowfullscreen></iframe> -->
-        <!-- </b-col> -->
-        <!-- <b-col class="hometext my-3"> -->
+       
           <div class="pt-5">
-          <!-- <p><strong>4 DAYS OF MASTER CLASSES</strong><br/>
-          <small>with leading tap artists in the industry</small>
-          </p>
-          <p><strong>motor city soles</strong><br/>
-          <small>featuring the all-star faculty & special guest performers!</small>
-          </p>
-          <p><strong>participants showcase</strong><br/>
-          </p>
-          <p><strong>tap jam</strong><br/>
-          </p>
-          <p><strong>young choreographer's competition</strong><br/>
-          </p>
-          <p><strong>meet the faculty</strong><br/>
-          <small>meet the esteemed master teachers</small>
-          </p> -->
-          <!-- <br/>
-          <b-btn class="buttons" variant="success" v-bind:to="'schedreg'">VIEW SCHEDULE<br/> & REGISTER!</b-btn>
           
-          <a href="https://millerandbentapshoes.com" target="_blank"><b-img class="pt-5" src='./static/miller_ben.png' fluid-grow/></a> -->
       </div>
       </b-col> 
-        
-      </b-row>
-      <b-row class="pb-1 pl-5 pr-5 mx-auto justify-content-center">
-         <b-col sm="4"></b-col>
-        <b-col sm="4" class="pb-5"><div id='product-component-b49577ad243'></div></b-col>
-        <b-col sm="4"></b-col>
+      <b-col md="12" lg="6" class="p-3 pl-5 justify-content-center">
+      
         <b-embed type="iframe"
            aspect="16by9"
            class="mx-auto"
            src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz"
            allowfullscreen
   ></b-embed>
+  <div id='product-component-b49577ad243' class="pt-5 mx-auto"></div>
+        </b-col>
+        
+      </b-row>
+      <b-row class="pb-1 pl-5 pr-5 mx-auto justify-content-center">
+         <!-- <b-col sm="4"></b-col>
+        <b-col sm="4" class="pb-5"><div id='product-component-b49577ad243'></div></b-col>
+        <b-col sm="4"></b-col> -->
+        <!-- <b-embed type="iframe"
+           aspect="16by9"
+           class="mx-auto"
+           src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz"
+           allowfullscreen
+  ></b-embed> -->
       </b-row>
       
       <b-row p-5></b-row>
         <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
-      
-<!-- </div> -->
-<!-- <div id='product-component-1546634990047'></div> -->
-  <!-- </div>  -->
+
   <b-row>
 <b-col lg="3"></b-col>        
 <b-col class="mx-auto pt-5" v-for="image in images" :key="image.id">
