@@ -4,6 +4,18 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
+  <h1 class="pt-5"><strong>2020 SCHEDULE COMING SOON!</strong></h1>
+</b-row>
+<br/>
+<br/>
+<br/>
+<br/>
+</div>
+
+  <!-- <div class="hello">
+    <div class="m-5"> 
+</div>
+<b-row class="justify-content-md-center">
   <h2 class="pt-5"><strong>Package Deals!</strong></h2>
 </b-row>
 <b-row class="justify-content-md-center pl-3">
@@ -388,7 +400,6 @@ More fun stuff TBA! </p>
       <td>Charles Renato<br/><strong>Improv 101</strong> </td>
       <td>Ray Hesselink<br/><strong> Int/Adv REP</strong><br/> **Take all REP classes and perform in Motor City Soles!**</td>
       <td>Vikas Arun<br/><strong>Open Level</strong><br/>Bollywood<br/> </td>
-      <!-- <td>Shelby Kaufman<br/><strong>Adv Beg/Int</strong><br/>"Class & A Glass"<br/>Ages 21+ </td> -->
     </tr>
     <tr>
       <th scope="row">7:30pm</th>
@@ -743,7 +754,7 @@ More fun stuff TBA! </p>
     </ul>
   </b-card>
 </b-row>
-  </div> 
+  </div>  -->
   </b-container>
 </template>
 
