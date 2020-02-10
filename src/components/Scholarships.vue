@@ -5,7 +5,7 @@
         <b-container>
     <div>
       <b-row class="mx-auto">
-        <h1><strong>Scholarship Auditions will be held on 3/10/2019</strong></h1>
+        <h1><strong>Scholarship Auditions will be held on 2/29/2020, 3/1/2020, and 3/15/2020</strong></h1>
       </b-row>
     <b-row class="p-3 pt-5">
             <b-img class="p-2" center src="./static/scholarships1.jpg" fluid/>     
@@ -18,42 +18,73 @@
               <a v-bind:href="`mailto:info@motorcitytapfest.com`">email</a> us or call 917-687-4811.<br/>
             </p>
         </b-row>
-      <b-row class="mx-auto pt-3">
-        <h4>The auditions schedule is:</h4>
+            <b-row class="mx-auto pt-5">
+        <b-col cols="lg-6">
+        <h4>February 29, 2020</h4>
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>11am-12:15pm</strong> - Master class with Denise Caston or Jenefer Miller (12 and under will be with Jenefer), where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $30 fee. Please register
+<b-list-group-item><strong>5:00pm-6:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee.<br/>
+</b-list-group-item> 
+<b-list-group-item><strong>5:00pm-7:00pm</strong> - Auditions for all ages.</b-list-group-item>
+        </b-list-group>
+        </p>
+        <h4>March 1, 2020</h4>
+        <p class="text-justify">
+
+        <b-list-group>
+<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. <br/>
+</b-list-group-item> 
+<b-list-group-item><strong>12:00pm-3:00pm</strong> - Auditions for all ages.</b-list-group-item>
+        </b-list-group>
+        </p>
+        <h4>March 15, 2020</h4>
+        <p class="text-justify">
+
+        <b-list-group>
+<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. Please register
 for this class by clicking the "Add to Cart" button located below!<br/>
 </b-list-group-item> 
-<b-list-group-item><strong>12:30pm-2pm</strong> - Auditions for all ages.</b-list-group-item>
-<b-list-group-item><strong>2pm-4pm</strong> - Auditions for Conservatory only, which will include presenting a solo, improvising, and an interview. These dancers must bring a headshot and resume.</b-list-group-item>
+<b-list-group-item><strong>12:00pm-3:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
         </p>
         <p class="text-left">
           Auditions will be held at: <br/>
-          <strong>The Annex 
-          320 N Main St. 
-          Plymouth, MI 48170</strong>
+          <strong><a href="http://www.tapdancedetroit.org">Tap Dance Detroit</a><br/>
+          310 Livernois St.<br/> 
+          Ferndale, MI 48220</strong>
         </p>
-      </b-row>
-      <b-row class="mx-auto">
-      <b-col cols="lg-4"></b-col>
-      <b-col cols="lg-4">
-  <b-btn class="buttons" variant="success" v-b-modal="'myModal'">HOW TO<br/> PREPARE!</b-btn>
-</b-col>
-      <b-col cols="lg-4"></b-col>
-
+        
+        </b-col>
+        <!-- <b-col cols="lg-6"></b-col> -->
+  
   <!-- the modal -->
   <b-modal id="myModal">
-<h2> PREPARE FOR YOUR AUDITION</h2> 
-<p class="text-justify"><strong>Written Statement</strong> - In 500 words or less, tell us where you are studying, your career/dance goals, and how MCTF Conservatory or Future Tap Stars will benefit you.<br/>
-<strong>Resumé</strong> (Conservatory applicants only) - If you need guidance on this, let me know.<br/>
-<strong>Headshot and dance shot</strong> - The dance shot is optional.<br/>
-<strong>Letter of recommendation for applicants 17 and under</strong> - This should be a letter from one current teacher, describing technique and performance artistry, work ethic, stamina for demanding schedules, and class etiquette.<br/>
-<strong>Prepare a one-minute solo</strong> - This can be your own choreography, someone else's choreography, or a classic piece of choreography, anything that shows your style, technique, and performance quality.<br/>
-<strong>You will be asked to improvise</strong> - Be prepared to demonstrate your improv skills.</p>
+<div>
+<h2> WHAT TO PREPARE FOR YOUR AUDITION</h2> 
+  <b-list-group>
+    <b-list-group-item><strong>Written statement, 1000 words or less, detailing</strong>
+    <b-list-group>
+      <b-list-group-item class="sub">Who influences you as a performer and your artistic goals</b-list-group-item>
+      <b-list-group-item>Career aspirations and what you are doing to reach them</b-list-group-item>
+      <b-list-group-item class="sub">How you see MCTF Conservatory impacting you</b-list-group-item>
+    </b-list-group>
+  </b-list-group-item>
+    <b-list-group-item><strong>Resumé</strong></b-list-group-item>
+    <b-list-group-item><strong>Headshot</strong></b-list-group-item>
+    <b-list-group-item><strong>17 and under dancers need a recommendation letter. This should include</strong>
+      <b-list-group variant="info">
+        <b-list-group-item class="sub">Technical and artistic ability</b-list-group-item>
+        <b-list-group-item>Ability to participate in a rigorous schedule</b-list-group-item>
+        <b-list-group-item class="sub">Responsibility to arrive on time and prepared to rehearsals and performances</b-list-group-item>
+      </b-list-group>
+</b-list-group-item>
+    <b-list-group-item><strong>Scholarship applicants will submit a written statement (500 words or less) describing why financial aid is needed.</strong></b-list-group-item>
+  </b-list-group>
+  </div>
   </b-modal>
+      <b-col cols="lg-6" class="pr-5 pl-5">
+        <div id='collection-component-1581350837130' class="auditionDiv"></div></b-col>
 </b-row>
       <b-row class="mx-auto pb-2 justify-content-lg-center">
         <p class="text-center">If you can't see the registration form below, please click &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSf_uPZe0N-Gz5axRNgbatwubZLp1EWA4IyQ0ELBzFXGHQ1gBg/viewform?usp=sf_link" target="_blank">here</a>!</p>
@@ -66,15 +97,13 @@ for this class by clicking the "Add to Cart" button located below!<br/>
         </p>
       </b-row>
       <b-row class="mx-auto">
-        <b-col cols="lg-8">
+        
         <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_uPZe0N-Gz5axRNgbatwubZLp1EWA4IyQ0ELBzFXGHQ1gBg/viewform?embedded=true" class="embed-responsive-item" height="auto">Loading...</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct0-bMPvaGv-KbZVz1GHZDtWNGLBplzXFWv-aqsFE-_qTDHw/viewform?embedded=true" class="embed-responsive-item" height="auto">Loading…</iframe>
                     </div>
-        </b-col>
-        <b-col cols="lg-4" class="pt-5 text-justify">
+        
         <!-- <div><p>Master class with Denise Caston or Jenefer Miller (12 and under will be with Jenefer), where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions.</p></div> -->
-        <div id='product-component-d4167fe645e' class="pt-2"></div>
-        </b-col>
+        
       </b-row>
 </div>
   </b-container>
@@ -119,12 +148,7 @@ for this class by clicking the "Add to Cart" button located below!<br/>
 </template>
 <script type="javascript">
 
-export default {
-  name: 'hello',
-  nameinfo: 'Email',
-  emailinfo: 'info@motorcitytapfest.com',
-  namescho: 'scholarships@motorcitytapfest.com',
-  emailscho: 'scholarships@motorcitytapfest.com',
+  export default {
   data () {
     return {
       items: items,
@@ -157,14 +181,14 @@ export default {
 
       function ShopifyBuyInit() {
         var client = ShopifyBuy.buildClient({
-          domain: 'overtaps.myshopify.com',
-          storefrontAccessToken: '244fc4d27a412190862e1ff0232cb6d0',
+          domain: 'motor-city-tap-fest.myshopify.com',
+      storefrontAccessToken: '117fccd80a775a170fd38575ce898f1c',
         });
 
         ShopifyBuy.UI.onReady(client).then(function (ui) {
-          ui.createComponent('product', {
-            id: [2088415723631],
-            node: document.getElementById('product-component-d4167fe645e'),
+          ui.createComponent('collection', {
+        id: '167239614508',
+        node: document.getElementById('collection-component-1581350837130'),
             moneyFormat: '%24%7B%7Bamount%7D%7D',
             options: {
   "product": {
@@ -173,16 +197,18 @@ export default {
     "contents": {
       "imgWithCarousel": false,
       "variantTitle": false,
-      "description": false,
+      "description": true,
       "buttonWithQuantity": false,
-      "quantity": false
+      "quantity": false,
+      "img": false
     },
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
           "max-width": "100%",
           "margin-left": "0",
-          "margin-bottom": "50px"
+          "margin-bottom": "50px",
+          "max-height": "200px"
         }
       },
       "button": {
@@ -379,23 +405,11 @@ export default {
 }
 </script>
 
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped>
+.sub {
+  background-color: peru;
+}
 
-// export default {
-//   name: 'hello',
-//   data () {
-//     return {
-//       nameinfo: 'Email',
-//       emailinfo: 'info@motorcitytapfest.com',
-//       namescho: 'scholarships@motorcitytapfest.com',
-//       emailscho: 'scholarships@motorcitytapfest.com'
-//     }
-//   }
-// }
 
-<style>
-    .past {
-        height: 325px;
-        width: auto;
-        overflow: hidden;
-    }
 </style>

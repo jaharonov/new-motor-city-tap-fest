@@ -2,7 +2,7 @@
   <div class="app">
     <div>
       <b-row class="mx-auto pt-5">
-        <h1><strong>Auditions will be held 2/29/2020, 3/1/2020, and 3/15/2020</strong></h1>
+        <h1><strong>Auditions for MCTF Conservatory, Future Tap Stars, and Scholarships will be held 2/29/2020, 3/1/2020, and 3/15/2020</strong></h1>
       </b-row>
       <b-row class="mx-auto pt-5">
         <b-col cols="lg-6">
@@ -10,8 +10,7 @@
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>5:00pm-6:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. Please register
-for this class by clicking the "Add to Cart" button located below!<br/>
+<b-list-group-item><strong>5:00pm-6:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee.<br/>
 </b-list-group-item> 
 <b-list-group-item><strong>5:00pm-7:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
@@ -20,8 +19,7 @@ for this class by clicking the "Add to Cart" button located below!<br/>
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. Please register
-for this class by clicking the "Add to Cart" button located below!<br/>
+<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. <br/>
 </b-list-group-item> 
 <b-list-group-item><strong>12:00pm-3:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
