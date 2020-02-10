@@ -1,47 +1,3 @@
-<template>
-  <!-- <div class="hello"> -->
-    <!-- <div class="m-5"> -->
-      <b-container class="p-2">
-          <div id="faculty">
-      <b-row class="pt-5">
-          <h1><strong>2020 Confirmed Faculty</strong></h1>
-          
-      </b-row>
-      <b-row>
-          <p>Click on a faculty member to view their bio.</p>
-      </b-row>
-      <b-row>
-      <b-col lg="3" class="p-3" v-for="image in images" :key="image.id">
-       
-  <!-- Using modifiers -->
-  <b-img class="fac" v-b-modal="image.name" :src="image.src" :alt="image.alt" fluid/>
-  <!-- Using value -->
-
-  <!-- the modal -->
-  <b-modal :id="image.name">
-    <b-img :src="image.src" fluid />
-    <span class="text-justify m-5" v-html="image.bio"></span>
-    <!-- <span v-html="image.bio2"></span>
-    <span v-html="image.bio3"></span>
-    <span v-html="image.bio4"></span> -->
-    <!-- <p class="text-justify">{{image.bio1}}</p>
-    <p class="text-justify">{{image.bio2}}</p>
-    <p class="text-justify">{{image.bio3}}</p>
-    <p class="text-justify">{{image.bio4}}</p> -->
-  </b-modal>
-    <strong>{{image.name}}</strong>
-    </b-col>    
-    </b-row>
-      <b-row p-5></b-row>
-        </div>
-  </b-container>
-</template>
-<style>
-.fac {
-  height: 275px;
-  width: auto;
-}
-</style>
 <script>
 export default {
   name: '',
@@ -63,6 +19,52 @@ export default {
           (<a href="http://www.tapintothenetwork.com" target="_blank">www.tapintothenetwork.com</a>), directing his tap company Tap Sounds Underground into their 16th season, 
           and choreographing for the Industry Dance Awards in Los Angeles.</p>`
         },
+        // { name: 'Caleb Teicher',
+        //   id: 'caleb_teicher',
+        //   src: './static/faculty_caleb-teicher.jpg',
+        //   alt: 'Photo of Caleb Teicher',
+        //   bio: `
+        //         <p>Caleb Teicher began his dance career as a founding member of Michelle Dorrance’s celebrated company, DorranceDance, in 2011. 
+        //             He was awarded a 2011 Bessie Award for Outstanding Individual Performance for Michelle Dorrance and Dormeshia Sumbry-Edwards’
+        //             A Shared Evening at Danspace Project. Other performance credits include The Bang Group, The Chase Brock Experience, Syncopated 
+        //             City Dance Company, Sally Silvers & Dancers, iLuminate, West Side Story (Int’l Tour and London), and Irma La Douce (City Center Encores).</p>
+        //             <p>As the artistic director of Caleb Teicher & Company, Caleb has presented his new dance works through The Joyce Theater, Works
+        //             & Process at Guggenheim Bilbao, The Yard on Martha's Vineyard, Jacob's Pillow Dance Festival Inside/Out Series, Queens College,
+        //             LaMaMa E.T.C., Jersey Tap Festival, The 92nd Street Y, Gibney Dance, Paris Jazz Roots Dance Festival, and many others.</p>
+        //             <p> Teicher was named one of Dance Magazine’s 2012 “25 to Watch” and, recently, the winner of Dance Magazine’s “Best Emerging
+        //             Choreographer” in the 2016 Readers’ Choice Awards. He has been featured in Vogue, Interview Magazine, Dance Magazine, and
+        //             Dance Spirit Magazine.</p>
+        //             <p> Caleb has been a faculty member at Steps on Broadway and Broadway Dance Center in NYC and continues to teach guest workshops
+        //             at various schools and festivals throughout the US and abroad. He is a proud alum of the National YoungArts Foundation and
+        //             The School at Jacob's Pillow. <a href="http://www.calebteicher.com" target="_blank">www.CalebTeicher.net</a> / @CalebTeicher</p>
+        //             <iframe src="https://www.youtube.com/embed/RnqWGe1jBwQ" frameborder="0" allow="autoplay; encrypted-media"
+        //             allowfullscreen></iframe>
+        //     </div>`
+        // },
+        // { name: 'Maud Arnold',
+        //   id: 'maud_arnold',
+        //   src: './static/faculty_maud-arnold.jpg',
+        //   alt: 'Photo of Maud Arnold',
+        //   bio: `
+        //         <p>Known as one of “Tap’s Leading Ladies” and cover girl for Dance Spirit magazine’s Tap issue, Maud Arnold is a member of Syncopated Ladies and performed in their sold-out full-length concerts in NYC, Los Angeles, DC, Vancouver, and Dubai. 
+        //         Maud most recently was seen performing with Pharrell Williams and N.E.R.D on The Ellen Show and appeared on ABC's Good Morning America and at Essence Fest in New Orleans after Syncopated Ladies' video covering Beyoncé’s Formation, went viral. 
+        //         Beyoncé shared the video on all of her social media and then hired the Syncopated Ladies to perform at her Ivy Park active wear clothing line launch at TopShop, London.</p>
+        //         <p>Maud has quickly become a sought after teacher, judge and performer worldwide. Mentored and trained by Debbie Allen, Maud has taught at Debbie Allen Dance Academy 
+        //         in Los Angeles and Allen’s Dance Institute in Texas. 
+        //         Further to teaching in the USA, Maud has taught tap dancing and Afro-Funk in Dubai, Brazil, Japan, Spain, United Kingdom, Croatia, Ukraine and Russia.</p>
+        //         <p>Maud’s other Television Credits Include: <i>BET Experience: 106 and Park</i>, <i>The Late Late Show With James Corden</i>, HBO’s <i>Boardwalk Empire</i>, <i>Switched at Birth</i>, 
+        //         <i>Secret Talents of the Stars</i> as a featured dancer with Mya, <i>The Today Show</i> and Syncopated Ladies winning Season 11 of FOX’s <i>So You Think You Can Dance: Dance 
+        //         Crew Battle</i>. Maud can be seen in national commercials and print ads for Toyota, GAP and CANTU and has worked with Beyoncé on several commercials and music videos.</p>
+        //         <p>Maud is the co-director and producer of the critically acclaimed DC Tap Festival, pioneering new experiences for dancers and artists worldwide and with her sister Chloé 
+        //         Arnold they were recognized by the US House of Representatives as arts preservers and ambassadors.</p>
+        //         <p>Maud is also a female entrepreneur that holds a degree from Columbia University. Further to teaching, she oversees Chloe and Maud Productions and their many entities including their clothing lines: 
+        //         I LOVE TAP and UniLove as well as their tap dance workshops and after school programs.</p>
+        //         <p>Maud exudes her passion for tap dancing with her high energy, fun and action-packed dancing.</p>
+        //         <p>For more information: <a href="https://www.maudarnold.com/" target="_blank">www.maudarnold.net</a>.</p>
+        //             <iframe src="https://www.youtube.com/embed/defiAaVw8Jw" frameborder="0" allow="autoplay; encrypted-media"
+        //             allowfullscreen></iframe>
+        //     </div>`
+        // },
         { name: 'Sam Weber',
           id: 'sam_weber',
           src: './static/faculty_sam-weber.jpg',
@@ -113,6 +115,20 @@ export default {
           <iframe src="https://www.youtube.com/embed/gzYR667hQ2Q" frameborder="0" allow="autoplay; encrypted-media"
           allowfullscreen></iframe>`
         },
+        // { name: 'Randy Skinner',
+        //   id: 'randy_skinner',
+        //   src: './static/faculty_randy-skinner.jpg',
+        //   alt: 'Photo of Randy Skinner',
+        //   bio: `<p>Broadway shows include: 42nd Street (Tony, Drama Desk, Outer Critics, Astaire nominations), Dames At Sea (Tony, Drama Desk, 
+        //   Outer Critics, Astaire nominations), Irving Berlin’s White Christmas (Tony, Drama Desk nominations), Ain’t Broadway Grand (Tony, Outer 
+        //   Critics nominations), State Fair (Outer Critics nomination), After The Night And The Music. NY City Center Encores: Do Re Mi, Of Thee 
+        //   I Sing, Face The Music, No No Nanette, Gentlemen Prefer Blondes, On Your Toes, Lady Be Good. Off Broadway: Lone Star Love (Lucille Lortel 
+        //   nomination). West End: Lend Me A Tenor The Musical, Irving Berlin's White Christmas. Los Angeles: Garry Marshall’s Happy Days, Hello, Dolly! 
+        //   (with Nell Carter), Pal Joey (with Dixie Carter and Elaine Stritch), Strike Up The Band (with Tom Bosley). Lincoln Center/PBS concert of Show 
+        //   Boat with the NY Philharmonic Orchestra. He has received the LA Drama Critics, LA Drama-logue, Bay Area Theatre Critics, Connecticut Critics 
+        //   Circle, and Cleveland Times Theatre Awards. 
+        //   </p>`
+        // },
         { name: 'Jenefer Miller',
           id: 'jenefer_miller',
           src: './static/faculty_jenefer-miller.jpg',
@@ -188,6 +204,77 @@ export default {
           understand.  Suzy teaches in Phoenix at Bender Performing Arts and does tap choreography for their company, 
           Dance Motion. </p>`
         },
+        // { name: 'Charles Renato',
+        //   id: 'charles_renato',
+        //   src: './static/faculty_charles-renato.jpg',
+        //   alt: 'Photo of Charles Renato',
+        //   bio: `<p>Charles Renato was born and raised in Sao Paulo, Brazil. 
+        //   He began tap dancing at the age of 6 years old at CBS located in
+        //   Sao Jose dos Campos. At 14 he began teaching tap dance that lead to him win 
+        //   awards all over Brazil. He has won awards for
+        //   Best Dancer at the Joinville Dance Festival and the TV Globo challenge show 
+        //   (2009 & 2010).</p>
+        //   <p>In 2008 Charles joined the cast of "Sinatra Blue Eyes" the musical in Lisbon, 
+        //   Portugal. Renato was also a member of the "KS
+        //   Tap Company" which is responsible for bringing together highly 
+        //   sought after teachers from all over Brazil to perform. Charles
+        //   spends his free time giving workshops and choreographing for many 
+        //   tap companies through out Brazil and America. He was invited
+        //   to teach at the LA Tap Fest, DC Tap Fest, Tap City in NY, Chicago 
+        //   Human Rhythm Project, North Carolina Tap Festival, Portland
+        //   Tap Festival and many others.</p>
+        //   <p>Charles Renato was invited to produce and create a section in 
+        //   one of the most prestigious event in Brazil called Carnaval.
+        //   Since then he has been nominated for best choreographer of Desterro 
+        //   festival and Festidança in Brazil that has lead up to
+        //   him teaching in America. Most recently he moved to NYC and has been 
+        //   working with Apt 33 directed by Chloe Arnold and performed
+        //   with Michelle Dorrance and Dorrance Dance.</p>
+        //   <p>Renato has also recently been directing the Metropolitan Youth 
+        //   Tap Ensemble (MYTE), and teaching at Metropolitan School of
+        //   Arts in Virginia. He also directed Apt 33’s new video “I’m not afraid” 
+        //   choreographed by Chloe Arnold. Since he moved to NYC
+        //   he has been teaching at Broadway Dance Center and Steps On Broadway. 
+        //   At the moment Charles is Artist Resident at American
+        //   Tap Dance Foundation and he is creating his first project to be
+        //   premiere in NY this summer. Check more info on <a href="http://www.charlesrenato.com" target="_blank">www.charlesrenato.com</a></p>`
+        // },
+        // { name: 'Vikas Arun',
+        //   id: 'vikas_arun',
+        //   src: './static/faculty_vikas-arun.jpg',
+        //   alt: 'Photo of Vikas Arun',
+        //   bio: `<p>Vikas is a dancer/choreographer from Seattle where he was a founding member of the Alchemy Tap Project under Josh Scribner.
+        //         After being featured in Dance Magazine at age 16, he decided to move to New York City. His performance credits include TV
+        //         shows such as So You Think You Can Dance, movies such as Breaking Brooklyn, musicals such as 42nd Street, sold out crowds
+        //         at Lincoln Center, and private performances for esteemed guests such as John Legend. He currently tours with Mystic India:
+        //         The World Tour, which has been seen by over half a million people. He dances for Chloe Arnold’s Apartment 33, Cat Cogliandro’s
+        //         CATastrophe!, and is proud to be the first South Asian ambassador for Capezio. You can catch him teaching this season at
+        //         Broadway Dance Center, Tap Dance Festival UK, Portland Tap Festival, Motor City Tap Festival, Desi Dance Convention, and
+        //         many more. For more info visit:
+        //         <a href="http://www.vikasarun.com"
+        //         target="_blank">www.vikasarun.com</a></p>`
+        // },
+        // { name: 'Shelby Kaufman',
+        //   id: 'shelby_kaufman',
+        //   src: './static/faculty_shelby-kaufman.jpg',
+        //   alt: 'Photo of Shelby Kaufman',
+        //   bio: `<p><i>"Shelby's choreography is fabulous and she's a triple threat in the theatre.
+        //   She is a thinker and she can write. She can write her own plays, her own musicals, her own 
+        //   everything... She's a wonderful storyteller and I'm sure she's gonna write a whole bunch of 
+        //   stuff that's gonna merit as well as her dancing."<br>
+        //   Dr. Harold 'Stumpy' Cromer</i></p>
+        //   <p>Shelby Kaufman, originally from Michigan, has been trained in a variety of dance styles since the age of 5. After moving to New York, she began dancing as a member of the legendary Brenda Bufalino's 'New' 
+        //   American Tap Dance Orchestra, and world-renowned tap teacher Germaine Salsberg's company 'Les Femmes'. She has assisted and frequently guest taught for Salsberg at Broadway Dance Center, The American Tap 
+        //   Dance Foundation, LIU Brooklyn, and CAP 21, and has been on faculty of Steps on Broadway, Motor City Tap Fest, and Peridance Capezio Center as well. Shelby founded and currently runs two companies of her own; 
+        //   'Mazel Toes,' comprised of professional Jewish hoofers in New York, and the Great Lakes Youth Dance Ensemble (GLYDE), based in Michigan. She acts as the Artistic Director and Choreographer for both companies.</p>
+        //   <p>Off Broadway, Shelby assisted Gail Pennington Crutchfield on the choreography of 'Freckleface the Musical', and acted as the SDC observer for three-time Emmy nominated choreographer Mandy Moore on 
+        //   'Nobody Loves You' at Second Stage Theatre. She also frequently assisted the late tap legend Dr. Harold 'Stumpy' Cromer both in choreography and master classes, has become Chloe Arnold's dance captain for 
+        //   a number of projects on the East Coast, and was the assistant to NBC SMASH's Emmy Award winning choreographer, Joshua Bergasse, for his musical theatre choreography showcase at City Center Studios. Additionally, 
+        //   Shelby's choreography has been featured multiple times in 
+        //   the annual Tap City 'Main Event,' New York City 'Tap Extravaganza,' and Motor City 'Motor City Soles,' as well as 'Tappy Holidays,' 'Band of Gypsies' and the first 'Young Choreographer's Festival.' </p>
+        //   <p>Shelby has made television appearances tapping on both Sesame Street and The Steve Harvey Show. Other notable venues include the Apollo Theatre, Lincoln Center, Jacob's Pillow, Symphony Space, The George 
+        //   Street Playhouse, The Duke Ellington Theatre, and Detroit Orchestra Hall.</p>`
+        // },
         { name: 'Karissa Royster',
           id: 'vikas_arun',
           src: './static/faculty_karissa-royster.jpg',
