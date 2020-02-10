@@ -24,7 +24,7 @@
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>5:00pm-6:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee.<br/>
+<b-list-group-item><strong>5:00pm-6:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions, but is highly recommended. This class has a $25 fee.<br/>
 </b-list-group-item> 
 <b-list-group-item><strong>5:00pm-7:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
@@ -33,7 +33,7 @@
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. <br/>
+<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions, but is highly recommended. This class has a $25 fee. <br/>
 </b-list-group-item> 
 <b-list-group-item><strong>12:00pm-3:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
@@ -42,8 +42,7 @@
         <p class="text-justify">
 
         <b-list-group>
-<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions. This class has a $25 fee. Please register
-for this class by clicking the "Add to Cart" button located below!<br/>
+<b-list-group-item><strong>12:00pm-1:00pm</strong> - Master class where dancers learn the combinations for the audition. This class is <strong>NOT</strong> required for auditions, but is highly recommended. This class has a $25 fee.<br/>
 </b-list-group-item> 
 <b-list-group-item><strong>12:00pm-3:00pm</strong> - Auditions for all ages.</b-list-group-item>
         </b-list-group>
