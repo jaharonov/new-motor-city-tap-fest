@@ -44,7 +44,7 @@
       </b-row>
       
       <b-row p-5></b-row>
-        <h2 class="pt-5"><strong>thank you to our 2019 sponsors!</strong></h2>
+        <h2 class="pt-5"><strong>thank you to our 2020 sponsors!</strong></h2>
 
   <b-row>
 <b-col lg="3"></b-col>        
@@ -55,31 +55,22 @@
   
         </b-row>
         <b-container class="pt-3 pb-5">
-        <p><strong>MCTF is a 501c3 non-profit organization and all donations are tax deductible.</strong></p>
-        <p><strong><small>The Mary Rakolta Tap Dancing Scholarship
-donated by Linda Rakolta in memory of Mary Rakolta</small></strong></p>
+
+        <p><strong>The Mary Rakolta Tap Dancing Scholarship
+donated by Linda Rakolta in memory of Mary Rakolta</strong></p>
+        <p><strong><small>Leslie Gage | Heidi Schultz | Tim Zdybek | Katy Pasko | Jillian DuHadway | Kymm Loch | Paul Manoian | Dorrie Milan | Nancy Kaufman | Mary Kay Watson | Sam Yee</small></strong></p>
         </b-container>
   </b-container>
 </template>
 
-<script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App',
-      images: [
-        { id: '', src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
-        { id: 'omara', src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
-      ]
-    }
-  }
-}
-</script> 
 <script type="javascript">
   export default {
   data () {
     return {
+      // images: [
+      //   { id: 'energy', src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
+      //   { id: 'omara', src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
+      // ],
       loading: false,
       post: null,
       error: null
