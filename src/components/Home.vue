@@ -56,8 +56,11 @@
         </b-row>
         <b-container class="pt-3 pb-5">
 
+        <h4><strong>PATRON</strong></h4>
         <p><strong>The Mary Rakolta Tap Dancing Scholarship
 donated by Linda Rakolta in memory of Mary Rakolta</strong></p>
+<hr/>
+       <p pt-5><strong>DONORS</strong></p>
         <p><strong><small>Leslie Gage | Heidi Schultz | Tim Zdybek | Katy Pasko | Jillian DuHadway | Kymm Loch | Paul Manoian | Dorrie Milan | Nancy Kaufman | Mary Kay Watson | Sam Yee</small></strong></p>
         </b-container>
   </b-container>
