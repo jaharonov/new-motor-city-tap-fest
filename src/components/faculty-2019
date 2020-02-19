@@ -90,7 +90,7 @@ export default {
           Ray is on Faculty at Juilliard, Broadway Dance Center and STEPS on Broadway in NYC. He also coaches actors privately. 
           Ray holds a B.A. from the School of Theater at UCLA.</p>`
         },
-        { name: 'Dewitt Fleming',
+        { name: 'Dewitt Fleming Jr',
           id: 'dewitt_fleming',
           src: './static/faculty_dewitt-fleming.jpg',
           alt: 'Photo of Dewitt Fleming',

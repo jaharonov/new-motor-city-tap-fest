@@ -49,6 +49,39 @@ export default {
     return {
       images: [
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
+        { name: 'Dormeshia',
+          id: 'dormeshia',
+          src: './static/faculty_dormeshia.png',
+          alt: 'Photo of Dormeshia',
+          bio: `<p>Dormeshia’s career includes acclaimed runs on Broadway and off-Broadway in shows such as <i>Black and Blue</i>, the Tony Award Winning <i>Bring In
+Da’Noise, Bring In Da’Funk</i>, International Tour of <i>Bring in Da’Noise, Bring in Da’Funk</i> (dance captain/principal dancer/understudy to the lead role), and
+<i>Imagine Tap!</i> (featured
+soloist). Other
+performances include the national tour of <i>Wild
+Woman Blues</i> and Debbie Allen’s <i>SAMMY</i> (the
+life and times of Sammy Davis Jr.). Film credits
+include <i>TAP</i> with Gregory Hines, Spike Lee's
+<i>Bamboozled</i> (Assistant Choreographer), and
+<i>The Rodgers and Hart Story: Thou Swell, Thou
+Witty</i>. Choreography credits include Michael
+Jackson's music video <i>Rock My World</i>, <i>Apollo
+Club Harlem</i> (tap choreography) and the
+<i>Sophisticated Ladies</i> which is featured weekly 
+at the world famous Cotton
+Club in NYC.</p><p> She was spotlighted in a commercial for Tops and featured on MTV’s hit television series <i>MADE</i>. Most recently Dormeshia debuted her new
+project And <i>Still You Must
+Swing</i> at Jacobs Pillow for a
+successful 1-week sold out
+run along with co-creators
+Jason Samuels Smith, Derick
+K. Grant, Camille A. Brown
+and Musical Director Allison Miller. Excerpts from the project has also
+been performed in LA and Vancouver with other dates coming up. She
+was also featured at the Freedom Sounds Festival launching the first
+Smithsonian African-American Museum in the US this year. Dormeshia
+has been and continues to be revered as one of the most dynamic
+performers in the industry today.</p>`
+        },
         { name: 'Gregg Russell',
           id: 'gregg_russell',
           src: './static/faculty_gregg-russell.jpg',
@@ -194,6 +227,27 @@ export default {
           alt: 'Photo of Vikas Arun',
           bio: `<p>Karissa Royster began studying tap dancing when she joined RPM Tap Ensemble under the direction of Barbara Phillips in 2006. Originally from San Antonio, Karissa is a graduate of NYU, where she received her Bachelor of Arts degree in History and was a Jackie Robinson Foundation scholar. While studying in New York, Karissa had the opportunity to dance with renowned artists in the field, such as Princess Grace Award recipient Dormeshia Sumbry-Edwards, Emmy Award-winner Jason Samuels-Smith, Marshall Davis, Jr. and Derick Grant of Broadway’s <i>Bring in ‘Da Noise, Bring in ‘Da Funk</i>, and Sarah Savelli, founder of <i>Rhythm ISS…</i> and <i>Dig Tap Society</i>. In December 2015, she appeared in Savion Glover’s East Coast tour of <i>Dance Holiday SPeCTaCULaR</i>.</p>
           <p>In April 2016, she made her Broadway debut as the Dance Captain and as a member of the dance ensemble in <p>Shuffle Along, or, the Making of the Musical Sensation of 1921 & All That Followed</i>, choreographed by Savion Glover and directed by George C. Wolfe. Karissa performed at the 70th Annual Tony Awards with the company of <i>Shuffle Along</i>, nominated for Best Musical and Best Choreography, as well as on ABC’s broadcast of <i>Taking the Stage: Changing America</i>, in which she had the honor of performing with Savion Glover and fellow cast members for President Barack Obama and First Lady Michelle Obama. She is passionate about preserving and sharing the beautiful tradition of tap dance as well as exploring its roots in American history and vernacular music.</p>`
+        },
+        { name: 'Shelby Kaufman',
+          id: 'shelby_kaufman',
+          src: './static/faculty_shelby-kaufman.jpg',
+          alt: 'Photo of Shelby Kaufman',
+          bio: `<p><i>"Shelby's choreography is fabulous and she's a triple threat in the theatre.
+          She is a thinker and she can write. She can write her own plays, her own musicals, her own 
+          everything... She's a wonderful storyteller and I'm sure she's gonna write a whole bunch of 
+          stuff that's gonna merit as well as her dancing."<br>
+          Dr. Harold 'Stumpy' Cromer</i></p>
+          <p>Shelby Kaufman, originally from Michigan, has been trained in a variety of dance styles since the age of 5. After moving to New York, she began dancing as a member of the legendary Brenda Bufalino's 'New' 
+          American Tap Dance Orchestra, and world-renowned tap teacher Germaine Salsberg's company 'Les Femmes'. She has assisted and frequently guest taught for Salsberg at Broadway Dance Center, The American Tap 
+          Dance Foundation, LIU Brooklyn, and CAP 21, and has been on faculty of Steps on Broadway, Motor City Tap Fest, and Peridance Capezio Center as well. Shelby founded and currently runs two companies of her own; 
+          'Mazel Toes,' comprised of professional Jewish hoofers in New York, and the Great Lakes Youth Dance Ensemble (GLYDE), based in Michigan. She acts as the Artistic Director and Choreographer for both companies.</p>
+          <p>Off Broadway, Shelby assisted Gail Pennington Crutchfield on the choreography of 'Freckleface the Musical', and acted as the SDC observer for three-time Emmy nominated choreographer Mandy Moore on 
+          'Nobody Loves You' at Second Stage Theatre. She also frequently assisted the late tap legend Dr. Harold 'Stumpy' Cromer both in choreography and master classes, has become Chloe Arnold's dance captain for 
+          a number of projects on the East Coast, and was the assistant to NBC SMASH's Emmy Award winning choreographer, Joshua Bergasse, for his musical theatre choreography showcase at City Center Studios. Additionally, 
+          Shelby's choreography has been featured multiple times in 
+          the annual Tap City 'Main Event,' New York City 'Tap Extravaganza,' and Motor City 'Motor City Soles,' as well as 'Tappy Holidays,' 'Band of Gypsies' and the first 'Young Choreographer's Festival.' </p>
+          <p>Shelby has made television appearances tapping on both Sesame Street and The Steve Harvey Show. Other notable venues include the Apollo Theatre, Lincoln Center, Jacob's Pillow, Symphony Space, The George 
+          Street Playhouse, The Duke Ellington Theatre, and Detroit Orchestra Hall.</p>`
         },
         { name: 'Denise Caston',
           id: 'denise_caston',
