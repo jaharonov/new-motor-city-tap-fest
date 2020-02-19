@@ -19,8 +19,8 @@
 
   <!-- the modal -->
   <b-modal :id="image.name">
-    <b-img :src="image.src" fluid />
-    <span class="text-justify m-5" v-html="image.bio"></span>
+    <b-img :src="image.src" fluid class="p-3"/>
+    <span class="text-justify mx-auto" v-html="image.bio"></span>
     <!-- <span v-html="image.bio2"></span>
     <span v-html="image.bio3"></span>
     <span v-html="image.bio4"></span> -->
@@ -51,7 +51,7 @@ export default {
         // { src: './static/Old-Main-WSU.jpg', alt: 'Old Main building Wayne State University' },
         { name: 'Dormeshia',
           id: 'dormeshia',
-          src: './static/faculty_dormeshia.png',
+          src: './static/faculty_dormeshia.jpg',
           alt: 'Photo of Dormeshia',
           bio: `<p>Dormeshia’s career includes acclaimed runs on Broadway and off-Broadway in shows such as <i>Black and Blue</i>, the Tony Award Winning <i>Bring In
 Da’Noise, Bring In Da’Funk</i>, International Tour of <i>Bring in Da’Noise, Bring in Da’Funk</i> (dance captain/principal dancer/understudy to the lead role), and
