@@ -44,33 +44,36 @@
         <!-- <b-col cols="lg-6"></b-col> -->
   
   <!-- the modal -->
-  <b-modal id="myModal">
-<div>
-<h2> WHAT TO PREPARE FOR YOUR AUDITION</h2> 
-  <b-list-group>
-    <b-list-group-item><strong>Written statement, 1000 words or less, detailing</strong>
-    <b-list-group>
-      <b-list-group-item class="sub">Who influences you as a performer and your artistic goals</b-list-group-item>
-      <b-list-group-item>Career aspirations and what you are doing to reach them</b-list-group-item>
-      <b-list-group-item class="sub">How you see MCTF Conservatory impacting you</b-list-group-item>
-    </b-list-group>
-  </b-list-group-item>
-    <b-list-group-item><strong>Resumé</strong></b-list-group-item>
-    <b-list-group-item><strong>Headshot</strong></b-list-group-item>
-    <b-list-group-item><strong>17 and under dancers need a recommendation letter. This should include</strong>
-      <b-list-group variant="info">
-        <b-list-group-item class="sub">Technical and artistic ability</b-list-group-item>
-        <b-list-group-item>Ability to participate in a rigorous schedule</b-list-group-item>
-        <b-list-group-item class="sub">Responsibility to arrive on time and prepared to rehearsals and performances</b-list-group-item>
-      </b-list-group>
-</b-list-group-item>
-    <b-list-group-item><strong>Scholarship applicants will submit a written statement (500 words or less) describing why financial aid is needed.</strong></b-list-group-item>
-  </b-list-group>
-  </div>
-  </b-modal>
+  
+ 
       <b-col cols="lg-6" class="pr-5 pl-5">
         <div id='collection-component-1581350837130' class="auditionDiv"></div></b-col>
 </b-row>
+  <b-row class="mx-auto p-5 justify-content-lg-center">
+    <b-btn class="buttons" variant="success" v-b-modal="'prepareModal'">WHAT TO PREPARE FOR YOUR AUDITION</b-btn>
+      <b-modal id="prepareModal" mx-auto p-5 justify-content-left>
+        <h2 justify-content-center><strong>WHAT TO PREPARE FOR YOUR AUDITION</strong></h2>
+<ul class="text-left">
+    <li><b>•Written statement, 1000 words or less, detailing:</b>
+    <ul>
+      <li>○Who influences you as a performer and your artistic goals</li>
+      <li>○Career aspirations and what you are doing to reach them</li>
+      <li>○How you see MCTF Conservatory impacting you</li>
+    </ul>
+  </li>
+    <li><b>•Resumé</b></li><br/>
+    <li><b>•Headshot</b></li>
+    <li><b>•17 and under dancers need a recommendation letter. This should include</b>
+      <ul>
+        <li>○Technical and artistic ability</li>
+        <li>○Ability to participate in a rigorous schedule</li>
+        <li>○Responsibility to arrive on time and prepared to rehearsals and performances</li>
+      </ul>
+</li>
+    <li><b>•Scholarship applicants will submit a written statement (500 words or less) describing why financial aid is needed.</b></li>
+  </ul>
+  </b-modal>
+  </b-row>
       <b-row class="mx-auto pt-3 pb-3">
         <p class="text-justify">
           Fill out the registration form below for all auditions! Indicate if you are <strong>only</strong> 

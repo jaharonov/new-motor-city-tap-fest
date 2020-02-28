@@ -19,7 +19,7 @@
 
   <!-- the modal -->
   <b-modal :id="image.name">
-    <b-img :src="image.src" fluid class="p-3"/>
+    <b-img :src="image.src" fluid class="p-3 "/>
     <span class="text-justify mx-auto" v-html="image.bio"></span>
     <!-- <span v-html="image.bio2"></span>
     <span v-html="image.bio3"></span>
