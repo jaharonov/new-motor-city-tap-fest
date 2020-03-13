@@ -13,9 +13,9 @@
      <b-table  hover :items="items" :striped="striped" :bordered="bordered"></b-table>
       </b-col>
         <b-col lg="7">
-           <p>The Motor City Tap Fest is entering its 12th year of bringing world-class tap dance to the heart of Detroit, and because of your donations, we’ve been able to extend 
+           <p>The Motor City Tap Fest is entering its 13th year of bringing world-class tap dance to the heart of Detroit, and because of your donations, we’ve been able to extend 
             opportunities for young dancers to attend who could not otherwise afford the tuition. This year, we continue to provide an invaluable experience for dancers from across the US and abroad to come together and gain knowledge from world-renowned tap dancers. The faculty goes above and beyond to inspire both aspiring dancers and dance educators. In its inaugural year, there were 50 attendees at Motor City Tap Fest. In 2017, there were over 450 attendees in classes and an additional 650 in the audience at Motor City Soles. Motor City Tap Fest needs your help to keep bringing tap dance to the heart of Detroit each year! All donations are greatly appreciated, and in return we will list you on our website and promotional materials. 
-            For all donations of $5 or over per month (or a one-time gift of over $30) you will receive 1 free ticket for Motor City Soles at Music Hall (more tickets for larger donations).</p>
+            For all donations of $5 or over per month (or a one-time gift of over $30) you will receive 1 free ticket for Motor City Soles at the Magic Bag Theater (more tickets for larger donations).</p>
             <p><strong>Motor City Tap Fest is a 501c3 non-profit organization and your gift will be tax deductible to the extent fully permitted by law.</strong></p>
 
       </b-col>
