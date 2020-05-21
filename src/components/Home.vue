@@ -13,7 +13,7 @@
       <b-row class="justify-content-center">
         
         <b-col md="12" lg="6" class="p-3 pr-5">
-          <b-img src="./static/mctf2020-save-the-date.png" fluid-grow/>
+          <b-img src="./static/mctf_2020_poster_updated.png" fluid-grow/>
        
           <div class="pt-5">
           
@@ -31,20 +31,8 @@
         </b-col>
         
       </b-row>
-      <b-row class="pb-1 pl-5 pr-5 mx-auto justify-content-center">
-         <!-- <b-col sm="4"></b-col>
-        <b-col sm="4" class="pb-5"><div id='product-component-b49577ad243'></div></b-col>
-        <b-col sm="4"></b-col> -->
-        <!-- <b-embed type="iframe"
-           aspect="16by9"
-           class="mx-auto"
-           src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz"
-           allowfullscreen
-  ></b-embed> -->
-      </b-row>
-      
-      <b-row p-5></b-row>
-        <h2 class="pt-5"><strong>thank you to our 2020 sponsors!</strong></h2>
+      <b-row></b-row>
+        <h2><strong>thank you to our 2020 sponsors!</strong></h2>
 
   <b-row>
 <b-col lg="3"></b-col>        

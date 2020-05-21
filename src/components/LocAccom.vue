@@ -6,9 +6,9 @@
           <h1><strong>locations + accomodations</strong></h1>
       </b-row>
       <b-row class="pt-4 pl-3">
-          <h2>classes</h2>
+          <h3>2020 Motor City Tap Fest will be online!</h3>
       </b-row>
-      <b-row class="p-3">
+      <!-- <b-row class="p-3">
         <b-col lg="6" v-for="tap in taps" :key="tap.id">
 <b-img center v-img:name :src="tap.src" :alt="tap.alt" fluid-grow blank-color="#FFB5DA"/>
         </b-col>  
@@ -43,7 +43,7 @@
         </b-col>
         
       </b-row>
-      <b-row p-5></b-row>
+      <b-row p-5></b-row> -->
         
       
 <!-- </div> -->

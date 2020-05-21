@@ -3,10 +3,13 @@
   <!-- <div class="hello"> -->
     <!-- <div class="m-5"> -->
       <b-container class="p-2">
-      <b-row class="pt-3">
+      <b-row class="mx-auto pt-3">
           <h1><strong>Store</strong></h1>
       </b-row>
-      <b-row class="text-justify">
+      <b-row class="mx-auto">
+          <h3>COMING SOON!</h3>
+      </b-row>
+      <!-- <b-row class="text-justify">
           <h2>T-Shirt Preorder</h2><br/>
       </b-row>
       <b-row class="text-justify">
@@ -22,7 +25,7 @@
         <b-col lg="4">
            <b-img src="./static/mctf2019-kids-t-shirt.png" fluid-grow/>
         </b-col>
-      </b-row>
+      </b-row> -->
         <!-- <div id='product-component-1543170251824'></div> -->
       <b-row class="pt-1">
         <!-- <div id='collection-component-54848e827a9'></div> -->

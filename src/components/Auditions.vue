@@ -2,7 +2,10 @@
   <div class="app">
     <div>
       <b-row class="mx-auto pt-5">
-        <h1><strong>Auditions for MCTF Conservatory, Future Tap Stars and scholarships are being postponed until further notice. </strong></h1>
+        <h1><strong>Auditions </strong></h1>
+      </b-row>
+      <b-row class="mx-auto">
+        <h3>Coming back in 2021. Stay tuned! The 14th Annual Motor City Tap Fest will be August 5-8, 2021</h3>
       </b-row>
       <!-- <b-row class="mx-auto pt-5">
         <h1><strong>Auditions for MCTF Conservatory, Future Tap Stars, and Scholarships will be held 2/29/2020, 3/1/2020, and 3/15/2020</strong></h1>

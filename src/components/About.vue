@@ -10,11 +10,11 @@
             <b-img left src="./static/denise-caston.jpg" fluid-grow/>
         </b-col>  
         <b-col>
-            <p class="text-justify">Motor City Tap Fest was founded by Denise Caston to create a thriving tap dance community in Michigan. Now in its 12th year, Detroit is a top destination for tap dancers every summer.
+            <p class="text-justify">Motor City Tap Fest was founded by Denise Caston to create a thriving tap dance community in Michigan. Now in its 13th year, Detroit is a top destination for tap dancers every summer.
             </p>
-            <p class="text-lg-left">Motor City Dance Productions, Inc.<br/>
-            200 West 85th St. 1A<br/>
-            New York, NY 10024
+            <p class="text-lg-left">Caston-Clark Tap Dance Foundation<br/>
+            310 Livernois<br/>
+            Ferndale, MI 48220
             </p>
             <p class="text-lg-left">phone: 917-687-4811<br/>
             fax: 248-605-8563<br/>
