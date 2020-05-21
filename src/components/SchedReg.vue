@@ -316,7 +316,7 @@
       <th scope="row">2:45pm - 4:00pm</th>
       <td><strong>Gregg Russell</strong> </td>
       <td><strong>Karissa Royster</strong> </td>
-      <td><strong>Roy Hesselink</strong> </td>
+      <td><strong>Ray Hesselink</strong> </td>
     </tr>
   </tbody>
 </table>
