@@ -86,7 +86,7 @@
     <p><small>Click to buy</small></p>
     <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/individual-master-classes" target="_blank">$18 per individual Master Class</a></strong></p>
     <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/day-pass" target="_blank">Day Pass: $65</a></strong></p>
-    <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/video-residency" target="_blank">Intermediate Video Residency: $50</a></strong></p>
+    <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/video-residency" target="_blank">Intermediate and Advanced Video Residency: $50</a></strong></p>
     <br/>
   </b-card>
   
@@ -104,7 +104,7 @@
     </ul>
     <hr>
     <h3>Early bird discount</h3>
-    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today!</strong></p>
+    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLYBIRD15"</strong></p>
   </b-card>
   </b-col>
   
