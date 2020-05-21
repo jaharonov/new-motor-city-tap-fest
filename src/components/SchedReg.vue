@@ -1,6 +1,6 @@
 <template>
 <b-container>
-  <div class="hello">
+  <div>
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
@@ -79,14 +79,14 @@
   </b-card>
   </b-col>
 </b-row>
-<b-row class="justify-content-md-center pl-3">
+<b-row class="pl-3">
   <b-col cols="lg-4" class="pt-3">
   <b-card>
     <h3>Individual<br/>Classes and Passes</h3>
     <p><small>Click to buy</small></p>
     <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/individual-master-classes" target="_blank">$18 per individual Master Class</a></strong></p>
     <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/day-pass" target="_blank">Day Pass: $65</a></strong></p>
-    <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/video-residency" target="_blank">Intermediate and Advanced Video Residency: $50</a></strong></p>
+    <p><strong><a href="https://motor-city-tap-fest.myshopify.com/products/video-residency" target="_blank">Intermediate and Advanced Video Residency: $50</a></strong></p><br/><p style="text-align: justify;">No stage? No problem! Learn choreography in advance that will be digitally staged into a visually amazing video. Residencies are included with all multiple day passes. Join the fun!</p>
     <br/>
   </b-card>
   
