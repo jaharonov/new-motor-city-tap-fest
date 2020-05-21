@@ -104,7 +104,7 @@
     </ul>
     <hr>
     <h3>Early bird discount</h3>
-    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLYBIRD15"</strong></p>
+    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLY15"</strong></p>
   </b-card>
   </b-col>
   
