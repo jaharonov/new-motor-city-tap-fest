@@ -266,7 +266,7 @@
       <th scope="row">2:45pm - 4:00pm</th>
       <td><strong>DeWitt Fleming, Jr.</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
-      <td><strong>Karissa Royster</strong> </td>
+      <td><strong>Shelby Kaufman</strong> </td>
     </tr>
     <tr>
       <th scope="row">4:15pm - 5:45pm</th>
@@ -351,15 +351,15 @@
     </tr>
     <tr>
       <th scope="row">1:15pm - 2:30pm</th>
-      <td><strong>DeWitt Fleming Jr.</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
+      <td><strong>Sam Weber</strong> </td>
+      <td><strong>Dewitt Fleming, Jr.</strong> </td>
     </tr>
     <tr>
       <th scope="row">2:45pm - 4:00pm</th>
+      <td><strong>Shelby Kaufman</strong> </td>
       <td><strong>Gregg Russell</strong> </td>
-      <td><strong>Karissa Royster</strong> </td>
-      <td><strong>Roy Hesselink</strong> </td>
+      <td><strong>Kelsey Rose Young</strong></td>
     </tr>
   </tbody>
 </table>
