@@ -32,7 +32,7 @@
         
       </b-row>
       <b-row></b-row>
-        <h2><strong>thank you to our 2020 sponsors!</strong></h2>
+        <h2"><strong>thank you to our 2020 sponsors!</strong></h2>
 
   <b-row>
 <b-col lg="3"></b-col>        
