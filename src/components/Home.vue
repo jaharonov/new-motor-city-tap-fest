@@ -2,6 +2,7 @@
   <!-- <div class="hello"> -->
     <!-- <div class="m-5"> -->
       <b-container class="p-2 hello">
+        <div data-uid='6509b4b710' class="pt-5 mx-auto"></div>
       <b-row></b-row>
       <b-row class="justify-content-md-center">
         <!-- <b-col lg="12">
@@ -12,27 +13,31 @@
       </b-row>
       <b-row class="justify-content-center">
         
-        <b-col md="12" lg="6" class="p-3 pr-5">
+        <b-col md="12" lg="6" class="pr-5">
           <b-img src="./static/mctf_2020_poster_updated.png" fluid-grow/>
        
-          <div class="pt-5">
-          
-      </div>
       </b-col> 
-      <b-col md="12" lg="6" class="p-3 pl-5 justify-content-center">
-      
+      <b-col md="12" lg="6" class="pl-5">
+       <a href="https://www.tapdancedetroit.org/#/upcoming" fluid-grow target="_blank">
+       <h3 class="pt-5" style="color: red;">SEE SCHEDULE AND REGISTER!</h3>
+        <b-img src="./static/mctf_summer_series_2020.png" fluid-grow/>
+        </a>
+        </b-col>
+        
+      </b-row>
+      <b-row><b-col md="12" lg="6" class="pl-5 justify-content-center">
+       
         <b-embed type="iframe"
            aspect="16by9"
            class="mx-auto"
            src="https://assets.scrippsdigital.com/cms/videoIframe.html?&host=www.wxyz.com&title=Motor%20City%20Tap%20Fest&uid=52f3c12a645341cb80bee3321b04e8e8&purl=/about-us/as-seen-on/wayne-state-university-to-host-motor-city-tap-fest-august-8-11&story=1&ex=1&s=wxyz"
            allowfullscreen
   ></b-embed>
+  </b-col>
+  <b-col md="12" lg="6" class="p-3 pl-5 justify-content-center">
   <div id='product-component-b49577ad243' class="pt-5 mx-auto"></div>
-        </b-col>
-        
-      </b-row>
-      <b-row></b-row>
-        <h2><strong>thank you to our 2020 sponsors!</strong></h2>
+        </b-col></b-row>
+        <h2 class="pt-5"><strong>thank you to our 2020 sponsors!</strong></h2>
 
   <b-row>
 <b-col lg="3"></b-col>        
@@ -53,6 +58,7 @@ donated by Linda Rakolta in memory of Mary Rakolta</strong></p>
         </b-container>
   </b-container>
 </template>
+<script type="application/javascript" async data-uid="6509b4b710" src="https://exciting-speaker-626.ck.page/6509b4b710/index.js"></script>
 
 <script type="javascript">
   export default {
