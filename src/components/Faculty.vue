@@ -221,12 +221,28 @@ performers in the industry today.</p>`
           understand.  Suzy teaches in Phoenix at Bender Performing Arts and does tap choreography for their company, 
           Dance Motion. </p>`
         },
-        { name: 'Karissa Royster',
-          id: 'vikas_arun',
-          src: './static/faculty_karissa-royster.jpg',
-          alt: 'Photo of Vikas Arun',
-          bio: `<p>Karissa Royster began studying tap dancing when she joined RPM Tap Ensemble under the direction of Barbara Phillips in 2006. Originally from San Antonio, Karissa is a graduate of NYU, where she received her Bachelor of Arts degree in History and was a Jackie Robinson Foundation scholar. While studying in New York, Karissa had the opportunity to dance with renowned artists in the field, such as Princess Grace Award recipient Dormeshia Sumbry-Edwards, Emmy Award-winner Jason Samuels-Smith, Marshall Davis, Jr. and Derick Grant of Broadway’s <i>Bring in ‘Da Noise, Bring in ‘Da Funk</i>, and Sarah Savelli, founder of <i>Rhythm ISS…</i> and <i>Dig Tap Society</i>. In December 2015, she appeared in Savion Glover’s East Coast tour of <i>Dance Holiday SPeCTaCULaR</i>.</p>
-          <p>In April 2016, she made her Broadway debut as the Dance Captain and as a member of the dance ensemble in <p>Shuffle Along, or, the Making of the Musical Sensation of 1921 & All That Followed</i>, choreographed by Savion Glover and directed by George C. Wolfe. Karissa performed at the 70th Annual Tony Awards with the company of <i>Shuffle Along</i>, nominated for Best Musical and Best Choreography, as well as on ABC’s broadcast of <i>Taking the Stage: Changing America</i>, in which she had the honor of performing with Savion Glover and fellow cast members for President Barack Obama and First Lady Michelle Obama. She is passionate about preserving and sharing the beautiful tradition of tap dance as well as exploring its roots in American history and vernacular music.</p>`
+        { name: 'Maud Arnold',
+          id: 'maud_arnold',
+          src: './static/faculty_maud-arnold.jpg',
+          alt: 'Photo of Maud Arnold',
+          bio: `<p>Known as one of “Tap’s Leading Ladies” and cover girl for Dance Spirit magazine’s Tap issue, Maud Arnold is a member of Syncopated Ladies and performed in their sold-out full-length concerts in NYC, Los Angeles, DC, Vancouver, and Dubai. 
+                 Maud most recently was seen performing with Pharrell Williams and N.E.R.D on The Ellen Show and appeared on ABC's Good Morning America and at Essence Fest in New Orleans after Syncopated Ladies' video covering Beyoncé’s Formation, went viral. 
+                 Beyoncé shared the video on all of her social media and then hired the Syncopated Ladies to perform at her Ivy Park active wear clothing line launch at TopShop, London.</p>
+                 <p>Maud has quickly become a sought after teacher, judge and performer worldwide. Mentored and trained by Debbie Allen, Maud has taught at Debbie Allen Dance Academy 
+                 in Los Angeles and Allen’s Dance Institute in Texas. 
+                 Further to teaching in the USA, Maud has taught tap dancing and Afro-Funk in Dubai, Brazil, Japan, Spain, United Kingdom, Croatia, Ukraine and Russia.</p>
+                 <p>Maud’s other Television Credits Include: <i>BET Experience: 106 and Park</i>, <i>The Late Late Show With James Corden</i>, HBO’s <i>Boardwalk Empire</i>, <i>Switched at Birth</i>, 
+                 <i>Secret Talents of the Stars</i> as a featured dancer with Mya, <i>The Today Show</i> and Syncopated Ladies winning Season 11 of FOX’s <i>So You Think You Can Dance: Dance 
+                 Crew Battle</i>. Maud can be seen in national commercials and print ads for Toyota, GAP and CANTU and has worked with Beyoncé on several commercials and music videos.</p>
+                 <p>Maud is the co-director and producer of the critically acclaimed DC Tap Festival, pioneering new experiences for dancers and artists worldwide and with her sister Chloé 
+                 Arnold they were recognized by the US House of Representatives as arts preservers and ambassadors.</p>
+                 <p>Maud is also a female entrepreneur that holds a degree from Columbia University. Further to teaching, she oversees Chloe and Maud Productions and their many entities including their clothing lines: 
+                 I LOVE TAP and UniLove as well as their tap dance workshops and after school programs.</p>
+                 <p>Maud exudes her passion for tap dancing with her high energy, fun and action-packed dancing.</p>
+                 <p>For more information: <a href="https://www.maudarnold.com/" target="_blank">www.maudarnold.net</a>.</p>
+                    <iframe src="https://www.youtube.com/embed/defiAaVw8Jw" frameborder="0" allow="autoplay; encrypted-media"
+                    allowfullscreen></iframe>
+             </div>`
         },
         { name: 'Shelby Kaufman',
           id: 'shelby_kaufman',
