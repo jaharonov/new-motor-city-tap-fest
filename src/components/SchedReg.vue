@@ -190,10 +190,10 @@
 </ul>
   </b-modal>
       </div> -->
-      <strong>Jenefer Miller</strong>
+      <strong>Shelby Kaufman</strong>
       </td>
       <td><strong>Kelsey Rose Young</strong></td>
-      <td><strong>Sam Weber</strong></td>
+      <td><strong>DeWitt Fleming, Jr.</strong></td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
@@ -209,15 +209,15 @@
     </tr>
     <tr>
       <th scope="row">1:15pm - 2:30pm</th>
-      <td><strong>Shelby Kaufman</strong></td>
+      <td><strong>Jenefer Miller</strong></td>
       <td><strong>DeWitt Fleming, Jr.</strong> </td>
-      <td><strong>Suzy Guarino-Hall</strong> </td>
+      <td><strong>Sam Weber</strong> </td>
     </tr>
     <tr>
       <th scope="row">2:45pm-4:00pm</th>
       <td><strong>Maud Arnold</strong> </td>
       <td><strong>Sam Weber</strong> </td>
-      <td><strong>DeWitt Fleming, Jr.</strong> </td>
+      <td><strong>Suzy Guaino-Hall</strong> </td>
     </tr>
     <tr>
       <th scope="row">4:15pm - 5:45pm</th>
@@ -241,8 +241,8 @@
     <tr>
       <th scope="row">10:00am - 11:15am</th>
       <td><strong>Gregg Russell</strong></td>
-      <td><strong>Sam Weber</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Shelby Kaufman</strong> </td>
+      <td><strong>Maud Arnold</strong> </td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45am</th>
@@ -259,8 +259,8 @@
     <tr>
       <th scope="row">1:15pm - 2:30pm</th>
       <td><strong>Kelsey Rose Young</strong> </td>
-      <td><strong>Shelby Kaufman</strong> </td>
-      <td><strong>Maud Arnold</strong> </td>
+      <td><strong>Sam Weber</strong> </td>
+      <td><strong>Jenefer Miller</strong> </td>
     </tr>
     <tr>
       <th scope="row">2:45pm - 4:00pm</th>
@@ -290,9 +290,9 @@
     <tbody>
     <tr>
       <th scope="row">10:00am - 11:15am</th>
-      <td><strong>Suzy Guarino-Hall</strong></td>
+      <td><strong>DeWitt Fleming, Jr.</strong></td>
       <td><strong>Dormeshia</strong> </td>
-      <td><strong>Sam Weber</strong> </td>
+      <td><strong>Ray Hesselink</strong> </td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
@@ -308,15 +308,15 @@
     </tr>
     <tr>
       <th scope="row">1:15pm - 2:30pm</th>
-      <td><strong>DeWitt Fleming Jr.</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
+      <td><strong>Maud Arnold</strong> </td>
+      <td><strong>Sam Weber</strong> </td>
     </tr>
     <tr>
       <th scope="row">2:45pm - 4:00pm</th>
       <td><strong>Gregg Russell</strong> </td>
-      <td><strong>Maud Arnold</strong> </td>
-      <td><strong>Ray Hesselink</strong> </td>
+      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Suzy Guarino-Hall</strong> </td>
     </tr>
   </tbody>
 </table>
