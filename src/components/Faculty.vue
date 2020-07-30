@@ -265,6 +265,13 @@ performers in the industry today.</p>`
           <p>Shelby has made television appearances tapping on both Sesame Street and The Steve Harvey Show. Other notable venues include the Apollo Theatre, Lincoln Center, Jacob's Pillow, Symphony Space, The George 
           Street Playhouse, The Duke Ellington Theatre, and Detroit Orchestra Hall.</p>`
         },
+        { name: 'Kat Ponza',
+          id: 'kat_ponza',
+          src: './static/faculty_kat-ponza.jpeg',
+          alt: 'Photo of Kat Ponza',
+          bio: `<p>Kat Ponza is originally from Sydney, Australia. Over the past 20 years, she has worked extensively throughout the US, Canada & Australia as a Performer, Instructor and Choreographer. Featured in performances at Las Vegas Hilton, Caesar's Palace, Sydney Opera House, Sydney Entertainment Centre, Australian Parliament House, Birdland Jazz Club and more, Kat also has performed frequently at the Big Apple Tap Festival, Tap City - The NYC Tap Festival, Tradition in Tap, Stamp-ede, Choreographers' Canvas, Choreographers’ Forum, The Ziegfeld Society NYC, and was featured in “Jubilee!” at Bally’s Las Vegas. Kat served as Assistant to the wonderful Germaine Salsberg, and is a Founding Member of Salsberg’s Tap Dance Company "Les Femmes".</p>
+<p>Based in New York City, Kat teaches on the Faculty of Broadway Dance Center, STEPS on Broadway, and Shuffles Broadway Tap & Musical School, NYC, and tap dance master classes and workshops throughout the U.S. and abroad.</p>`
+        },
         { name: 'Denise Caston',
           id: 'denise_caston',
           src: './static/faculty_denise-caston.jpg',
