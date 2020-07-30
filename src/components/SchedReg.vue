@@ -292,7 +292,7 @@
       <th scope="row">10:00am - 11:15am</th>
       <td><strong>DeWitt Fleming, Jr.</strong></td>
       <td><strong>Dormeshia</strong> </td>
-      <td><strong>Ray Hesselink</strong> </td>
+      <td><strong>Kat Ponza</strong></td>
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45pm</th>
