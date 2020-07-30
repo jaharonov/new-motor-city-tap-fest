@@ -209,7 +209,7 @@
     </tr>
     <tr>
       <th scope="row">1:15pm - 2:30pm</th>
-      <td><strong>Jenefer Miller</strong></td>
+      <td><strong>Kat Ponza</strong></td>
       <td><strong>DeWitt Fleming, Jr.</strong> </td>
       <td><strong>Sam Weber</strong> </td>
     </tr>
@@ -246,7 +246,7 @@
     </tr>
     <tr>
       <th scope="row">11:30am - 12:45am</th>
-      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Kat Ponza</strong> </td>
       <td><strong>Ray Hesselink</strong> </td>
       <td><strong>Gregg Russell</strong> </td>
     </tr>
@@ -260,7 +260,7 @@
       <th scope="row">1:15pm - 2:30pm</th>
       <td><strong>Kelsey Rose Young</strong> </td>
       <td><strong>Sam Weber</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Kat Ponza</strong> </td>
     </tr>
     <tr>
       <th scope="row">2:45pm - 4:00pm</th>
@@ -315,7 +315,7 @@
     <tr>
       <th scope="row">2:45pm - 4:00pm</th>
       <td><strong>Gregg Russell</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Jill Kenney</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
     </tr>
   </tbody>
@@ -341,7 +341,7 @@
       <th scope="row">11:30am - 12:45pm</th>
       <td><strong>Ray Hesselink</strong> </td>
       <td><strong>Dormeshia</strong> </td>
-      <td><strong>Jenefer Miller</strong> </td>
+      <td><strong>Jill Kenney</strong> </td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:15pm</th>
