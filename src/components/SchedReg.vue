@@ -341,7 +341,7 @@
       <th scope="row">11:30am - 12:45pm</th>
       <td><strong>Ray Hesselink</strong> </td>
       <td><strong>Dormeshia</strong> </td>
-      <td><strong>Jill Kenney</strong> </td>
+      <td><strong>Jenefer Miller</strong></td>
     </tr>
     <tr>
       <th scope="row">12:45pm - 1:15pm</th>
