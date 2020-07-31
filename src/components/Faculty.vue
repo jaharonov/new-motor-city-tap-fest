@@ -18,9 +18,9 @@
   <!-- Using value -->
 
   <!-- the modal -->
-  <b-modal :id="image.name">
+  <b-modal :id="image.name" class="p-3">
     <b-img :src="image.src" fluid class="p-3 "/>
-    <span class="text-justify mx-auto" v-html="image.bio"></span>
+    <span class="text-justify mx-auto p-3" v-html="image.bio"></span>
     <!-- <span v-html="image.bio2"></span>
     <span v-html="image.bio3"></span>
     <span v-html="image.bio4"></span> -->
@@ -121,30 +121,22 @@ performers in the industry today.</p>`
           Ray is on Faculty at Juilliard, Broadway Dance Center and STEPS on Broadway in NYC. He also coaches actors privately. 
           Ray holds a B.A. from the School of Theater at UCLA.</p>`
         },
-        { name: 'Dewitt Fleming',
-          id: 'dewitt_fleming',
+        { name: 'Dewitt Fleming Jr.',
+          id: 'dewitt_fleming_jr',
           src: './static/faculty_dewitt-fleming.jpg',
-          alt: 'Photo of Dewitt Fleming',
+          alt: 'Photo of Dewitt Fleming Jr.',
           bio: `<p>
-          DeWitt Fleming Jr from Emmy Award winning HBO Tv Series BOARDWALK EMPIRE, World Renown Cirque Du Soliel, and Grammy Award
-          winning show Riverdance is excited to be teaching at the Motor City Tap Festival!!! DeWitt Fleming Jr. is an acclaimed tap
-          dancer, and has performed and taught throughout the world. He has danced as a soloist with Grammy award winning artist such
-          as Wynton Marsalis, Bobby Mcferrin, Marvin Hamlisch, and Christian McBride to name a few. New York Times says he is, “a non
-          stop source of rhythmic variety and surprise….sparks seem to fly from those shoes!” DeWitt has taught at NYU, Queens College,
-          Limerick College in Ireland, Duke Ellington School of the Arts, Harlem School of the Arts, and various Festivals and Studios
-          around the world including Broadway Dance Center in NYC where he teaches regularly. Choreography: Boardwalk Empire season
-          4 (HBO), the off Bway Musical An Evening with Phyllis Hyman, Dorothy the Musical, Signature Theater’s Jelly’s Last Jam(Assistant
-          Choreographer), The Aspen Jazz festival, The Alpine Theater Project, Lincoln Center JALC, NYU's Grad School Theater Program,
-          and The New Jersey Tap Dance Ensemble. Tours: Riverdance(Lead Tapper), Cirque Du Soliel’s Banana Shpeel(Ensemble, featured
-          tapper). Off- Bwy stage credits include: Cotton Club Parade(Lead/Nicholas Brother), Dance Bojangles Dance(Bojangles), Pearl
-          (Bill Bailey), Tribute to Tap Legends(himself). Regional: Signature Theater’s Jelly’s Last Jam( Featured ensemble U/S Jelly)
-          and Scottsboro Boys(Ozie/Ruby), Alliance Theater’s Sophisticated Ladies(Lead), Finnegan's Farewell (Tyrone). TV/Film: Boardwalk
-          Empire, Smash, Limitless, How to be Single. DeWitt is proud to be a Capezio athlete. For more
-          info visit:
-          <a href="http://www.dewittflemingjr.com" target="_blank">www.dewittflemingjr.com</a>
-          </p>
-          <iframe src="https://www.youtube.com/embed/gzYR667hQ2Q" frameborder="0" allow="autoplay; encrypted-media"
-          allowfullscreen></iframe>`
+          DeWitt Fleming Jr from Emmy Award winning HBO Tv Series BOARDWALK EMPIRE, World Renown Cirque Du Soliel, and Grammy Award winning show Riverdance is excited to be teaching at the Motor City Tap Festival!!! DeWitt Fleming Jr. 
+          is an acclaimed tap dancer, and has performed and taught throughout the world. He has danced as a soloist with Grammy award winning artist such as Wynton Marsalis, Bobby Mcferrin, Marvin Hamlisch, and Christian McBride to name a few.
+           Most recently DeWitt made history by releasing the first jazz album recorded live at Dizzy’s Club Jazz at Lincoln Center with tap dancing; Sax and Taps INTERSPLOSION! (Live at Dizzy’s Club). New York Times says he is, “a non stop source
+            of rhythmic variety and surprise….sparks seem to fly from those shoes!” DeWitt has taught at NYU, Queens College, Limerick College in Ireland, Duke Ellington School of the Arts, Harlem School of the Arts, and various Festivals and Studios 
+            around the world including Broadway Dance Center in NYC where he teaches regularly. Choreography: Boardwalk Empire season 4 (HBO), the off Bway Musical An Evening with Phyllis Hyman, Dorothy the Musical, Signature Theater’s Jelly’s Last 
+            Jam(Assistant Choreographer), The Aspen Jazz festival, The Alpine Theater Project, Lincoln Center JALC, NYU's Grad School Theater Program, and The New Jersey Tap Dance Ensemble.
+          Regional: Miami New Drama’s A Wonderful World(Stepin’ Fetchit), National Black Theater Festival’s Jelly’s Last Jam (Jelly), Signature Theater’s Scottsboro Boys(Ozie/Ruby), Alliance Theater’s 
+          Sophisticated Ladies(Lead), Alpine Theater Project’s Jesus Christ Superstar (Simon).  National Tours: Riverdance(Lead Tapper, Baritone Soloist), Cirque Du Soliel’s Banana Shpeel(Ensemble, featured tapper). 
+          Off- Bwy: Cotton Club Parade(Lead/Nicholas Brother), Orphan Train(conductor), Pearl (Bill Bailey),   Dance Bojangles Dance(Bojangles).  TV/Film: Boardwalk Empire, Smash, Limitless, How to be Single. 
+        DeWitt is the owner of the tap microphone company DeW It Right Tap Mics. It is the only company in the world dedicated specifically to creating microphones for tap dancing. 
+        To find out more about DeWitt visit his website <a href="www.dewittflemingjr.com" target="_blank">www.dewittflemingjr.com</a> or follow him on Instagram @dewittflemingjr`
         },
         { name: 'Jenefer Miller',
           id: 'jenefer_miller',
