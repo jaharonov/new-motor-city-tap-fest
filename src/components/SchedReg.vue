@@ -20,7 +20,7 @@
 <b-row class="justify-content-md-center pl-3">
   <p>Registration is now open! Please click <a href="https://motor-city-tap-fest.myshopify.com/collections/motor-city-tap-fest" target="_blank">here</a> or on a package/ticket/etc. below to register!
   </p>
-  <p>Download a pdf of the schedule and registration form here: <a href ="./static/2020 MCTF Schedule and Registration.pdf">Schedule and Registration</a></p>
+  <p>Download a pdf of the schedule and registration form here: <a href ="./static/2020_MCTF_schedule_reg.pdf">Schedule and Registration</a></p>
 </b-row>
 <b-row align-h="start" class="justify-content-md-center pl-3 pb-3">
   <b-card align-h="start" class="pl-5 pr-5">
@@ -103,8 +103,8 @@
       </strong>
     </ul>
     <hr>
-    <h3>Early bird discount</h3>
-    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLY15"</strong></p>
+    <!-- <h3>Early bird discount</h3>
+    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLY15"</strong></p> -->
   </b-card>
   </b-col>
   
@@ -217,7 +217,7 @@
       <th scope="row">2:45pm-4:00pm</th>
       <td><strong>Maud Arnold</strong> </td>
       <td><strong>Sam Weber</strong> </td>
-      <td><strong>Suzy Guaino-Hall</strong> </td>
+      <td><strong>Suzy Guarino-Hall</strong> </td>
     </tr>
     <tr>
       <th scope="row">4:15pm - 5:45pm</th>
@@ -317,6 +317,12 @@
       <td><strong>Gregg Russell</strong> </td>
       <td><strong>Jill Kenney</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
+    </tr>
+      <tr>
+      <th scope="row">4:15pm - 5:45pm</th>
+      <td></td>
+      <td><strong>Video Residency: Shelby Kaufman</strong> </td>
+      <td><strong>Video Residency: Gregg Russell</strong> </td>
     </tr>
   </tbody>
 </table>
