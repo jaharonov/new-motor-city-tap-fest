@@ -264,6 +264,14 @@ performers in the industry today.</p>`
           bio: `<p>Kat Ponza is originally from Sydney, Australia. Over the past 20 years, she has worked extensively throughout the US, Canada & Australia as a Performer, Instructor and Choreographer. Featured in performances at Las Vegas Hilton, Caesar's Palace, Sydney Opera House, Sydney Entertainment Centre, Australian Parliament House, Birdland Jazz Club and more, Kat also has performed frequently at the Big Apple Tap Festival, Tap City - The NYC Tap Festival, Tradition in Tap, Stamp-ede, Choreographers' Canvas, Choreographers’ Forum, The Ziegfeld Society NYC, and was featured in “Jubilee!” at Bally’s Las Vegas. Kat served as Assistant to the wonderful Germaine Salsberg, and is a Founding Member of Salsberg’s Tap Dance Company "Les Femmes".</p>
 <p>Based in New York City, Kat teaches on the Faculty of Broadway Dance Center, STEPS on Broadway, and Shuffles Broadway Tap & Musical School, NYC, and tap dance master classes and workshops throughout the U.S. and abroad.</p>`
         },
+        { name: 'Jill Kenney',
+          id: 'jill_kenney',
+          src: './static/faculty_jill-kenney.jpeg',
+          alt: 'Photo of Jill Kenney',
+          bio: `<p>Jill Kenney is a New York-based dancer, teacher, and choreographer. She is currently on the Tap Faculty at Broadway Dance Center and the 92nd Street Y. She has also taught at NYU Steinhardt, Ballet Tech, The Big Apple Tap Festival, Tap Ties Dance & Fitness Festival, as well as various Long Island dance studios. As a choreographer, her work has been seen in New York venues such as Symphony Space, 54 Below, 92Y Buttenweiser Hall, The NYC Choreographer’s Forum, ATDF’s Something’s Afoot, and The Long Beach Public Library.</p>
+          <p> Jill worked with Germaine Salsberg for many years, as her tap assistant at Broadway Dance Center and as a member of her company, Les Femmes. With the company, Jill has performed at Symphony Space, Lincoln Center, The Friars Club, Brooklyn College, and Boston’s Regent Theatre. She has appeared in numerous festivals including the Dumbo Dance Festival, Tap City, Stam-Pede, and the Tap Extravaganza. She has been a team leader for ATDF’s outdoor event Tap It Out and has performed choreography by Lynn Schwab in Rhythm in Motion. Other performance highlights include the Highline Ballroom, LG Electronics, Career Transitions of Dancers Gala at Citi Center, and Disney Cruise Lines. .</p>
+          <p>Originally from Rhode Island, Jill grew up training in various forms of dance under the direction of Lisa Mailloux and also at the Newport Academy of Ballet. She has studied at the 92Y Dance Education Laboratory and holds a B.A. in Dance Performance and Education from SUNY Empire State College, as well as an A.A. in Dance from Dean College in Franklin, MA.</p>`
+        },
         { name: 'Denise Caston',
           id: 'denise_caston',
           src: './static/faculty_denise-caston.jpg',
