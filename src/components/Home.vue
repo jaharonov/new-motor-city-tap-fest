@@ -32,6 +32,7 @@
   <b-col md="12" lg="6" class="p-3 pl-5 justify-content-center">
   <div id='product-component-b49577ad243' class="pt-5 mx-auto"></div>
         </b-col></b-row>
+        
         <h2><strong>thank you to our 2020 sponsors!</strong></h2>
 
   <b-row>
@@ -59,10 +60,10 @@ donated by Linda Rakolta in memory of Mary Rakolta</strong></p>
   export default {
   data () {
     return {
-      // images: [
-      //   { id: 'energy', src: './static/logo_energynatldance.png', alt: 'Energy National Dance Logo' },
-      //   { id: 'omara', src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
-      // ],
+      images: [
+        { id: 'miller-ben', src: './static/MnBTS_logo.png', alt: 'Miller and Ben Tap Shoes' },
+        // { id: 'omara', src: './static/sponsor_omara.png', alt: 'Omara Flooring Logo' }
+      ],
       loading: false,
       post: null,
       error: null
