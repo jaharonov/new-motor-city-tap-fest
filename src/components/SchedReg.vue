@@ -318,12 +318,6 @@
       <td><strong>Jill Kenney</strong> </td>
       <td><strong>Suzy Guarino-Hall</strong> </td>
     </tr>
-      <tr>
-      <th scope="row">4:15pm - 5:45pm</th>
-      <td></td>
-      <td><strong>Video Residency: Shelby Kaufman</strong> </td>
-      <td><strong>Video Residency: Gregg Russell</strong> </td>
-    </tr>
   </tbody>
 </table>
 <b-row class="justify-content-md-center"><h2 class="pt-5"><strong>Saturday, August 8th</strong></h2></b-row>
