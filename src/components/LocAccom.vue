@@ -6,7 +6,7 @@
           <h1><strong>locations + accomodations</strong></h1>
       </b-row>
       <b-row class="pt-4 pl-3">
-          <h3>2020 Motor City Tap Fest will be online!</h3>
+          <h3>COMING SOON</h3>
       </b-row>
       <!-- <b-row class="p-3">
         <b-col lg="6" v-for="tap in taps" :key="tap.id">

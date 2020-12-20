@@ -7,31 +7,28 @@
           <h1><strong>2020 Confirmed Faculty</strong></h1>
           
       </b-row>
-      <b-row>
-          <p>Click on a faculty member to view their bio.</p>
+      <b-row class="pt-5">
+          <h4>COMING SOON</h4>
+          
       </b-row>
-      <b-row>
-      <b-col lg="3" class="p-3" v-for="image in images" :key="image.id">
+      <!-- <b-row>
+          <p>Click on a faculty member to view their bio.</p>
+      </b-row> -->
+      <!-- <b-row>
+      <b-col lg="3" class="p-3" v-for="image in images" :key="image.id"> -->
        
   <!-- Using modifiers -->
-  <b-img class="fac" v-b-modal="image.name" :src="image.src" :alt="image.alt" fluid/>
+  <!-- <b-img class="fac" v-b-modal="image.name" :src="image.src" :alt="image.alt" fluid/> -->
   <!-- Using value -->
 
   <!-- the modal -->
-  <b-modal :id="image.name" class="p-3">
+  <!-- <b-modal :id="image.name" class="p-3">
     <b-img :src="image.src" fluid class="p-3 "/>
     <span class="text-justify mx-auto p-3" v-html="image.bio"></span>
-    <!-- <span v-html="image.bio2"></span>
-    <span v-html="image.bio3"></span>
-    <span v-html="image.bio4"></span> -->
-    <!-- <p class="text-justify">{{image.bio1}}</p>
-    <p class="text-justify">{{image.bio2}}</p>
-    <p class="text-justify">{{image.bio3}}</p>
-    <p class="text-justify">{{image.bio4}}</p> -->
   </b-modal>
     <strong>{{image.name}}</strong>
-    </b-col>    
-    </b-row>
+    </b-col>     -->
+    <!-- </b-row> -->
       <b-row p-5></b-row>
         </div>
   </b-container>
