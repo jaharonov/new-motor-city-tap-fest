@@ -4,14 +4,14 @@
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
-  <h1><strong>VIRTUAL MOTOR CITY TAP FEST</strong></h1>
+  <h1><strong>MOTOR CITY TAP FEST 2021</strong></h1>
 </b-row>
 <b-row class="justify-content-md-center">
-  <h4 class="pt-2"><strong>A livestream tap festival with world-class artists</strong></h4>
+  <h4 class="pt-2">COMING SOON</h4>
 </b-row>
 </div>
 
-  <div>
+  <!-- <div>
     <div class="m-5"> 
 </div>
 <b-row class="justify-content-md-center">
@@ -103,43 +103,14 @@
       </strong>
     </ul>
     <hr>
-    <!-- <h3>Early bird discount</h3>
-    <p><strong>15% before June 1st, 10% before July 1st. Class sizes are limited, so register today! Use code: "EARLY15"</strong></p> -->
+   
   </b-card>
   </b-col>
   
     <b-col cols="lg-4" class="pt-3">
-  <!-- <b-card>
-    <p>Register for Participants Showcase and/or the MCTF CHoreographer's Challenge,<br/> and buy Observation passes.</p>
-    <p>Please click on an event below to purchase.</p>
-    <ul><strong>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/participants-showcase-registration" class="buttons" variant="success" target="_blank">PARTICIPANTS SHOWCASE</a></li><br/>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-choreographers-challenge" class="buttons" variant="success" target="_blank">MCTF CHOREOGRAPHERS CHALLENGE</a></li><br/>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/observation-passes" class="buttons" variant="success" target="_blank">OBSERVATION PASS</a></li><br/>
-      </strong>
-    </ul>
-  </b-card> -->
+  
   </b-col>
-  <!-- <b-col cols="lg-4" class="pt-3">
-  <b-card>
-    <p>Register for Conservatories and Future Tap Stars</p>
-    <p>Conservatory registration price includes:</p>
-    <ul>
-      <li>1 Tap Jam Ticket</li><br/>
-      <li>1 Motor City Tap Fest Shirt</li><br/>
-      <li>1 Motor City Soles Ticket</li><br/>
-    </ul>
-    <p>Please click on an event below to purchase.</p>
-    <ul><strong>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-conservatory-1-age-13-and-up" class="buttons" variant="success" target="_blank">MCTF CONSERVATORY 1 (age 13 and up)
-</a></li><br/>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-conservatory-2-high-school-grads-and-older" class="buttons" variant="success" target="_blank">MCTF CONSERVATORY 2 (high school grads and older)
-</a></li><br/>
-      <li><a href="https://motor-city-tap-fest.myshopify.com/products/mctf-future-tap-stars" class="buttons" variant="success" target="_blank">MCTF FUTURE TAP STARS</a></li><br/>
-      </strong>
-    </ul>
-  </b-card>
-  </b-col> -->
+  
 </b-row>
 <b-row class="justify-content-md-center pt-3">
   <ul>
@@ -163,33 +134,7 @@
     <tr>
       <th scope="row">10:00am - 11:15am</th>
       <td rowspan="1">
-      <!-- <div><br/><br/>MCTF Conservatory 1 <br/>12:00pm-4:30pm<br/><br/>
-      <br/>
-      <b-btn class="buttons" variant="success" v-b-modal="'cons2'">CONSERVATORY</b-btn>
-      <b-modal id="cons2">
-<h2><strong>MCTF CONSERVATORY</strong></h2> 
-<p class="text-justify"><strong>MCTF CONSERVATORY INCLUDES:</strong></p>
-<ul class="text-justify">
-<li>•Twelve 90-minute classes with 4 industry professionals who will focus on different aspects of the art form in an intensive, fun and challenging environment</li>
-<li>•Choreography and rehearsals for a piece to perform in Motor City Soles</li>
-<li>•One ticket to Motor City Soles</li>
-<li>•One MCTF Conservatory t-shirt</li>
-<li>•Other opportunities such, as media appearances for Motor City Tap Fest</li>
-</ul>
-<p class="text-justify"><strong>MCTF CONSERVATORY</strong> is a chance for advanced and professional dancers to work intensively with 4 members of the faculty on different aspects of their artistry:</p>
-<ul class="text-justify">
-    <li>•Technical proficiency with Sam Weber</li>
 
-    <li>•Finding your unique artistic and choreographic voice with Caleb Teicher</li>
-
-    <li>•Tap in the commercial world with Maud Arnold</li>
-
-    <li>•Acing auditions with Ray Hesselink</li>
-
-    <li>•They will learn choreography to perform in Motor City Soles - Choreographers TBA</li>
-</ul>
-  </b-modal>
-      </div> -->
       <strong>Shelby Kaufman</strong>
       </td>
       <td><strong>Kelsey Rose Young</strong></td>
@@ -363,7 +308,7 @@
     </tr>
   </tbody>
 </table>
-</div>
+</div> -->
 
   </div> 
   </b-container>
